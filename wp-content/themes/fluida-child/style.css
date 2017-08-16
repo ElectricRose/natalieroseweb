@@ -1,0 +1,983 @@
+/*
+Theme Name: Fluida Child Theme
+Theme URI: http://www.cryoutcreations.eu/wordpress-themes/fluida-child/
+Description: Fluida is a modern, crystal clear and squeaky clean theme. It shines bright with a fluid and responsive layout and carries under its hood a light and powerful framework.
+Author: Natalie Rose
+Author URI: http://www.cryoutcreations.eu
+Template: fluida
+Version: 1.2.8.1
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: one-column, two-columns, three-columns, right-sidebar, left-sidebar, grid-layout, custom-background, custom-colors, custom-header, flexible-header, custom-menu, featured-image-header, featured-images, front-page-post-form, full-width-template, footer-widgets, microformats, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, blog, e-commerce, news, entertainment, photography, portfolio
+Text Domain: fluida-child
+
+Fluida WordPress Theme - Copyright 2015, Cryout Creations - http://www.cryoutcreations.eu
+This theme, like WordPress, is licensed under the GPL.
+*/
+@import url("../fluida-theme/style.css");
+
+a{
+  color: #00ff40 !important;
+}
+/*============= Front Page ==========*/
+.lp-boxes-static .lp-box-title{
+  color: #00ace6 !important;
+}
+.lp-block-text, .lp-boxes-static .lp-box-text, .lp-section-desc {
+    color: #00a800 !important;
+  }
+ .lp-box-text-inside{
+   color: #00ace6;
+ }
+.main .lp-block-title{
+  color: #00ace6;
+}
+span.current{
+  color:#00a800;
+}
+.front-about, .front-work, .front-contact{
+  background-color: #111 !important;
+}
+.front-work p, .front-about p{
+  color: #00a800;
+}
+.front-work h3, .front-about h3{
+  color: #00ace6;
+}
+.front-work{
+  padding: 5%;
+  border-top: 1px solid #00a800;
+  border-bottom: 1px solid #00a800;
+}
+.front-about{
+  border-bottom: 1px solid #00a800;
+  padding: 5%;
+  float: left;
+}
+#front-about-img{
+  float: left;
+  display: block;
+  max-width: 80%;
+  margin: 5%;
+}
+#front-about-text, #about-text{
+  padding: 1% 0 1% 3%;
+  display: block;
+  float: left;
+  width: 100%;
+  background-color: #111111;
+}
+article#post-15.post-15.page.type-page.status-publish.hentry{
+  display: none;
+}
+.pagination span, .pagination a{
+  background-color: #111 !important;
+  border: 1px solid #00a800;
+}
+.front-contact{
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #00a800;
+  padding: 2%;
+}
+.front-contact h5{
+  text-align: center;
+  font-size: 2em;
+  color: #00a800;
+}
+#button img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ========== Blog Main ============= */
+span.page-numbers.current{
+  background-color: black;
+}
+h2.widget-title{
+  font-family: Open Sans;
+  font-size: 96%;
+  font-weight: 700;
+  color: #00a800;
+}
+header.page-header.pad-container{
+  background: #111111;
+}
+h1.page-title{
+  color: #00a800;
+}
+/* ============= Blog Sidebar ======== */
+#mc_embed_signup form{
+color: #00a800;
+}
+#mc_embed_signup{
+  background: #111 !important;
+}
+#mc_embed_signup input.button{
+  color: #fff;
+  background-color: #00a800;
+}
+#mc_embed_signup input{
+  border: 1px solid #00a800 !important;
+}
+
+
+/* =========== About ================ */
+.about-content{
+  float: left;
+  padding: 3%;
+}
+.about-me{
+  float: left;
+  width: 100%;
+}
+.about-intro-box{
+  width: 100%;
+  height: auto;
+  background: #cfe2cf;
+  float: left;
+  border-radius: 25px;
+}
+.about-intro{
+  float: left;
+  margin: 3%;
+}
+.about-intro h2{
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.about-intro h3{
+  font-size: 1.8em;
+  text-align: center;
+  font-weight: bold;
+}
+#about-break{
+  margin: 5%;
+}
+#about-break img.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-intro h6{
+  text-align: center;
+  font-size: 1.4em;
+}
+.about-intro p{
+  text-align: center;
+  margin-top: 5%;
+}
+#about-img img.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#about-img{
+  float: left;
+  display: block;
+  max-width: 100%;
+  margin: 5%;
+}
+#about-img img{
+  border-radius: 25px;
+}
+#work-img1{
+  display: none;
+  float: left;
+}
+.about-desc{
+  float: left;
+  margin: 5%;
+}
+
+
+.about-text1 h5{
+  font-size: 1.8em;
+  text-align: center;
+  color: #00ace6;
+}
+.about-text1 p span{
+  font-size: 1.3em;
+  color: #00ace6;
+}
+#can-help p{
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+#can-help a{
+  color: #00ace6 !important;
+}
+.about-text1, .about-text2, .about-text3{
+  float: left;
+}
+.about-text1 p, .about-text2 p, .about-text3{
+  color: #00a800;
+  text-align: center;
+}
+
+
+.about-container{
+  border-top: 1px solid #00a800;
+  border-bottom: 1px solid #00a800;
+  float: left;
+  width: 100%;
+  margin: 5% 0 5% 0;
+}
+.about-text2{
+  margin-top: 2%;
+  padding: 2% 5% 2% 5%;
+  float: left;
+  display: block;
+  width: 98%;
+}
+.about-text2 p span{
+  font-size: 1.5em;
+  color: #00ace6;
+}
+#about-work-with-me{
+  width: 98%;
+  float: left;
+  display: block;
+}
+#about-work-with-me p{
+  text-align: center;
+  font-size: 1.5em;
+  color: #00ace6;
+}
+#button{
+  margin-top: 3%;
+}
+#button img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-container2{
+  border-bottom: 1px solid #00a800;
+  float: left;
+  width: 100%;
+  margin: 1% 0 1% 0;
+}
+.about-text3{
+  width: 90%;
+  padding: 2% 2% 10% 13%;
+
+}
+.about-text3 h5, .about-text3 h4{
+  color: #00ace6;
+}
+/* ========== Work ============== */
+.all-content{
+  float: left;
+  background-color: #dfecdf !important;
+}
+.port-intro-box{
+  width: 100%;
+  height: 400px;
+  background: #111 url("http://natalierose.net/wp-content/uploads/2017/06/forest7.jpg") no-repeat ;
+  float: left;
+}
+.port-intro{
+  padding:2% 1% 1% 1%;
+}
+.port-intro h1, .port-intro h4{
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+.port-intro h1{
+  font-size: 2em;
+}
+.port-intro h4{
+  font-size: 1.5em;
+}
+.port-desc h5{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.port-desc{
+  float: left;
+  margin: 2%;
+}
+.do-list{
+  display: block;
+  float: left;
+}
+.do-list p{
+  text-align: center;
+}
+.hire-me{
+  float: left;
+  display: block;
+  width: 95%;
+  margin: 5%;
+}
+.specialties{
+  float: left;
+  margin: 3% 0 3% 0;
+}
+#special-title h4{
+  width: 99%;
+  float: left;
+  text-align: center;
+  font-weight: bold;
+}
+.special-all{
+  border: 3px solid #00a800;
+  float: left;
+  padding: 0 1% 0 1%;
+  background-color: #cfe2cf;
+}
+#special1, #special2{
+  width: 95%;
+  height: 100%;
+  display: block;
+  float: left;
+  margin: 2%;
+}
+#special1 h5, #special2 h5{
+  font-weight: bold;
+}
+#pro1, #pro2{
+  max-width: 99%;
+  height: auto;
+  display: block;
+  float: left;
+  margin: 1%;
+}
+#pro1 h6, #pro1 p, #pro2 h6, #pro2 p{
+  text-align: center;
+  display: none;
+}
+#pro1 p, #pro2 p{
+  font-size: 0.75em;
+}
+#pro1 h6, #pro2 h6{
+  font-size: 1.5em;
+}
+#pro1 img:hover { opacity: 0.3; filter: alpha(opacity=30);
+}
+#pro2 img:hover { opacity: 0.3; filter: alpha(opacity=30);
+}
+.projects{
+  float: left;
+  clear: both;
+  display: inline-block;
+}
+.projects h4{
+  text-align: center;
+}
+.outtro{
+  width: 95%;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  float: left;
+  clear: both;
+}
+.outtro a{
+  color: #00a800 !important;
+}
+
+/*============== Contact Me ==================*/
+#post-47948{
+  background-color: #111111 !important;
+}
+
+/* =========== Packages Page ================= */
+.pack-content{
+  width: 100%;
+  float: left;
+}
+.pack-intro, .pack-intro2{
+width: 98%;
+float: left;
+text-align: center;
+}
+.pack-intro{
+  margin: 1%;
+}
+#p-intro-box{
+  float: left;
+}
+.pack-intro2{
+  margin: 0 0 10% 0;
+}
+.pack-intro h2, .pack-intro h3{
+  color: #00ace6;
+}
+.pack-intro p, .pack-intro2 p{
+  color: #00a800;
+}
+.pack-intro2 a, .pack-intro2 a:hover{
+  text-decoration: underline !important;
+}
+.canadian, .canadian2{
+  display: none;
+}
+#can-txt{
+  color: #ff0000;
+  float: left;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.pack-container{
+  width: 100%;
+  float: left;
+}
+
+.red-rose{
+  color: #00a800;
+  width: 98%;
+  float: left;
+  display: block;
+  border: 1px solid #00a800;
+  padding: 0 6% 0 6%;
+}
+.red-rose h1, .red-rose h3, .red-rose h4{
+  text-align: center;
+  color: #ff0000;
+}
+.red-rose p{
+  text-align: center;
+  color: #ff0000;
+}
+
+.blue-rose{
+  color: #00a800;
+  width: 98%;
+  float: left;
+  display: block;
+  border: 1px solid #00a800;
+  padding: 0 6% 0 6%;
+}
+.blue-rose h1, .blue-rose h3, .blue-rose h4{
+  text-align: center;
+  color: #00ace6;
+}
+.blue-rose p{
+  text-align: center;
+  color: #00ace6;
+}
+
+.gold-rose{
+  color: #00a800;
+  width: 98%;
+  float: left;
+  display: block;
+  border: 1px solid #00a800;
+  padding: 0 6% 0 6%;
+}
+.gold-rose h1, .gold-rose h3, .gold-rose h4{
+  text-align: center;
+  color: #f4b925;
+}
+.gold-rose p{
+  text-align: center;
+  color: #f4b925;
+}
+.mini-container{
+  margin: 1%;
+  border: 1px solid #ffb3ff;
+  padding: 0 6% 0 6%;
+}
+.small-pack{
+  color: #00a800;
+  float: left;
+  width: 98%;
+}
+.small-pack h2{
+  text-align: center;
+}
+.small-pack h4, .small-pack h3, .small-pack h1{
+  color: #ffb3ff;
+  text-align: center;
+}
+.pack-outtro{
+  float: left;
+  margin: 1%;
+  padding: 0 5% 0 5%;
+  color: #00a800;
+}
+.pack-outtro h2, .pack-outtro p, .pack-outtro h5{
+  text-align: center;
+}
+
+.pack-outtro h2{
+  color: #00ace6;
+}
+.pack-contact{
+  float: left;
+  text-align: center;
+  color: #00ace6;
+}
+
+/* =============== Contest Page ================ */
+.con-content{
+  width: 100%;
+  float: left;
+}
+.prizes{
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.prizes h1{
+  color: #00ace6;
+  font-weight: bold;
+}
+.prizes h2{
+  color: #cc66ff;
+  font-weight: bold;
+}
+#rose-img{
+  width: 200px;
+  float: left;
+  display: block;
+  margin: 0 20% 0 22%;
+}
+#prize1{
+  width: 98%;
+  float: left;
+  display: block;
+  text-align: center;
+  border: 1px solid #00a800;
+  padding: 2%;
+  color: #00a800;
+}
+#prize2{
+  width: 98%;
+  float: left;
+  display: block;
+  text-align: center;
+  border: 1px solid #00a800;
+  padding: 2%;
+  color: #00a800;
+}
+#prize3{
+  width: 98%;
+  float: left;
+  display: block;
+  text-align: center;
+  border: 1px solid #00a800;
+  padding: 2%;
+  color: #00a800;
+}
+#prize1 h3, #prize2 h3, #prize3 h3{
+  color: #cc66ff;
+}
+#prize1 h4, #prize2 h4, #prize3 h4{
+  color: #00ace6;
+}
+
+.elig, .rules{
+  width: 100%;
+  float: left;
+  color: #00a800;
+}
+.elig h2, .rules h2{
+  font-weight: bold;
+  text-align: center;
+}
+.elig h4{
+  color: #00ace6;
+  text-align: center;
+}
+.enter{
+  width: 100%;
+  float: left;
+  text-align: center;
+  color: #00ace6;
+}
+.enter h1{
+  text-align: center;
+  color: #00ace6;
+}
+.luck{
+  width: 100%;
+  float: left;
+  text-align: center;
+  color: #00ace6;
+}
+.contest{
+  float: left;
+}
+#cf_widget{
+  clear: both;
+  float: left;
+}
+
+
+
+/*=============================================*/
+/*============= Responsive Design =============*/
+/*=============================================*/
+
+@media screen and (min-width: 768px) {
+  /*Tablet styles here!*/
+
+/* =========== About ================ */
+#about-img{
+  float: left;
+  display: block;
+  max-width: 99%;
+  margin-left: 25%;
+}
+#front-about-img {
+  float: left;
+  display: block;
+  max-width: 80%;
+  margin: 5% 0 5% 30%
+}
+#about-text, #front-about-text{
+  padding: 1% 0 1% 0;
+}
+#work-img1{
+  display: none;
+}
+#teacup{
+  margin-left: 25%;
+}
+
+/* =========== Work =========== */
+.port-intro-box{
+  width: 100%;
+  height: 400px;
+}
+.port-intro h1, .port-intro h4{
+  color: #111111;
+}
+.port-intro{
+  padding: 8% 2% 2% 2%;
+}
+.port-desc{
+  margin: 6% 3% 6% 3%;
+}
+.hire-me{
+  width: 90%;
+  margin: 5%;
+  text-align: center;
+}
+#special1, #special2{
+  width: 45%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+  margin: 2%;
+}
+#pro1 h6, #pro1 p, #pro2 h6, #pro2 p{
+  text-align: center;
+  display: block;
+}
+#pro1, #pro2{
+  max-width: 47%;
+  height: auto;
+  display: inline-block;
+  float: left;
+  margin: 1%;
+}
+
+/* =============== Package Page ============== */
+.pack-outtro{
+  width: 74%;
+  margin: 0 10% 0 10%;
+  padding: 0 5% 0 5%;
+}
+.pack-contact {
+  margin: 0 10% 0 14%;
+}
+
+/* =============== Contest Page ========== */
+#rose-img{
+margin: 0 38% 0 38%;
+}
+
+
+}
+
+
+
+/*=============================================*/
+/*=============================================*/
+@media screen and (min-width: 940px) {
+    /*Desktop styles here!*/
+
+/* =========== Front Page =========== */
+.front-work{
+  padding: 5% 14% 5% 14%;
+}
+#front-about-img{
+  float: left;
+  display: inline-block;
+  max-width: 30%;
+  margin: 5%;
+}
+
+/* =========== About ================ */
+.about-intro-box{
+  width: 60%;
+}
+.about-intro{
+}
+#about-img{
+  float: left;
+  display: inline-block;
+  max-width: 40%;
+  margin: 9% 0 0 5%;
+}
+#front-about-text{
+  padding: 0 2% 0 2%;
+  display: inline-block;
+  float: left;
+  width: 60%;
+}
+#work-img1{
+  display: inline-block;
+  width: 41%;
+  margin: 1%;
+  padding-top: 6%;
+}
+#work-img1 img{
+  border-radius: 25px;
+}
+.about-text1{
+  width: 55%;
+  float: left;
+  display: inline-block;
+  padding: 1% 5% 1% 2%;
+}
+.about-text2{
+  display: inline-block;
+  width: 70%;
+}
+#about-work-with-me{
+  width: 30%;
+  display: inline-block;
+}
+#about-work-with-me p{
+  font-size: 1.5em;
+  color: #00ace6;
+  text-align: center;
+}
+#teacup{
+  margin: 0 0 5% 8%;
+}
+
+/* ============ Work =========== */
+.port-intro{
+  margin: 1% 3% 5% 11%;
+}
+.port-intro-box{
+  width: 100%;
+  height: 600px;
+}
+.port-intro h1, .port-intro h4{
+  text-align: left;
+  color: #111111;
+}
+.port-intro h1{
+  font-size: 3em;
+}
+.port-intro h4{
+  font-size: 2em;
+}
+.port-desc h5{
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.port-desc{
+  width: 50%;
+  margin: 2% 3% 2% 3%;
+}
+.do-list{
+  display: inline-block;
+  width: 40%;
+  margin: 2%;
+}
+.hire-me{
+  width: 95%;
+  margin: 5% 2% 2% 2%;
+}
+#special1, #special2{
+  width: 45%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+  margin: 2%;
+}
+#pro1, #pro2{
+  max-width: 30%;
+  height: auto;
+  display: inline-block;
+  float: left;
+  margin: 2%;
+}
+
+/* =============== Packages Page ============= */
+.pack-content{
+  width: 100%;
+  float: left;
+}
+.pack-intro-container{
+  width: 100%;
+  float: left;
+  clear: both;
+}
+.pack-intro, .pack-intro2{
+  width: 80%;
+  display: block;
+  float: left;
+  text-align: center;
+  margin: 0 10% 0 10%;
+  padding: 0 2% 0 2%;
+}
+.pack-intro h2, .pack-intro h3{
+  color: #00ace6;
+}
+.pack-intro p, .pack-intro2 p{
+  color: #00a800;
+}
+#p-intro-box{
+  width: 66%;
+  margin-left: 17%;
+}
+.canadian-container{
+  float: left;
+  width: 100%;
+  margin: 0 0 3% 22%;
+}
+.canadian, .canadian2{
+  float: left;
+  display: inline-block;
+  margin: 3% 1% 0 1%;
+}
+.canadian img, .canadian2 img{
+  width: 100px;
+  height: auto;
+}
+#can-txt{
+  color: #ff0000;
+  float: left;
+  display: inline-block;
+  width: 34%;
+}
+.pack-container{
+  width: 100%;
+  float: left;
+  margin: 5%;
+}
+.red-rose{
+  width: 30%;
+  float: left;
+  display: inline-block;
+  border: 1px solid #00a800;
+}
+.blue-rose{
+  width: 30%;
+  float: left;
+  display: inline-block;
+  border: 1px solid #00a800;
+}
+.gold-rose{
+  width: 30%;
+  float: left;
+  display: inline-block;
+  border: 1px solid #00a800;
+}
+.small-pack{
+  float: left;
+  width: 100%;
+}
+.mini-container{
+  margin: 1% 25% 0 25%;
+}
+.pack-outtro{
+  width: 56%;
+  margin: 0 25% 0 22%;
+}
+.pack-contact{
+  width: 60%;
+  margin: 0 25% 0 20%;
+}
+
+/* =============== Contest Page ================ */
+.con-content{
+  width: 100%;
+  float: left;
+}
+.prizes{
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+#rose-img{
+  width: 250px;
+  margin: 0 40% 0 40%;
+}
+#prize1{
+  width: 32%;
+  float: left;
+  display: inline-block;
+  text-align: left;
+  border: 1px solid #00a800;
+  padding: 2%;
+  margin-left: 2%;
+}
+#prize2{
+  width: 32%;
+  float: left;
+  display: inline-block;
+  text-align: left;
+  border: 1px solid #00a800;
+  padding: 2%;
+}
+#prize3{
+  width: 32%;
+  float: left;
+  display: inline-block;
+  text-align: left;
+  border: 1px solid #00a800;
+  padding: 2%;
+}
+#prize1 h3, #prize2 h3, #prize3 h3{
+  text-align: center;
+}
+#prize1 h4, #prize2 h4, #prize3 h4{
+  text-align: center;
+}
+.elig, .rules{
+  width: 65%;
+  display: block;
+  margin: 0 20% 0 20%;
+}
+.enter{
+  width: 100%;
+  float: left;
+  text-align: center;
+  color: #00ace6;
+}
+.enter h1{
+  text-align: center;
+  color: #00ace6;
+}
+
+
+}
+/*=============================================*/
+/*=============================================*/
+@media screen and (min-width: 1500px) {
+    /*Huge Desktop styles here!*/
+
+
+/* ========= About ===========*/
+#teacup{
+  margin-left: 16%;
+}
+}
