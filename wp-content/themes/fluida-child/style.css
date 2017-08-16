@@ -812,13 +812,21 @@ margin: 0 38% 0 38%;
   float: left;
   margin: 2%;
 }
-#pro1, #pro2{
+#pro1{
+  max-width: 30%;
+  height: auto;
+  display: inline-block;
+  float: left;
+  margin: 2% 2% 0 18%;
+}
+ #pro2{
   max-width: 30%;
   height: auto;
   display: inline-block;
   float: left;
   margin: 2%;
 }
+
 
 /* =============== Packages Page ============= */
 .pack-content{
@@ -968,7 +976,7 @@ margin: 0 38% 0 38%;
   color: #00ace6;
 }
 
-/* ============= ACCELERATE =============== */
+/* ============= Unplugged =============== */
 
 
 }
