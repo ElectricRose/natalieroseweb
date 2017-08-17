@@ -698,8 +698,6 @@ text-align: center;
 #rose-img{
 margin: 0 38% 0 38%;
 }
-
-
 }
 
 
@@ -976,8 +974,18 @@ margin: 0 38% 0 38%;
   color: #00ace6;
 }
 
-/* ============= Unplugged =============== */
-
+/* ============= Projects =============== */
+.acc-content, .unplugged-content, .pro-content{
+  background-color: #111111;
+}
+#plug1, #plug2, #plug3, #plug4, #plug5, #plug6, #plug7,{
+  margin: 1% 0;
+  background-color: #111111;
+}
+#acc1, #acc2, #acc3, #acc4, #acc5, #acc6, #acc7, #acc8{
+  margin: 1% 0;
+  background-color: #111111;
+}
 
 }
 /*=============================================*/

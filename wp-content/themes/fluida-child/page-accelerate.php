@@ -18,7 +18,7 @@ get_header(); ?>
 		<main id="main" role="main" class="main">
 			<?php cryout_before_content_hook(); ?>
 
-		<div class="all-content">
+		<div class="pro-content">
 			<div class="acc-content">
 
 				<div id="acc1">

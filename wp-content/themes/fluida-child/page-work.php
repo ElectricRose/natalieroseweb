@@ -79,12 +79,14 @@ get_header(); ?>
 
 							<div id="pro1">
 								<a href="http://localhost:8888/natalierose/accelerate-2/">
-								<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/08/Accelerate.png" alt="Accelerate WordPress Project">
+								<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/08/Accelerate.png" alt="Accelerate Project">
 							</a>
 							</div>
 
 							<div id="pro2">
-								<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/08/Untitled-design.png" alt="Unplugged HTML Responsive Project">
+								<a href="http://localhost:8888/natalierose/unplugged/">
+								<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/08/Untitled-design.png" alt="Unplugged Project">
+							</a>
 						</div>
 
 					<div class="outtro">
