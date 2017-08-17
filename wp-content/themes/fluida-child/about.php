@@ -41,9 +41,11 @@
           <p>There are so many templates and do-it-yourself tutorials online. You could spend years perusing all of the info on the web. I admire people who can start with no knowledge and build themselves a great website from scratch, and I know how much work it takes to learn tech skills!</p><br>
           <p><span>If you are struggling to understand the code,</span><br> or can’t figure out how to add features not standard in a plugin or WordPress theme you may need some professional help. I know how complicated it can be to add what seems like should be an easy addition to your blog, or how frustrating it can get to try to organize searches for the products you sell. If you want to change your static HTML or WordPress website to a responsive design, that can be an incredible amount of work, especially if you are not comfortable with code.</p><br>
             <div id="can-help">
-              <p><a href="http://natalierose.net/work/">I can help!</a></p><br>
+              <div class="container borderXwidth">
+                <p><a href="http://natalierose.net/work/">I can help!</a></p><br>
+              </div>
             </div>
-          </div>
+        </div>
 
       <div class="about-container">
         <div class="about-text2">

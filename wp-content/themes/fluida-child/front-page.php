@@ -80,15 +80,15 @@ function fluida_lp_layoutclass () {
       <div id="front-about-text">
         <h3>I craft dynamic custom websites so you can turn your dreams into a profitable reality.</h3>
           <p>I'm a busy 30-something millenial, currently living on beautiful Vancouver Island, Canada. I love to create powerful, easy to use, and fully responsive websites that stand out among the crowd. I build websites from scratch and have experience editing and updating existing websites and dynamic web applications.
-          <div id="about-more">
+			</div>
+					<div id="about-more">
 						<div class="aboutBox">
 							<a href="http://natalierose.net/about/"> About Me
 								<svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
 									<rect x='0' y='0' fill='none' width='130' height='65'/>
 								</svg></a>
 						</div>
-          </div>
-        </div>
+        </div><!--about-more-->
   	</div><!--front-about-->
 
 	<div class="front-contact">

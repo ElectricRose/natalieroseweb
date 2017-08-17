@@ -94,7 +94,9 @@ get_header(); ?>
 
 					<div class="outtro">
 						<h3><strong>Interested in learning more?</strong></h3>
-						<h4><a href="http://natalierose.net/packages/">Check out my packages and pricing options here!</a></h4>
+							<div class="container borderXwidth">
+								<h4><a href="http://natalierose.net/packages/">Check out my packages and pricing options here!</a></h4>
+							</div>
 						</div>
 					</div>
 			</div>

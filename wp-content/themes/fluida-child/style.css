@@ -50,6 +50,10 @@ span.current{
   border-top: 1px solid #00a800;
   border-bottom: 1px solid #00a800;
 }
+#about-more{
+  float: left;
+  width: 100%;
+}
 #work-more p, #about-more p{
   font-size: 1.5em;
 }
@@ -114,7 +118,7 @@ span.title {
 .basicBox {
   width: 130px;
   height: 65px;
-  margin: 15px auto;
+  margin: 4% auto;
   color: #00ace6;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.8em;
@@ -180,7 +184,6 @@ svg rect, svg path, svg polyline {
   stroke: #00ace6;
 }
 
-/* Basic Box */
 svg rect {
   stroke-dasharray: 400, 0;
   -webkit-transition: all 0.8s ease-in-out;
@@ -311,7 +314,7 @@ color: #00a800;
 #can-help p{
   width: 100%;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2em;
   text-transform: uppercase;
 }
 #can-help a{
@@ -425,7 +428,7 @@ color: #00a800;
 }
 .specialties{
   float: left;
-  margin: 3% 0 3% 0;
+  margin: 2% 0 3% 0;
 }
 #special-title h4{
   width: 99%;
@@ -788,6 +791,52 @@ text-align: center;
   float: left;
   margin: 1%;
 }
+/* =========== Work Border X ========== */
+
+div.container{
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 0 auto;
+	padding: 1%;
+	text-align: center;
+}
+
+div.container a{
+    color: #00a800;
+    text-decoration: none;
+    font: 1em 'Open Sans Condensed', sans-serif;
+    margin: 0px 1%;
+    padding: 1% 1%;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+/* Border X get width  */
+div.borderXwidth a:before, div.borderXwidth a:after{
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #00a800;
+    transition: all 0.3s;
+}
+
+div.borderXwidth a:before{
+    left: 0px;
+    top: 0px;
+}
+
+div.borderXwidth a:after{
+    right: 0px;
+    bottom: 0px;
+}
+
+div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
+    opacity: 1;
+    width: 100%;
+}
+
 
 /* =============== Package Page ============== */
 .pack-outtro{
@@ -824,10 +873,10 @@ margin: 0 38% 0 38%;
 }
 /* =========== Buttons ============== */
 .frontworkBox {
-  margin: 15px auto;
+  margin: 5% 0 2% 0%;
 }
 .aboutBox {
-  margin: 15px auto;
+  margin: 3% auto;
 }
 .workBox{
   margin: 5% auto;
@@ -915,7 +964,7 @@ margin: 0 38% 0 38%;
 }
 .hire-me{
   width: 95%;
-  margin:2%;
+  margin:2% 2% 0 2%;
 }
 #special1, #special2{
   width: 45%;
