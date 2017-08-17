@@ -15,6 +15,7 @@ Fluida WordPress Theme - Copyright 2015, Cryout Creations - http://www.cryoutcre
 This theme, like WordPress, is licensed under the GPL.
 */
 @import url("../fluida-theme/style.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
 a{
   color: #00ff40 !important;
@@ -48,6 +49,9 @@ span.current{
   padding: 5%;
   border-top: 1px solid #00a800;
   border-bottom: 1px solid #00a800;
+}
+#work-more p, #about-more p{
+  font-size: 1.5em;
 }
 .front-about{
   border-bottom: 1px solid #00a800;
@@ -89,6 +93,109 @@ article#post-15.post-15.page.type-page.status-publish.hentry{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+/* ============== BUTTONS ============ */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+span.title {
+  margin: 0 auto;
+  color: #00ace6;
+  font-size: 0.85rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  display: block;
+}
+
+.basicBox {
+  width: 130px;
+  height: 65px;
+  margin: 15px auto;
+  color: #00ace6;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.8em;
+  line-height: 65px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.frontworkBox {
+  width: 130px;
+  height: 65px;
+  margin: 15px auto;
+  color: #00ace6;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.8em;
+  line-height: 65px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.aboutBox {
+  width: 130px;
+  height: 65px;
+  margin: 15px auto;
+  color: #00ace6;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.8em;
+  line-height: 65px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.workBox {
+  width: 130px;
+  height: 65px;
+  margin: 20px auto;
+  color: #111111;
+  background-color: lightblue;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.8em;
+  line-height: 65px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.workBox a{
+  color: #111 !important;
+  font-weight: bold;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+svg rect, svg path, svg polyline {
+  fill: none;
+  stroke: #00ace6;
+  stroke-width: 1;
+}
+
+.basicBox:hover svg rect {
+  stroke: #00ace6;
+}
+
+/* Basic Box */
+svg rect {
+  stroke-dasharray: 400, 0;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+}
+.basicBox:hover svg rect, .workBox:hover svg rect, .frontworkBox:hover svg rect, .aboutBox:hover svg rect {
+  stroke-width: 3;
+  stroke-dasharray: 35, 245;
+  stroke-dashoffset: 38;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
 }
 
 /* ========== Blog Main ============= */
@@ -192,8 +299,6 @@ color: #00a800;
   float: left;
   margin: 5%;
 }
-
-
 .about-text1 h5{
   font-size: 1.8em;
   text-align: center;
@@ -219,8 +324,6 @@ color: #00a800;
   color: #00a800;
   text-align: center;
 }
-
-
 .about-container{
   border-top: 1px solid #00a800;
   border-bottom: 1px solid #00a800;
@@ -257,7 +360,6 @@ color: #00a800;
   margin-left: auto;
   margin-right: auto;
 }
-
 .about-container2{
   border-bottom: 1px solid #00a800;
   float: left;
@@ -267,7 +369,6 @@ color: #00a800;
 .about-text3{
   width: 90%;
   padding: 2% 2% 10% 13%;
-
 }
 .about-text3 h5, .about-text3 h4{
   color: #00ace6;
@@ -317,6 +418,10 @@ color: #00a800;
   display: block;
   width: 95%;
   margin: 5%;
+}
+.hire-me p{
+  font-weight: bold;
+  font-size: 1em;
 }
 .specialties{
   float: left;
@@ -717,7 +822,16 @@ margin: 0 38% 0 38%;
   max-width: 30%;
   margin: 5%;
 }
-
+/* =========== Buttons ============== */
+.frontworkBox {
+  margin: 15px auto;
+}
+.aboutBox {
+  margin: 15px auto;
+}
+.workBox{
+  margin: 5% auto;
+}
 /* =========== About ================ */
 .about-intro-box{
   width: 60%;
@@ -801,7 +915,7 @@ margin: 0 38% 0 38%;
 }
 .hire-me{
   width: 95%;
-  margin: 5% 2% 2% 2%;
+  margin:2%;
 }
 #special1, #special2{
   width: 45%;

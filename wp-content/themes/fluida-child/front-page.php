@@ -64,7 +64,12 @@ function fluida_lp_layoutclass () {
 			<p><strong>You work hard. You're busy. I get that!</strong></p>
 			<p>Let me build or customize your website so you can get back to the work you love!</p>
         <div id="work-more">
-					<p><a href="http://natalierose.net/work/">Learn more..</a></p>
+					<div class="frontworkBox">
+						<a href="http://natalierose.net/work/">Learn More
+							<svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
+								<rect x='0' y='0' fill='none' width='130' height='65'/>
+							</svg></a>
+					</div>
         </div>
   </div>
 
@@ -76,7 +81,12 @@ function fluida_lp_layoutclass () {
         <h3>I craft dynamic custom websites so you can turn your dreams into a profitable reality.</h3>
           <p>I'm a busy 30-something millenial, currently living on beautiful Vancouver Island, Canada. I love to create powerful, easy to use, and fully responsive websites that stand out among the crowd. I build websites from scratch and have experience editing and updating existing websites and dynamic web applications.
           <div id="about-more">
-            <p><a href="http://natalierose.net/about/"> Learn more about me.. </a></p>
+						<div class="aboutBox">
+							<a href="http://natalierose.net/about/"> About Me
+								<svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
+									<rect x='0' y='0' fill='none' width='130' height='65'/>
+								</svg></a>
+						</div>
           </div>
         </div>
   	</div><!--front-about-->
@@ -84,16 +94,15 @@ function fluida_lp_layoutclass () {
 	<div class="front-contact">
 		<h5>Want to work with me?</h5>
 		<div id="work-with-me">
-			<p><div id="button">
+			<div class="basicBox">
 				<a href="http://natalierose.net/contact/">
-					<img src="/wp-content/uploads/2017/06/button.png" alt="contact me button" class="center"></a></p>
+					Contact Me
+				  <svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
+				    <rect x='0' y='0' fill='none' width='130' height='65'/>
+				  </svg></a>
 			</div>
 	</div><!--work-with-me-->
 </div><!--front-contact-->
-
-
-
-
 	</main><!-- #main -->
 	<?php if ( ! $fluida_landingpage ) { fluida_get_sidebar(); } ?>
 </div><!-- #container -->

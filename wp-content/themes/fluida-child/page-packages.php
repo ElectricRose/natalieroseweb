@@ -136,9 +136,12 @@ get_header(); ?>
 				<div class="pack-contact">
 					<h5>Please contact me with any inquiries, offers, or requests for more info!</h5>
 					<div id="work-with-me">
-						<p><div id="button">
+						<div class="basicBox">
 							<a href="http://natalierose.net/contact/">
-								<img src="/wp-content/uploads/2017/06/button.png" alt="contact me button" class="center"></a></p>
+								Contact Me!</a>
+								<svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
+									<rect x='0' y='0' fill='none' width='130' height='65'/>
+								</svg>
 						</div>
 				</div><!--work-with-me-->
 			</div><!--pack-contact-->

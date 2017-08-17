@@ -46,10 +46,13 @@ get_header(); ?>
 
 					<div class="hire-me">
 						<p>If you are an individual or business seeking a web presence or an employer looking to hire you can get in touch with me here.</p>
-							<p><div id="button">
-								<a href="http://natalierose.net/contact/">
-									<img src="/wp-content/uploads/2017/06/button.png" alt="contact me button" class="center"></a></p>
-							</div>
+						<div class="workBox">
+							<a href="http://natalierose.net/contact/">
+								Contact Me!
+								<svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
+									<rect x='0' y='0' fill='none' width='130' height='65'/>
+								</svg></a>
+						</div>
 					</div>
 				</div>
 

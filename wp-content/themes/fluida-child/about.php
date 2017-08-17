@@ -55,10 +55,13 @@
                 <img src="/wp-content/uploads/2017/06/teacup1.png" alt="Cup of tea">
               </div>
               <p>Let's chat!<br> I'm available to meet in-person or online.</p><br>
-                <p><div id="button">
-                  <a href="http://natalierose.net/contact/">
-                  <img src="/wp-content/uploads/2017/06/button.png" alt="contact me button" class="center"></a></p><br>
-                    </div>
+              <div class="basicBox">
+                <a href="http://natalierose.net/contact/">
+                  Contact Me!
+                  <svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
+                    <rect x='0' y='0' fill='none' width='130' height='65'/>
+                  </svg></a>
+              </div>
             </div>
           </div>
 
