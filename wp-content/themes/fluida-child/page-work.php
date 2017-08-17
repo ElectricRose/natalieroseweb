@@ -81,14 +81,14 @@ get_header(); ?>
 							<h4>Projects</h4>
 
 							<div id="pro1">
-								<a href="http://localhost:8888/natalierose/accelerate-2/">
-								<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/08/Accelerate.png" alt="Accelerate Project">
+								<a href="http://natalierose.net/accelerate-2/">
+								<img src="http://natalierose.net/wp-content/uploads/2017/08/Accelerate.png" alt="Accelerate Project">
 							</a>
 							</div>
 
 							<div id="pro2">
-								<a href="http://localhost:8888/natalierose/unplugged/">
-								<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/08/Untitled-design.png" alt="Unplugged Project">
+								<a href="http://natalierose.net/unplugged/">
+								<img src="http://natalierose.net/wp-content/uploads/2017/08/Untitled-design.png" alt="Unplugged Project">
 							</a>
 						</div>
 
