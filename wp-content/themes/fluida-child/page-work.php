@@ -22,15 +22,84 @@ get_header(); ?>
 			<div class="port-content">
 				<div class="port-intro-box">
 					<div class="port-intro">
-						<h1>Hello and Welcome!</h1>
-						<h4>I'm Natalie Rose, your web solution specialist.</h4>
+			<h1>Welcome!</h1>
+			<h4>I'm Natalie Rose, your web solution specialist.</h4>
 					</div>
 				</div>
 
+				<div class="port-js">
+					<h2> What can I help you with today?</h2>
+					<h3>I do
+							<span
+							class="txt-rotate"
+							data-period="2000"
+							data-rotate='[ "web development!", "custom WordPress themes!", "responsive design transitions!", "E-Commerce solutions!", "site transfers!", "website maintenance!" ]'></span>
+					</h3>
+
+				<script type="text/javascript">
+
+										var TxtRotate = function(el, toRotate, period) {
+				  this.toRotate = toRotate;
+				  this.el = el;
+				  this.loopNum = 0;
+				  this.period = parseInt(period, 10) || 2000;
+				  this.txt = '';
+				  this.tick();
+				  this.isDeleting = false;
+				};
+
+				TxtRotate.prototype.tick = function() {
+				  var i = this.loopNum % this.toRotate.length;
+				  var fullTxt = this.toRotate[i];
+
+				  if (this.isDeleting) {
+				    this.txt = fullTxt.substring(0, this.txt.length - 1);
+				  } else {
+				    this.txt = fullTxt.substring(0, this.txt.length + 1);
+				  }
+
+				  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+				  var that = this;
+				  var delta = 300 - Math.random() * 100;
+
+				  if (this.isDeleting) { delta /= 2; }
+
+				  if (!this.isDeleting && this.txt === fullTxt) {
+				    delta = this.period;
+				    this.isDeleting = true;
+				  } else if (this.isDeleting && this.txt === '') {
+				    this.isDeleting = false;
+				    this.loopNum++;
+				    delta = 500;
+				  }
+
+				  setTimeout(function() {
+				    that.tick();
+				  }, delta);
+				};
+
+				window.onload = function() {
+				  var elements = document.getElementsByClassName('txt-rotate');
+				  for (var i=0; i<elements.length; i++) {
+				    var toRotate = elements[i].getAttribute('data-rotate');
+				    var period = elements[i].getAttribute('data-period');
+				    if (toRotate) {
+				      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+				    }
+				  }
+				  // INJECT CSS
+				  var css = document.createElement("style");
+				  css.type = "text/css";
+				  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+				  document.body.appendChild(css);
+				};
+				</script>
+				</div>
 			<div class="port-desc">
 					<h5>I offer individually tailored services for your web development needs.</h5>
-					<p>If you are a small business or an individual with products, services, ideas, or inspiration to share there is no better way to reach people around the world than with a website or blog. I specialize in crafting websites for an affordable price. I work with HTML5, CSS3, PHP, WordPress, and a touch of JavaScript & JQuery to create high-end custom websites. </p>
-					<p>My services include front end & WordPress development, site transfers, responsive design transitions, E-commerce solutions, and website maintenance.</p>
+					<p>If you are a small business or an individual with products, services, ideas, or inspiration to share there is no better way to reach people around the world than with a website or blog.</p>
+					<p>I specialize in crafting websites for an affordable price. I work with HTML5, CSS3, PHP, WordPress, and a touch of JavaScript & JQuery to create unique custom websites. </p>
 			</div>
 
 				<div class="do-list">
@@ -39,13 +108,16 @@ get_header(); ?>
 							<li><strong>Website development.</strong> I craft, code, and customize unique websites for small businesses, individuals, and start-ups.
 							<li><strong>Custom WordPress themes.</strong> I can build you a completely new theme or customize existing WordPress themes, depending on your needs and budget.</li>
 							<li><strong>Responsive design transitions.</strong> If your website is static or functions poorly on mobile devices, I can give it a thorough responsive overhaul to keep it current and competitive.</li>
+							<li><strong>E-Commerce Solutions</strong> If you have products to sell theres no better way to reach a large audience than online. Setting up an E-Commerce website doesn't have to be daunting or unaffordable. I can install, add products, test, and set up your shipping and payment options for you so you can get those products in front of and out to the people who need them.</li>
 							<li><strong>Site Transfers.</strong> Transfering a current website and migrating content to another hosting platform can be time consuming and complicated. I am here when you need website transfer help, and will take care of the entire process. </li>
 							<li><strong>Website Maintenance.</strong> I offer monthly or quarterly maintenance packages to my customers. With my website maintenance packages, you will never have to worry that your website will be out of date or stop working because of changing technologies. If you have any issues or problems with your website I am only a phone call or email away, and will be there with technical support promptly.</li>
 						</ul>
 					</div>
 
 					<div class="hire-me">
-						<p>If you are an individual or business seeking a web presence or an employer looking to hire you can get in touch with me here.</p>
+						<h4>Want to hire me?</h4>
+						<p>Have some questions?<br> I'd be happy to answer them for you!</p>
+						<p>If you are a business owner, individual, or company looking to hire please contact me here!<p>
 						<div class="workBox">
 							<a href="http://natalierose.net/contact/">
 								Contact Me!

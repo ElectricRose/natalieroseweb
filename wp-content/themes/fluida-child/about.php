@@ -37,8 +37,9 @@
         </div>
 
         <div class="about-text1">
-          <h5>Websites are relatively easy to create.</h5>
-          <p>There are so many templates and do-it-yourself tutorials online. You could spend years perusing all of the info on the web. I admire people who can start with no knowledge and build themselves a great website from scratch, and I know how much work it takes to learn tech skills!</p><br>
+          <h5>My Mission</h5>
+          <p>Natalie Rose’s mission is to provide affordable, accessible, and beautifully functional Web development services to small businesses and individuals. I am an independent, freelance service provider that offers customers a personal experience by working closely on-one-one to create a unique and custom website tailored to their specific needs.</p><br>
+
           <p><span>If you are struggling to understand the code,</span><br> or can’t figure out how to add features not standard in a plugin or WordPress theme you may need some professional help. I know how complicated it can be to add what seems like should be an easy addition to your blog, or how frustrating it can get to try to organize searches for the products you sell. If you want to change your static HTML or WordPress website to a responsive design, that can be an incredible amount of work, especially if you are not comfortable with code.</p><br>
             <div id="can-help">
               <div class="container borderXwidth">

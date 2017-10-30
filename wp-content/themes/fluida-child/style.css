@@ -402,7 +402,7 @@ color: #00a800;
 }
 .port-intro-box{
   width: 100%;
-  height: 400px;
+  height: 300px;
   background: #111 url("http://natalierose.net/wp-content/uploads/2017/06/forest7.jpg") no-repeat ;
   float: left;
 }
@@ -410,7 +410,7 @@ color: #00a800;
   padding:2% 1% 1% 1%;
 }
 .port-intro h1, .port-intro h4{
-  color: #ffffff;
+  color: #111;
   font-weight: bold;
   text-align: center;
 }
@@ -419,6 +419,21 @@ color: #00a800;
 }
 .port-intro h4{
   font-size: 1.5em;
+}
+.port-js{
+  float: left;
+  width: 100%;
+  background-color: #cfe2cf;
+}
+.port-js h2{
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+}
+.port-js h3{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 .port-desc h5{
   font-weight: bold;
@@ -776,7 +791,7 @@ text-align: center;
 /* =========== Work =========== */
 .port-intro-box{
   width: 100%;
-  height: 400px;
+  height: 300px;
 }
 .port-intro h1, .port-intro h4{
   color: #111111;
@@ -968,7 +983,7 @@ margin: 0 38% 0 38%;
 }
 .port-intro-box{
   width: 100%;
-  height: 600px;
+  height: 500px;
 }
 .port-intro h1, .port-intro h4{
   text-align: left;
@@ -984,9 +999,17 @@ margin: 0 38% 0 38%;
   font-size: 1.4em;
   font-weight: bold;
 }
+.port-js h2{
+  font-size: 2.5em;
+}
+.port-js h3{
+  font-size: 2em;
+}
 .port-desc{
   width: 50%;
-  margin: 2% 3% 2% 3%;
+  border: 1px solid #00a800;
+  padding: 1%;
+  margin: 7% 3% 2% 3%;
 }
 .do-list{
   display: inline-block;
@@ -994,8 +1017,15 @@ margin: 0 38% 0 38%;
   margin: 2%;
 }
 .hire-me{
-  width: 95%;
-  margin:2% 2% 0 2%;
+  width: 50%;
+  margin: 0 2% 0 3%;
+  padding: 0 4% 3% 4%;
+  border: 1px solid #00ace6;
+  float: left;
+}
+.hire-me h4{
+  font-size: 2.4em;
+  font-weight: bold;
 }
 #special1, #special2{
   width: 45%;
