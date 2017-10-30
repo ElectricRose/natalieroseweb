@@ -22,25 +22,25 @@ get_header(); ?>
 			<div class="port-content">
 				<div class="port-intro-box">
 					<div class="port-intro">
-						<h1>Hello! Welcome to Natalie Rose.</h1>
-						<h4>I'm a freelance WordPress and front-end developer.<br>I enjoy building websites for blogs and small businesses.</h4>
+						<h1>Hello and Welcome!</h1>
+						<h4>I'm Natalie Rose, your web solution specialist.</h4>
 					</div>
 				</div>
 
 			<div class="port-desc">
-					<h5>I am experienced in responsive design and specialize in developing custom WordPress themes.</h5>
-					<p>Websites are essential for small businesses these days, especially mobile responsive sites. If you are an individual with ideas and inspiration to share, there is no better way to reach people around the world than with your own website or blog.</p>
-					<p>You want a website that is unique to you or your business, so you stand out from the crowd. You want a website that is user-friendly and easily conveys the information you need to share. But if you don’t know where to start, and you don’t want to go at it alone, I'm here to help!</p>
+					<h5>I offer individually tailored services for your web development needs.</h5>
+					<p>If you are a small business or an individual with products, services, ideas, or inspiration to share there is no better way to reach people around the world than with a website or blog. I specialize in crafting websites for an affordable price. I work with HTML5, CSS3, PHP, WordPress, and a touch of JavaScript & JQuery to create high-end custom websites. </p>
+					<p>My services include front end & WordPress development, site transfers, responsive design transitions, E-commerce solutions, and website maintenance.</p>
 			</div>
 
 				<div class="do-list">
 					<p><strong>What I do..</strong></p>
 						<ul>
-							<li>Develop and customize websites for individuals and businesses.
-							<li>Build custom WordPress themes or customize existing themes, depending on your needs and budget.</li>
-							<li>Bring expertise in responsive design, so your site will look great on every device that accesses it.</li>
-							<li>I convert designs to high-performance code whilst respecting your designer’s compositions.</li>
-							<li>Handle site transfers to easily move your existing site to a new host and/or WordPress platform.</li>
+							<li><strong>Website development.</strong> I craft, code, and customize unique websites for small businesses, individuals, and start-ups.
+							<li><strong>Custom WordPress themes.</strong> I can build you a completely new theme or customize existing WordPress themes, depending on your needs and budget.</li>
+							<li><strong>Responsive design transitions.</strong> If your website is static or functions poorly on mobile devices, I can give it a thorough responsive overhaul to keep it current and competitive.</li>
+							<li><strong>Site Transfers.</strong> Transfering a current website and migrating content to another hosting platform can be time consuming and complicated. I am here when you need website transfer help, and will take care of the entire process. </li>
+							<li><strong>Website Maintenance.</strong> I offer monthly or quarterly maintenance packages to my customers. With my website maintenance packages, you will never have to worry that your website will be out of date or stop working because of changing technologies. If you have any issues or problems with your website I am only a phone call or email away, and will be there with technical support promptly.</li>
 						</ul>
 					</div>
 
@@ -59,20 +59,18 @@ get_header(); ?>
 
 					<div class="specialties">
 						<div id="special-title">
-							<h4>Specialties</h4>
+							<h4>Specialty Services</h4>
 						</div>
 
 						<div class="special-all">
 							<div id="special1">
-								<h5>Front-End Development</h5>
-									<p>HTML5, CSS3, Responsive design, and a little JavaScript & JQuery.</p>
-									<p>I create responsive websites that allow the user to experience your website in the best and most appropriate way suited to the device they are using. I convert designs to high-performance code whilst respecting your designer’s compositions.<p>
+								<h5>Responsive Design Transitions</h5>
+									<p>Most websites these days are responsive, and for good reason. As more people switch to using mobile devices such as cell phones and tablets to make their online purchases, it’s more important than ever to have an excellent mobile friendly website. Nothing loses potential customers faster than a poorly designed website that glitches or is hard to read on a mobile device. If your website is static or needs responsive design updating I can give it a thorough responsive overhaul to keep it current and competitive.<p>
 								</div>
 
 								<div id="special2">
-									<h5>WordPress Development</h5>
-										<p>Theme customization, admin & plugin setup, custom functionality.<p>
-										<p>In many projects, clients require the ability to manage the content of their website. This is best done through WordPress and appropriate plugins. I can customize your existing WordPress theme with the unique features you desire, or help you to choose and move to a new theme to better suit your needs. I can also work with your designer to create an entirely new theme from scratch for a one-of-a-kind website tailored especially for you.</p>
+									<h5>Site Transfers</h5>
+										<p>Many small businesses and individuals such as bloggers initially start out with a cheap, pre-made website such as Blogger, Weebly, Wix, etc. Often they quickly outgrow these websites and get tired of their built-in limitations. When a customer wishes to switch to a more flexible, custom, and better designed platform, such as WordPress.org I’m here to offer site transfer services. The transfer of domain names, hosting platforms, and migration of content can take a few weeks and can be incredibly complicated for inexperienced users. I am here when a customer needs website transfer help, and will take care of the entire process easly and affordably. </p>
 								</div>
 							</div>
 					</div>

@@ -52,17 +52,16 @@ function fluida_lp_layoutclass () {
 	?>
 
   <div class="front-work">
-      <h3>Welcome! My name is Natalie Rose.</h3>
-      <p><strong>I'm a freelance WordPress and front-end developer.</strong><br>I build websites for blogs and small businesses.<br>
-      I am experienced in responsive design and specialize in developing custom WordPress themes.<br>
-
-      <p>Websites are essential for small businesses these days, especially mobile responsive sites.<br>
-      If you are an individual with services, products, or inspiration to share, there is no better way to reach people around the world than with your own website or blog.</p>
-			<p>Web development can be tricky if you don't know a lot of code.<br>
-				If you are stuggling with WordPress themes and customizations, or you want a custom website tailored specifically to you, I'm here to help!<br>
-			Running a business or blog takes a lot of time and dedication.</p>
-			<p><strong>You work hard. You're busy. I get that!</strong></p>
-			<p>Let me build or customize your website so you can get back to the work you love!</p>
+		<div class="front-work-section">
+      <h3>Do you need a website?</h3>
+      <p><span id="problems">Are you a small business or individual with a product, service, or idea to share?<br><br>
+			Are you looking for something elegant, dynamic, and easy to use?<br><br>
+			Are you struggling to create a website and stay within your budget?</p></span><br>
+			<p><span id="front-solutions">I have solutions!</span></p>
+			<p><span id="i-build">I build websites for small businesses, blogs, and start-ups.</span></p><br>
+			<p><strong>You work hard, and you need your website to work hard for you!</strong></p>
+			<p>Your business is as unique as you are. </p>
+			<p>I work closely with my clients to create a truly one of a kind website tailored to your specific needs.</p>
         <div id="work-more">
 					<div class="frontworkBox">
 						<a href="http://natalierose.net/work/">Learn More
@@ -71,6 +70,7 @@ function fluida_lp_layoutclass () {
 							</svg></a>
 					</div>
         </div>
+			</div>
   </div>
 
   <div class="front-about">
@@ -78,8 +78,8 @@ function fluida_lp_layoutclass () {
       <img src="/wp-content/uploads/2017/06/natalierose-about-img2.png" alt="Photo of Natalie Rose">
     </div>
       <div id="front-about-text">
-        <h3>I craft dynamic custom websites so you can turn your dreams into a profitable reality.</h3>
-          <p>I'm a busy 30-something millenial, currently living on beautiful Vancouver Island, Canada. I love to create powerful, easy to use, and fully responsive websites that stand out among the crowd. I build websites from scratch and have experience editing and updating existing websites and dynamic web applications.
+        <h3>I'm dedicated to supporting small businesses by helping them to reach a wider audience through an online presence.</h3>
+          <p>I'm a busy 30-something millenial, currently living on beautiful Vancouver Island, Canada. I love to create powerful, easy to use, and fully responsive websites that stand out among the crowd. I build websites from scratch and have experience editing and updating existing websites and dynamic web applications.</p>
 			</div>
 					<div id="about-more">
 						<div class="aboutBox">

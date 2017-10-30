@@ -44,11 +44,30 @@ span.current{
 }
 .front-work h3, .front-about h3{
   color: #00ace6;
+  text-align: center;
+}
+.front-work h3{
+  font-weight: bold;
 }
 .front-work{
   padding: 5%;
   border-top: 1px solid #00a800;
   border-bottom: 1px solid #00a800;
+}
+.front-work-section p{
+  text-align: center;
+}
+#problems{
+  font-style: italic;
+  font-weight: bold;
+}
+#i-build{
+  color: #00ace6;
+}
+#front-solutions{
+  color: #00ace6;
+  font-weight: bold;
+  font-size: 1.3em;
 }
 #about-more{
   float: left;
@@ -863,7 +882,22 @@ margin: 0 38% 0 38%;
 
 /* =========== Front Page =========== */
 .front-work{
+  width: 100%;
+  float: left;
   padding: 5% 14% 5% 14%;
+}
+.front-work-section{
+  float: left;
+  border: 1px solid #00a800;
+  clear: both;
+  padding: 0% 7% 3% 7%;
+  margin: 5%;
+}
+.front-work h3{
+  font-size: 3.7em;
+}
+.front-work-section p{
+  font-size: 1.1em;
 }
 #front-about-img{
   float: left;
@@ -872,10 +906,7 @@ margin: 0 38% 0 38%;
   margin: 5%;
 }
 /* =========== Buttons ============== */
-.frontworkBox {
-  margin: 5% 0 2% 0%;
-}
-.aboutBox {
+.frontworkBox, .aboutBox{
   margin: 3% auto;
 }
 .workBox{
