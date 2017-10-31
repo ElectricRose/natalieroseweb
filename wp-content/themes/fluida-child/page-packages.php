@@ -138,10 +138,10 @@ get_header(); ?>
 					<div id="work-with-me">
 						<div class="basicBox">
 							<a href="http://natalierose.net/contact/">
-								Contact Me!</a>
+								Contact Me!
 								<svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
 									<rect x='0' y='0' fill='none' width='130' height='65'/>
-								</svg>
+								</svg></a>
 						</div>
 				</div><!--work-with-me-->
 			</div><!--pack-contact-->

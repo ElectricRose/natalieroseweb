@@ -57,11 +57,11 @@
 
       <div class="about-container">
         <div class="about-text2">
-          <h4>Do you run a restaurant or physical shop?</h4>
-          <p>The most common thing people look for on a website for a physical store or restaurant is the hours of operation and contact info.</p>
+          <h4>Do you run a retail store or restaurant?</h4>
+          <p>The most common thing people look for on a website for a store or restaurant is the hours of operation and contact info.</p>
           <p>I can't tell you how many times I've had to shop or dine elsewhere because I couldn't find this important information.</p>
           <p>Don't miss out on business because of simple errors like this!</p>
-          <p>I can make quick and easy changes to your website for a small fee. Contact me to request a quote.</p>
+          <p>I can make quick and easy changes to your website for a small fee. Contact me to request a free quote.</p>
 
         </div>
             <div id="about-work-with-me">

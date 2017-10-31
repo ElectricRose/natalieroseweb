@@ -43,6 +43,10 @@ class FrmDb {
 
             /**** ADD/UPDATE DEFAULT TEMPLATES ****/
             FrmXMLController::add_default_templates();
+
+			if ( ! $old_db_version ) {
+				$this->maybe_create_contact_form();
+			}
         }
 
         do_action('frm_after_install');
@@ -158,6 +162,20 @@ class FrmDb {
             unset($q);
         }
     }
+
+	private function maybe_create_contact_form() {
+		$template_id = FrmForm::getIdByKey( 'contact' );
+		if ( $template_id ) {
+			$form_id = FrmForm::duplicate( $template_id, false, true );
+			if ( $form_id ) {
+				$values = array(
+					'status'   => 'published',
+					'form_key' => 'contact-form',
+				);
+				FrmForm::update( $form_id, $values );
+			}
+		}
+	}
 
     /**
      * @param integer $frm_db_version
@@ -315,7 +333,7 @@ class FrmDb {
 	 * @param string $where
 	 */
     private static function add_query_placeholder( $key, $value, &$where ) {
-		if ( is_numeric( $value ) && strpos( $key, 'meta_value' ) === false ) {
+		if ( is_numeric( $value ) && ( strpos( $key, 'meta_value' ) === false || strpos( $key, '+0' ) !== false ) ) {
 			$where .= '%d';
 		} else {
 			$where .= '%s';
@@ -820,7 +838,8 @@ DEFAULT_HTML;
         $new_default_html = FrmFieldsHelper::get_default_html('text');
         foreach ( $fields as $field ) {
             $field->field_options = maybe_unserialize($field->field_options);
-			if ( ! FrmField::is_option_empty( $field, 'custom_html' ) || $field->field_options['custom_html'] == $default_html || $field->field_options['custom_html'] == $old_default_html ) {
+			$html = FrmField::get_option( $field, 'custom_html' );
+			if ( $html == $default_html || $html == $old_default_html ) {
                 $field->field_options['custom_html'] = $new_default_html;
 				$wpdb->update( $this->fields, array( 'field_options' => maybe_serialize( $field->field_options ) ), array( 'id' => $field->id ) );
             }
