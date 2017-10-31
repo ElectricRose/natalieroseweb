@@ -198,11 +198,9 @@ svg rect, svg path, svg polyline {
   stroke: #00ace6;
   stroke-width: 1;
 }
-
 .basicBox:hover svg rect {
   stroke: #00ace6;
 }
-
 svg rect {
   stroke-dasharray: 400, 0;
   -webkit-transition: all 0.8s ease-in-out;
@@ -219,39 +217,6 @@ svg rect {
   -ms-transition: all 0.8s ease-in-out;
   -o-transition: all 0.8s ease-in-out;
 }
-
-/* ========== Blog Main ============= */
-span.page-numbers.current{
-  background-color: black;
-}
-h2.widget-title{
-  font-family: Open Sans;
-  font-size: 96%;
-  font-weight: 700;
-  color: #00a800;
-}
-header.page-header.pad-container{
-  background: #111111;
-}
-h1.page-title{
-  color: #00a800;
-}
-/* ============= Blog Sidebar ======== */
-#mc_embed_signup form{
-color: #00a800;
-}
-#mc_embed_signup{
-  background: #111 !important;
-}
-#mc_embed_signup input.button{
-  color: #fff;
-  background-color: #00a800;
-}
-#mc_embed_signup input{
-  border: 1px solid #00a800 !important;
-}
-
-
 /* =========== About ================ */
 .about-content{
   float: left;
@@ -435,13 +400,36 @@ color: #00a800;
   font-size: 1.5em;
   font-weight: bold;
 }
+.desc-hire-holder{
+  width: 99%;
+  float: left;
+}
+.port-desc, .hire-me{
+  float: left;
+  margin: 2%;
+  width: 97%;
+  padding: 1%;
+}
+.port-desc{
+  border: 1px solid #00a800;
+}
+.hire-me{
+  border: 1px solid #00ace6;
+}
 .port-desc h5{
   font-weight: bold;
   font-size: 1.5em;
+  text-align: center;
 }
-.port-desc{
-  float: left;
-  margin: 2%;
+.hire-me p{
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+.hire-me h4{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.2em;
 }
 .do-list{
   display: block;
@@ -450,15 +438,9 @@ color: #00a800;
 .do-list p{
   text-align: center;
 }
-.hire-me{
-  float: left;
-  display: block;
-  width: 95%;
-  margin: 5%;
-}
-.hire-me p{
+.do-list h4{
   font-weight: bold;
-  font-size: 1em;
+  text-align: center;
 }
 .specialties{
   float: left;
@@ -485,6 +467,7 @@ color: #00a800;
 }
 #special1 h5, #special2 h5{
   font-weight: bold;
+  text-align: center;
 }
 #pro1, #pro2{
   max-width: 99%;
@@ -799,14 +782,6 @@ text-align: center;
 .port-intro{
   padding: 8% 2% 2% 2%;
 }
-.port-desc{
-  margin: 6% 3% 6% 3%;
-}
-.hire-me{
-  width: 90%;
-  margin: 5%;
-  text-align: center;
-}
 #special1, #special2{
   width: 45%;
   height: 100%;
@@ -1005,19 +980,18 @@ margin: 0 38% 0 38%;
 .port-js h3{
   font-size: 2em;
 }
-.port-desc{
+.desc-hire-holder{
   width: 50%;
+  margin-top: 5%;
+}
+.port-desc{
+  width: 100%;
   border: 1px solid #00a800;
   padding: 1%;
   margin: 7% 3% 2% 3%;
 }
-.do-list{
-  display: inline-block;
-  width: 40%;
-  margin: 2%;
-}
 .hire-me{
-  width: 50%;
+  width: 100%;
   margin: 0 2% 0 3%;
   padding: 0 4% 3% 4%;
   border: 1px solid #00ace6;
@@ -1026,6 +1000,11 @@ margin: 0 38% 0 38%;
 .hire-me h4{
   font-size: 2.4em;
   font-weight: bold;
+}
+.do-list{
+  display: inline-block;
+  width: 40%;
+  margin: 2%;
 }
 #special1, #special2{
   width: 45%;

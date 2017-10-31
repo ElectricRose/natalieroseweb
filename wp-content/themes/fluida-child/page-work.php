@@ -96,14 +96,28 @@ get_header(); ?>
 				};
 				</script>
 				</div>
+
+				<div class="desc-hire-holder">
 			<div class="port-desc">
 					<h5>I offer individually tailored services for your web development needs.</h5>
 					<p>If you are a small business or an individual with products, services, ideas, or inspiration to share there is no better way to reach people around the world than with a website or blog.</p>
 					<p>I specialize in crafting websites for an affordable price. I work with HTML5, CSS3, PHP, WordPress, and a touch of JavaScript & JQuery to create unique custom websites. </p>
 			</div>
-
+			<div class="hire-me">
+				<h4>Want to hire me?</h4>
+				<p>Have some questions?<br> I'd be happy to answer them for you!</p>
+				<p>If you are a business owner, individual, or company looking to hire please contact me here!<p>
+				<div class="workBox">
+					<a href="http://natalierose.net/contact/">
+						Contact Me!
+						<svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
+							<rect x='0' y='0' fill='none' width='130' height='65'/>
+						</svg></a>
+				</div>
+			</div>
+		</div>
 				<div class="do-list">
-					<p><strong>What I do..</strong></p>
+					<h4>What I do..</h4>
 						<ul>
 							<li><strong>Website development.</strong> I craft, code, and customize unique websites for small businesses, individuals, and start-ups.
 							<li><strong>Custom WordPress themes.</strong> I can build you a completely new theme or customize existing WordPress themes, depending on your needs and budget.</li>
@@ -112,19 +126,6 @@ get_header(); ?>
 							<li><strong>Site Transfers.</strong> Transfering a current website and migrating content to another hosting platform can be time consuming and complicated. I am here when you need website transfer help, and will take care of the entire process. </li>
 							<li><strong>Website Maintenance.</strong> I offer monthly or quarterly maintenance packages to my customers. With my website maintenance packages, you will never have to worry that your website will be out of date or stop working because of changing technologies. If you have any issues or problems with your website I am only a phone call or email away, and will be there with technical support promptly.</li>
 						</ul>
-					</div>
-
-					<div class="hire-me">
-						<h4>Want to hire me?</h4>
-						<p>Have some questions?<br> I'd be happy to answer them for you!</p>
-						<p>If you are a business owner, individual, or company looking to hire please contact me here!<p>
-						<div class="workBox">
-							<a href="http://natalierose.net/contact/">
-								Contact Me!
-								<svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
-									<rect x='0' y='0' fill='none' width='130' height='65'/>
-								</svg></a>
-						</div>
 					</div>
 				</div>
 
@@ -142,7 +143,7 @@ get_header(); ?>
 
 								<div id="special2">
 									<h5>Site Transfers</h5>
-										<p>Many small businesses and individuals such as bloggers initially start out with a cheap, pre-made website such as Blogger, Weebly, Wix, etc. Often they quickly outgrow these websites and get tired of their built-in limitations. When a customer wishes to switch to a more flexible, custom, and better designed platform, such as WordPress.org I’m here to offer site transfer services. The transfer of domain names, hosting platforms, and migration of content can take a few weeks and can be incredibly complicated for inexperienced users. I am here when a customer needs website transfer help, and will take care of the entire process easly and affordably. </p>
+										<p>Many small businesses and individuals such as bloggers initially start out with a cheap, pre-made website such as Blogger, Weebly, Wix, etc. Often they quickly outgrow these websites and get tired of their built-in limitations. When a customer wishes to switch to a more flexible, custom, and better designed platform, such as WordPress.org I’m here to offer site transfer services. The transfer of domain names, hosting platforms, and migration of content can take a few weeks and can be incredibly complicated for inexperienced users. I am here when a customer needs website transfer help, and will take care of the entire process easily and affordably. </p>
 								</div>
 							</div>
 					</div>
