@@ -17,13 +17,13 @@
       <div class="about-intro-box">
         <div class="about-intro">
           <h2>From passion to profit</h2>
-          <h3>I craft dynamic custom websites so you can turn dreams into a profitable reality.</h3>
+          <h3>I craft unique custom websites so you can turn dreams into a profitable reality.</h3>
               <div id="about-break">
                 <img src="/wp-content/uploads/2017/06/break2.png" alt="Swirly Line Break" class="center">
               </div>
             <h6>Hello, I’m Natalie Rose.</h6>
-            <p>If you are running a small business or blog, you know that a great website is paramount and one of the most important investments you can make in yourself.</h3>
-            <p>Nothing loses potential clients or subscribers faster than a poorly crafted, slow, or hard to navigate website. With a huge amount of users now accessing the web on mobile devices, having a responsive website that scales properly can be make or break for your business. Don't be one of those websites that is too slow to load or so frustrating to use on a mobile that people give up and look elsewhere.<br> I have solutions!</p>
+            <p>If you are running a small business or blog, you know that a great website is one of the most important investments you can make. A solid online presence is essential these days, especially if you have products, services, or ideas to share.</h3>
+            <p>Nothing loses potential clients, customers, or subscribers faster than a poorly crafted, slow, or hard to navigate website. With a huge amount of users now accessing the web on mobile devices, having a responsive website that scales properly can be make or break for your business. Don't be one of those websites that is too slow to load or so frustrating to use on a mobile that people give up and look elsewhere.<br> I have simple solutions for you!</p>
           </div>
         </div>
 
@@ -37,10 +37,17 @@
         </div>
 
         <div class="about-text1">
-          <h5>My Mission</h5>
-          <p>Natalie Rose’s mission is to provide affordable, accessible, and beautifully functional Web development services to small businesses and individuals. I am an independent, freelance service provider that offers customers a personal experience by working closely on-one-one to create a unique and custom website tailored to their specific needs.</p><br>
+          <h4>My Mission</h4>
+          <p>My mission is to provide affordable, accessible, and beautifully functional web development services to small businesses and individuals. I am an independent, freelance service provider that offers a personal experience by working closely on-one-one to create a custom website tailored to your specific needs and budget.</p><br>
 
-          <p><span>If you are struggling to understand the code,</span><br> or can’t figure out how to add features not standard in a plugin or WordPress theme you may need some professional help. I know how complicated it can be to add what seems like should be an easy addition to your blog, or how frustrating it can get to try to organize searches for the products you sell. If you want to change your static HTML or WordPress website to a responsive design, that can be an incredible amount of work, especially if you are not comfortable with code.</p><br>
+          <h4>Have you struggled with website creation in the past?</h4>
+          <h5>Building a website doesn't have to be hard!</h5><br>
+          <p>I can make you a website quickly and easily!</p>
+          <p>While there are many types of do-it-yourself website builders available, many of them have limited design capabilities that can leave the website looking bland and similar to all the others.</p>
+          <p> Many drag and drop build-it-yourself type websites have glitches, errors, and functionality issues that can lose a business customers and money. The free version of WordPress.com is built for bloggers, not small business owners. Many small businesses make the mistake of starting out on these types of services, but quickly realize that they have to pay large amounts to customize it to their needs, and can have severely limited options for monetizing their website. Often the add-ons can end up costing much more than a customized website on WordPress.org.</p>
+          <p>If you find WordPress customization and PHP hard to understand you arn't alone. But...</p><br>
+          <h6>Don't worry!</h6>
+
             <div id="can-help">
               <div class="container borderXwidth">
                 <p><a href="http://natalierose.net/work/">I can help!</a></p><br>
@@ -50,8 +57,12 @@
 
       <div class="about-container">
         <div class="about-text2">
-          <p><span>I specialize in custom wordpress themes and responsive development!</span><br> I can add almost any feature you desire to your HTML or WordPress website, optimize your images to help speed up your load time and transform your static site into a fully responsive one that works beautifully across all devices. </p><br>
-          <p>I work hard to help transform your dreams into a profitable reality. I have the knowledge and experience that you need to take your website to the next level. I can update existing sites or create you a completely new customized website.</p><br>
+          <h4>Do you run a restaurant or physical shop?</h4>
+          <p>The most common thing people look for on a website for a physical store or restaurant is the hours of operation and contact info.</p>
+          <p>I can't tell you how many times I've had to shop or dine elsewhere because I couldn't find this important information.</p>
+          <p>Don't miss out on business because of simple errors like this!</p>
+          <p>I can make quick and easy changes to your website for a small fee. Contact me to request a quote.</p>
+
         </div>
             <div id="about-work-with-me">
               <div id="teacup">
@@ -70,14 +81,20 @@
 
         <div class="about-container2">
           <div class="about-text3">
-            <h4>This is my passion and my own path to freedom.</h4>
-            <h5>It’s what I love to do.</h5>
-            <p>I decided to embrace my own dreams of working for myself back in 2016 and have since completed a year of front-end development and WordPress development.</p><br>
-            <p>I love this beautiful planet and strive to be as sustainable and environmentally friendly as possible. When I’m not online or neck deep in code, I spend as much time as possible exploring the wild nooks and spectacular vistas nature has to offer.</p><br>
-            <p>On my off time you can find me wandering the forests, climbing mountains, swimming in the ocean, and tubing down rivers. <br>If you want to see more of this side of me check out my lifestyle blog filled with my adventures, my love of the outdoors, and self-sustainability tips like working with essential oils, gardening, and DIY projects.</p>
+            <h4>A little about me..</h4>
+            <h5>I chose to blaze my own path to freedom!</h5>
+            <p>After many years of working for other companies, I'd had enough. I decided I would break out of the rat race and charge head first onto the path of self employment. I couldn't be happier that I did!</p><br>
+            <p>I have been working hard and taking a variety of web development and coding courses since 2016. I have recently started learning more advanced Javascript and hope to offer design services in the near future as well. I'm continuously learning and challenging myself to be able to offer you more and better services.</p><br>
+            <h5>I am passionate about what I do.</h5>
+             <p>I love to support small businesses, individuals, and start-ups to achieve their own goals by providing them with an instrumental tool to success. I understand the financial pressures of self employment and small business. That's why I keep my prices lower than average. I want to serve my local and wider communities well, while also being able to feed my family.</p><br>
+            <h5>I love this beautiful planet.</h5>
+            <p>I strive to be as sustainable and environmentally friendly as possible. When I’m not online or neck deep in code, I spend as much time as possible exploring the wild nooks and spectacular vistas nature has to offer.</p><br>
+            <p>On my off time you can find me wandering the forests, climbing mountains, swimming in the ocean, and tubing down rivers. <br>If you want to see more of this side of me check out my lifestyle blog filled with my adventures, my love of the outdoors, and self-sustainability tips like working with essential oils, gardening, cooking, and DIY projects.</p>
             <p>Give me some love on social media or browse my pics on instagram!</p><br>
-            <h5>Interested?</h5>
-            <h4><a href="http://www.natalieroseblog.com">Check out my blog!</h4></p>
+            <h5>Want to see more of me?</h5>
+            <div class="container borderXwidth">
+            <h5><a href="http://www.natalieroseblog.com">Check out my blog!</h5></p>
+            </div>
           </div>
         </div>
 

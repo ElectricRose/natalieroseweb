@@ -110,6 +110,10 @@ article#post-15.post-15.page.type-page.status-publish.hentry{
 .front-contact h5{
   text-align: center;
   font-size: 2em;
+  color: #00ace6;
+}
+.front-contact p{
+  text-align: center;
   color: #00a800;
 }
 #button img.center {
@@ -187,7 +191,6 @@ span.title {
   color: #111 !important;
   font-weight: bold;
 }
-
 svg {
   position: absolute;
   top: 0;
@@ -286,14 +289,18 @@ svg rect {
   float: left;
   margin: 5%;
 }
-.about-text1 h5{
-  font-size: 1.8em;
+.about-text1 h4, .about-text1 h5, .about-text1 h6, .about-text2 h4, .about-text3 h5, .about-text3 h4{
   text-align: center;
   color: #00ace6;
 }
-.about-text1 p span{
-  font-size: 1.3em;
-  color: #00ace6;
+.about-text1 h4, .about-text2 h4{
+  font-size: 2.2em;
+}
+.about-text1 h5{
+  font-size: 1.5em;
+}
+.about-text1 h6{
+  font-size: 1.4em;
 }
 #can-help p{
   width: 100%;
@@ -307,7 +314,7 @@ svg rect {
 .about-text1, .about-text2, .about-text3{
   float: left;
 }
-.about-text1 p, .about-text2 p, .about-text3{
+.about-text1 p, .about-text2 p, .about-text3 p{
   color: #00a800;
   text-align: center;
 }
@@ -324,10 +331,6 @@ svg rect {
   float: left;
   display: block;
   width: 98%;
-}
-.about-text2 p span{
-  font-size: 1.5em;
-  color: #00ace6;
 }
 #about-work-with-me{
   width: 98%;
@@ -357,10 +360,9 @@ svg rect {
   width: 90%;
   padding: 2% 2% 10% 13%;
 }
-.about-text3 h5, .about-text3 h4{
-  color: #00ace6;
-}
 /* ========== Work ============== */
+
+
 .all-content{
   float: left;
   background-color: #dfecdf !important;
@@ -935,9 +937,13 @@ margin: 0 38% 0 38%;
   display: inline-block;
   padding: 1% 5% 1% 2%;
 }
+.about-text1 h4{
+  font-size: 2.1em;
+}
 .about-text2{
   display: inline-block;
   width: 70%;
+  padding-bottom: 5%;
 }
 #about-work-with-me{
   width: 30%;

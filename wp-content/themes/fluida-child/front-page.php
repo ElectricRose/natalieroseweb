@@ -93,6 +93,11 @@ function fluida_lp_layoutclass () {
 
 	<div class="front-contact">
 		<h5>Want to work with me?</h5>
+		<p>I'm available:<br>
+			Mon - Fri<br>
+			9am - 5pm<br>
+			Weekends and holidays I'll be in the woods!<br>
+			</p>
 		<div id="work-with-me">
 			<div class="basicBox">
 				<a href="http://natalierose.net/contact/">
