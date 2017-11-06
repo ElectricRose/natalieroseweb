@@ -516,30 +516,6 @@ svg rect {
 #post-47948{
   background-color: #111111 !important;
 }
-.con-content{
-  background-color: #111111;
-  width: 100%;
-  float: left;
-}
-.contactform{
-  float: left;
-  display: inline-block;
-  width: 50%;
-  background-color: #111111 !important;
-}
-.con-text1{
-  display: inline-block;
-  width: 25%;
-  float: left;
-  background-color: #111111;
-  text-align: center;
-}
-.frm_style_formidable-style.with_frm_style fieldset {
-    margin: 5% 0 5% 16%;
-    padding: 20%;
-    min-width: 800px;
-    clear: both;
-    float: left;
 
 
 /* =========== Packages Page ================= */
@@ -772,10 +748,11 @@ text-align: center;
 /*============= Responsive Design =============*/
 /*=============================================*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
   /*Tablet styles here!*/
 
 /* =========== About ================ */
+
 #about-img{
   float: left;
   display: block;
@@ -786,10 +763,14 @@ text-align: center;
   float: left;
   display: block;
   max-width: 80%;
-  margin: 5% 0 5% 30%
+  margin: 5% 0 5% 30%;
 }
 #about-text, #front-about-text{
   padding: 1% 0 1% 0;
+}
+#front-about-text{
+margin: 0 2% 0 10%;
+width: 80%;
 }
 #work-img1{
   display: none;
@@ -835,6 +816,7 @@ div.container{
 	padding: 1%;
 	text-align: center;
 }
+
 div.container a{
     color: #00a800;
     text-decoration: none;
@@ -845,6 +827,7 @@ div.container a{
     z-index: 0;
     cursor: pointer;
 }
+
 /* Border X get width  */
 div.borderXwidth a:before, div.borderXwidth a:after{
     position: absolute;
@@ -855,20 +838,21 @@ div.borderXwidth a:before, div.borderXwidth a:after{
     background: #00a800;
     transition: all 0.3s;
 }
+
 div.borderXwidth a:before{
     left: 0px;
     top: 0px;
 }
+
 div.borderXwidth a:after{
     right: 0px;
     bottom: 0px;
 }
+
 div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
     opacity: 1;
     width: 100%;
 }
-
-/* =========== Contact Me Page ============== */
 
 
 /* =============== Package Page ============== */
@@ -1144,11 +1128,6 @@ margin: 0 38% 0 38%;
   margin: 0 25% 0 20%;
 }
 
-/* ======== Contact Me Page ============== */
-
-
-
-
 /* =============== Contest Page ================ */
 .con-content{
   width: 100%;
@@ -1214,7 +1193,7 @@ margin: 0 38% 0 38%;
 .acc-content, .unplugged-content, .pro-content{
   background-color: #111111;
 }
-#plug1, #plug2, #plug3, #plug4, #plug5, #plug6, #plug7,{
+#plug1, #plug2, #plug3, #plug4, #plug5, #plug6, #plug7{
   margin: 1% 0;
   background-color: #111111;
 }
