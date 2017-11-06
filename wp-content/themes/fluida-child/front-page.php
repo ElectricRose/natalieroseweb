@@ -77,7 +77,7 @@ function fluida_lp_layoutclass () {
     <div id="front-about-img">
       <img src="/wp-content/uploads/2017/06/natalierose-about-img2.png" alt="Photo of Natalie Rose">
     </div>
-      <div id="front-about-text">
+      <div class="front-about-text">
         <h3>I'm dedicated to supporting small businesses by helping them to reach a wider audience through an online presence.</h3>
           <p>I'm a busy 30-something millennial, currently living on beautiful Vancouver Island, Canada. I love to create powerful, easy to use, and fully responsive websites that stand out from the crowd. I build websites from scratch and have experience editing and updating existing websites and dynamic web applications.</p>
 			</div>
