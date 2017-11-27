@@ -128,7 +128,7 @@ span.current{
 
 /* ===== Buttons ====== */
 
-.frontworkBox {
+.frontworkBox, .aboutBox, .basicBox{
   width: 130px;
   height: 65px;
   margin: 15px auto;
@@ -140,23 +140,12 @@ span.current{
   position: relative;
   cursor: pointer;
 }
-.aboutBox {
+.workBox {
   width: 130px;
   height: 65px;
-  margin: 15px auto;
-  color: #00c5fd;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.8em;
-  line-height: 65px;
-  text-align: center;
-  position: relative;
-  cursor: pointer;
-}
-.basicBox {
-  width: 130px;
-  height: 65px;
-  margin: 4% auto;
-  color: #00c5fd;
+  margin: 20px auto;
+  color: #111111;
+  background-color: lightblue;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.8em;
   line-height: 65px;
@@ -189,7 +178,7 @@ svg rect {
   -ms-transition: all 0.8s ease-in-out;
   -o-transition: all 0.8s ease-in-out;
 }
-.frontworkBox:hover svg rect, .aboutBox:hover svg rect, .basicBox:hover svg rect {
+.frontworkBox:hover svg rect, .aboutBox:hover svg rect, .basicBox:hover svg rect, .workBox:hover svg rect {
   stroke-width: 3;
   stroke-dasharray: 35, 245;
   stroke-dashoffset: 38;
@@ -348,14 +337,10 @@ svg rect {
 }
 
 
-
-
-
 /* ========== Work ============== */
 #masthead .header-image{
   display: none;
 }
-
 .all-content{
   float: left;
   background-color: #dfecdf !important;
@@ -382,7 +367,6 @@ svg rect {
 .port-intro h4{
   font-size: 1.5em;
 }
-
 .js-pic-holder{
   width: 100%;
   float: left;
@@ -404,7 +388,6 @@ svg rect {
   display: none;
   float: left;
 }
-
 .port-desc h5{
   font-weight: bold;
   font-size: 1.5em;
@@ -412,6 +395,16 @@ svg rect {
 .port-desc{
   float: left;
   margin: 2%;
+  text-align: center;
+}
+.hire-me{
+  float: left;
+  display: block;
+  width: 95%;
+  margin: 5%;
+  text-align: center;
+  border-top: 1px solid #00d01b;
+  border-bottom: 1px solid #00d01b;
 }
 .do-list{
   display: block;
@@ -420,12 +413,20 @@ svg rect {
 .do-list p{
   text-align: center;
 }
-.hire-me{
-  float: left;
-  display: block;
-  width: 95%;
-  margin: 5%;
+
+.docon1 img, .docon2 img, .docon3 img, .docon4 img, .docon5 img, .docon6 img, .docon7 img{
+  max-width: 50px;
+  max-height: 50px;
 }
+
+
+
+
+
+
+
+
+
 .specialties{
   float: left;
   margin: 3% 0 3% 0;
@@ -532,7 +533,21 @@ svg rect {
 /* =========== Work =========== */
 .port-intro-box{
   width: 100%;
-  height: 400px;
+  height: 350px;
+}
+.port-intro{
+  width: 50%;
+  margin: 10% 3% 1% 25%;
+  background-color: #ffffff;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  border-radius: 25px;
+}
+.port-intro h1, .port-intro h4{
+  color: black;
+}
+.port-intro h1{
+  font-size: 2.5em;
 }
 .port-js{
   width: 55%;
@@ -544,22 +559,21 @@ svg rect {
   display: inline-block;
   margin: 2%;
 }
-
-
-.port-intro h1, .port-intro h4{
-  color: #111111;
-}
-.port-intro{
-  padding: 8% 2% 2% 2%;
-}
 .port-desc{
-  margin: 6% 3% 6% 3%;
+  width: 40%;
+  display: inline-block;
+  margin: 1% 4% 1% 4%;
 }
 .hire-me{
-  width: 90%;
-  margin: 5%;
-  text-align: center;
+  width: 40%;
+  display: inline-block;
+  margin: 1%;
 }
+
+
+
+
+
 #special1, #special2{
   width: 45%;
   height: 100%;
