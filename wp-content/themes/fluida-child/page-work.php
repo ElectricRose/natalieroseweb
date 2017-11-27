@@ -27,13 +27,15 @@ get_header(); ?>
 					</div>
 				</div>
 
+
+				<div class="js-pic-holder">
 				<div class="port-js">
 					<h2> What can I help you with today?</h2>
 					<h3>I do
 							<span
 							class="txt-rotate"
 							data-period="2000"
-							data-rotate='[ "web development!", "custom WordPress themes!", "responsive design transitions!", "E-Commerce solutions!", "site transfers!", "website maintenance!" ]'></span>
+							data-rotate='[ "web & graphic design!", "web development!", "custom WordPress themes!", "responsive design transitions!", "E-Commerce solutions!", "site transfers!", "website maintenance!" ]'></span>
 					</h3>
 
 				<script type="text/javascript">
@@ -96,6 +98,10 @@ get_header(); ?>
 				};
 				</script>
 				</div>
+				<div class="port-pic">
+					<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/06/natalierose-about-img2.png" alt="Photo of Natalie Rose">
+				</div>
+			</div>
 
 				<div class="desc-hire-holder">
 			<div class="port-desc">

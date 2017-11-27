@@ -117,12 +117,11 @@ function frmAdminBuildJS(){
 			b = this;
 		}
 		popCalcFields(b);
-		if(jQuery(b).closest('.frm_form_action_settings').length){
-			var cont = jQuery(b).closest('.frm_form_action_settings');
-			if(cont.find('.form-table').length < 1){
-				var action_id = cont.find('input[name$="[ID]"]').val();
-				var action_type = cont.find('input[name$="[post_excerpt]"]').val();
-                if ( action_type ) {
+		var cont = jQuery(b).closest('.frm_form_action_settings');
+		if ( cont.length && cont.find('.form-table').length < 1 ) {
+			var action_id = cont.find('input[name$="[ID]"]').val();
+			var action_type = cont.find('input[name$="[post_excerpt]"]').val();
+			if ( action_type ) {
 				cont.children('.widget-inside').html('<span class="spinner frm_spinner"></span>');
 				cont.find('.spinner').fadeIn('slow');
 				jQuery.ajax({
@@ -133,7 +132,6 @@ function frmAdminBuildJS(){
 						initiateMultiselect();
 					}
 				});
-                }
 			}
 		}
 
@@ -1381,6 +1379,7 @@ function frmAdminBuildJS(){
 	}
 
 	function preFormSave(b){
+		removeWPUnload();
 		if(jQuery('form.inplace_form').length){
 			jQuery('.inplace_save, .postbox').click();
 		}
@@ -1414,30 +1413,40 @@ function frmAdminBuildJS(){
 	}
 	
 	function addFormAction(){
-		var len = 0;
-		if(jQuery('.frm_form_action_settings:last').length){
-			//Get number of previous action
-			len = jQuery('.frm_form_action_settings:last').attr('id').replace('frm_form_action_', '');
-		}
+		/*jshint validthis:true */
+		var actionId = getNewActionId();
 		var type = jQuery(this).data('actiontype');
 		var formId = this_form_id;
 
         jQuery.ajax({
 			type:'POST',url:ajaxurl,
-			data:{action:'frm_add_form_action', type:type, list_id:(parseInt(len)+1), form_id:formId, nonce:frmGlobal.nonce},
+			data:{action:'frm_add_form_action', type:type, list_id:actionId, form_id:formId, nonce:frmGlobal.nonce},
 			success:function(html){
 				jQuery('#frm_notification_settings .widget-inside').css('display','none');//Close any open actions first
 				jQuery('#frm_notification_settings').append(html);
 				jQuery('.frm_form_action_settings').fadeIn('slow');
-				jQuery('#frm_form_action_' + (parseInt(len)+1) + ' .widget-inside').css('display','block');
-				jQuery('#frm_form_action_' + (parseInt(len)+1)).addClass('open');
-				jQuery('#action_post_title_' + (parseInt(len)+1)).focus();
+				jQuery('#frm_form_action_' + actionId + ' .widget-inside').css('display','block');
+				jQuery('#frm_form_action_' + actionId).addClass('open');
+				jQuery('#action_post_title_' + actionId).focus();
 
 				//check if icon should be active
 				checkActiveAction(type);
 				initiateMultiselect();
 			}
 		});
+	}
+
+	function getNewActionId() {
+		var len = 0;
+		if ( jQuery('.frm_form_action_settings:last').length ) {
+			//Get number of previous action
+			len = jQuery('.frm_form_action_settings:last').attr('id').replace('frm_form_action_', '');
+		}
+		len = parseInt(len) + 1;
+		if ( typeof document.getElementById( 'frm_form_action_'+ len ) !== 'undefined'  ) {
+			len = len + 100;
+		}
+		return len;
 	}
 
 	function clickAction(obj){
@@ -2351,6 +2360,13 @@ function frmAdminBuildJS(){
 		}
 	}
 
+	function removeWPUnload() {
+		window.onbeforeunload = null;
+		var w = jQuery( window );
+		w.off( 'beforeunload.widgets' );
+		w.off( 'beforeunload.edit-post' );
+	}
+
 	return{
 		init: function(){
 			window.onscroll = document.documentElement.onscroll = setMenuOffset;
@@ -2460,6 +2476,9 @@ function frmAdminBuildJS(){
 			
 			jQuery(document.getElementById('frm_deauthorize_link')).click(deauthorize);
 			jQuery('.frm_authorize_link').click(authorize);
+
+			// prevent annoying confirmation message from WordPress
+			jQuery('button').on('click', removeWPUnload);
 		},
 		
 		buildInit: function(){			
@@ -2890,6 +2909,7 @@ function frmAdminBuildJS(){
 		},
 
         customCSSInit: function() {
+			/* deprecated since WP 4.9 */
             var customCSS = document.getElementById('frm_custom_css_box');
             if ( customCSS !== null ) {
                 var editor = CodeMirror.fromTextArea(customCSS, {
