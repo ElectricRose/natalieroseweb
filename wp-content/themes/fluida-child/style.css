@@ -409,20 +409,50 @@ svg rect {
 .do-list{
   display: block;
   float: left;
+  width: 100
+  margin: 2%;
+  padding-left: 2%;
 }
 .do-list p{
-  text-align: center;
+  text-align: left;
 }
 
-.docon1 img, .docon2 img, .docon3 img, .docon4 img, .docon5 img, .docon6 img, .docon7 img{
-  max-width: 50px;
-  max-height: 50px;
+#docon1, #docon2, #docon3, #docon4, #docon5, #docon6, #docon7{
+  display: inline-block;
+  float: left;
+  width: 30%;
+}
+#docon3, #docon5, #docon7{
+  clear: both;
 }
 
-
-
-
-
+#docon1{
+  margin-top: 6%;
+}
+#docon2{
+  margin-top: 3%;
+}
+#docon3{
+  margin-top: 4%;
+}
+#docon4{
+  margin-top: 8%;
+}
+#docon5{
+  margin-top: 20%;
+}
+#docon6{
+  margin-top: 15%;
+}
+#docon7{
+  margin-top: 20%;
+}
+#dotext1, #dotext2, #dotext3, #dotext4, #dotext5, #dotext6, #dotext7{
+  width: 62%;
+  display: inline-block;
+  float: left;
+  margin: 2%;
+}
 
 
 
@@ -569,8 +599,29 @@ svg rect {
   display: inline-block;
   margin: 1%;
 }
+.do-list{
+  margin: 2%;
+  padding: 5% 5% 5% 5%;
+  text-align: center;
+}
 
-
+#docon1, #docon2, #docon3, #docon4, #docon5, #docon6, #docon7{
+  width: 39%;
+  display: inline-block;
+  float: left;
+}
+#docon1, #docon2, #docon3, #docon4, #docon5, #docon6, #docon7{
+  margin-top: 1%;
+}
+#dotext1, #dotext2, #dotext3, #dotext4, #dotext5, #dotext6, #dotext7{
+  width: 50%;
+  display: inline-block;
+  float: left;
+  margin: 5%;
+}
+#dotext2, #dotext4, #dotext6{
+  clear: both;
+}
 
 
 

@@ -129,27 +129,27 @@ get_header(); ?>
 
 					<div id="dobox1">
 						<div id="docon1">
-							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/dropper.png" alt="design icon">
+							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/dropper230.png" alt="design icon">
 						</div>
 						<div id="dotext1">
 							<p><strong>Web & Graphic Design</strong></p>
-								<p>I design elegant & stylish websites with a modern edge. I design for the web as well as work with print mediums. </p>
+								<p>I design elegant & stylish websites with a modern edge. I can design your entire website from start to finish. I also do graphic design, and can design your printed materials, such as posters, brochures, and business cards.</p>
 						</div>
 					</div>
 
 					<div id="dobox2">
 						<div id="dotext2">
 							<p><strong>Web Development</strong></p>
-								<p>I craft, code, and customize unique websites for small businesses, individuals, and start-ups.</p>
+								<p>I craft, code, and customize unique websites for small businesses, individuals, and start-ups. I can code everything up from scratch, or work on your existing website easily.</p>
 						</div>
 						<div id="docon2">
-							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/051-laptop-1.png">
+							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/051-laptop230.png" alt="development icon">
 						</div>
 					</div>
 
 					<div id="dobox3">
 						<div id="docon3">
-							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/051-crown.png" alt="design icon">
+							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/051-crown230.png" alt="crown icon">
 						</div>
 						<div id="dotext3">
 							<p><strong>Custom WordPress Themes</strong></p>
@@ -163,13 +163,13 @@ get_header(); ?>
 								<p>If your website is static or functions poorly on mobile devices, I can give it a thorough responsive overhaul to keep it current and competitive.</p>
 						</div>
 						<div id="docon4">
-							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/051-responsive.png">
+							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/051-responsive230.png" alt="responsive icon">
 						</div>
 					</div>
 
 					<div id="dobox5">
 						<div id="docon5">
-							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/032-online-shop.png">
+							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/032-online-shop230.png" alt="ecommerce icon">
 						</div>
 						<div id="dotext5">
 							<p><strong>E-Commerce Solutions</strong></p>
@@ -183,13 +183,13 @@ get_header(); ?>
 								<p>Transfering a current website and migrating content to another hosting platform can be time-consuming and complicated. I am here when you need website transfer help, and will take care of the entire process. </p>
 						</div>
 						<div id="docon6">
-							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/051-networking.png">
+							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/051-networking230.png" alt="transfer icon">
 						</div>
 					</div>
 
 					<div id="dobox7">
 						<div id="docon7">
-							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/051-bug.png">
+							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/051-browser-230.png" alt="bug fix icon">
 						</div>
 						<div id="dotext7">
 							<p><strong>Website Maintenance</strong></p>
