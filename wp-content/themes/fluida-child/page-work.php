@@ -125,7 +125,7 @@ get_header(); ?>
 
 
 			<div class="do-list">
-					<h4>What I do..</h4>
+					<h4>What I Do</h4>
 
 					<div id="dobox1">
 						<div id="docon1">
@@ -153,7 +153,7 @@ get_header(); ?>
 						</div>
 						<div id="dotext3">
 							<p><strong>Custom WordPress Themes</strong></p>
-								<p>I can build you a completely new theme or customize existing WordPress themes, depending on your needs and budget</p>
+								<p>I can build you a completely new theme from scratch or customize an existing WordPress theme, depending on your needs and budget.</p>
 						</div>
 					</div>
 
