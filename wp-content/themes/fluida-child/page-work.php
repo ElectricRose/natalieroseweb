@@ -99,7 +99,7 @@ get_header(); ?>
 				</script>
 				</div>
 				<div class="port-pic">
-					<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/06/natalierose-about-img2.png" alt="Photo of Natalie Rose">
+					<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/natrose-green2300.png">
 				</div>
 			</div>
 
@@ -122,18 +122,81 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
-				<div class="do-list">
-					<h4>What I do..</h4>
-						<ul>
-							<li><strong>Website development.</strong> I craft, code, and customize unique websites for small businesses, individuals, and start-ups.
-							<li><strong>Custom WordPress themes.</strong> I can build you a completely new theme or customize existing WordPress themes, depending on your needs and budget.</li>
-							<li><strong>Responsive design transitions.</strong> If your website is static or functions poorly on mobile devices, I can give it a thorough responsive overhaul to keep it current and competitive.</li>
-							<li><strong>E-Commerce Solutions</strong> If you have products to sell there's no better way to reach a large audience than online. Setting up an E-Commerce website doesn't have to be daunting or unaffordable. I can install, add products, test, and set up your shipping and payment options for you so you can get those products in front of and out to the people who need them.</li>
-							<li><strong>Site Transfers.</strong> Transfering a current website and migrating content to another hosting platform can be time-consuming and complicated. I am here when you need website transfer help, and will take care of the entire process. </li>
-							<li><strong>Website Maintenance.</strong> I offer optional monthly or quarterly maintenance packages to my customers. With my website maintenance packages, you will never have to worry that your website will be out of date or stop working because of changing technologies. If you have any issues or problems with your website I am only a phone call or email away, and will be there with technical support promptly.</li>
-						</ul>
+
+
+			<div class="do-list">
+					<h4>What I Do</h4>
+
+					<div id="dobox1">
+						<div id="docon1">
+							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/dropper230.png" alt="design icon">
+						</div>
+						<div id="dotext1">
+							<p><strong>Web & Graphic Design</strong></p>
+								<p>I design elegant & stylish websites with a modern edge. I can design your entire website from start to finish. I also do graphic design, and can design your printed materials, such as posters, brochures, and business cards.</p>
+						</div>
 					</div>
-				</div>
+
+					<div id="dobox2">
+						<div id="dotext2">
+							<p><strong>Web Development</strong></p>
+								<p>I craft, code, and customize unique websites for small businesses, individuals, and start-ups. I can code everything up from scratch, or work on your existing website easily.</p>
+						</div>
+						<div id="docon2">
+							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/051-laptop230.png" alt="development icon">
+						</div>
+					</div>
+
+					<div id="dobox3">
+						<div id="docon3">
+							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/051-crown230.png" alt="crown icon">
+						</div>
+						<div id="dotext3">
+							<p><strong>Custom WordPress Themes</strong></p>
+								<p>I can build you a completely new theme from scratch or customize an existing WordPress theme, depending on your needs and budget.</p>
+						</div>
+					</div>
+
+					<div id="dobox4">
+						<div id="dotext4">
+							<p><strong>Responsive Design Transitions</strong></p>
+								<p>If your website is static or functions poorly on mobile devices, I can give it a thorough responsive overhaul to keep it current and competitive.</p>
+						</div>
+						<div id="docon4">
+							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/051-responsive230.png" alt="responsive icon">
+						</div>
+					</div>
+
+					<div id="dobox5">
+						<div id="docon5">
+							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/032-online-shop230.png" alt="ecommerce icon">
+						</div>
+						<div id="dotext5">
+							<p><strong>E-Commerce Solutions</strong></p>
+								<p>If you have products to sell there's no better way to reach a large audience than online. Setting up an E-Commerce website doesn't have to be daunting or unaffordable. I can install, add products, test, and set up your shipping and payment options for you so you can get those products in front of and out to the people who need them.</p>
+						</div>
+					</div>
+
+					<div id="dobox6">
+						<div id="dotext6">
+							<p><strong>Site Transfers</strong></p>
+								<p>Transfering a current website and migrating content to another hosting platform can be time-consuming and complicated. I am here when you need website transfer help, and will take care of the entire process. </p>
+						</div>
+						<div id="docon6">
+							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/051-networking230.png" alt="transfer icon">
+						</div>
+					</div>
+
+					<div id="dobox7">
+						<div id="docon7">
+							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/051-browser-230.png" alt="bug fix icon">
+						</div>
+						<div id="dotext7">
+							<p><strong>Website Maintenance</strong></p>
+								<p>I offer optional monthly or quarterly maintenance packages to my customers. With my website maintenance packages, you will never have to worry that your website will be out of date or stop working because of changing technologies. If you have any issues or problems with your website I am only a phone call or email away, and will be there with technical support promptly.</p>
+						</div>
+					</div>
+				</div><!--do list -->
 
 
 					<div class="specialties">
