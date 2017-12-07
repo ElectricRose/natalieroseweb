@@ -250,7 +250,7 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 	-o-transition: all .5s ease 0s;
 	transition: all .5s ease 0s;
 }
-.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-linkedin:hover, .fa-github:hover{
+.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-linkedin:hover, .fa-github:hover {
 	background: rgba(10, 10, 10, 0.1);
 	border-color: rgba(10, 10, 10, 0.1);
 }
@@ -864,7 +864,7 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 }
 .about-text2{
   display: inline-block;
-  width: 70%;
+  width: 60%;
   margin: 9% 5% 2% 5%;
 }
 .about-text2 h4{
