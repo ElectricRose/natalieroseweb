@@ -126,6 +126,7 @@ span.current{
   color: #00d01b;
 }
 
+
 /* ===== Buttons ====== */
 
 .frontworkBox, .aboutBox, .basicBox{
@@ -189,6 +190,69 @@ svg rect {
   -ms-transition: all 0.8s ease-in-out;
   -o-transition: all 0.8s ease-in-out;
   stroke: #00c5fd;
+}
+
+
+/* I can help button */
+div.container{
+	text-align: center;
+}
+div.container a{
+    color: #FFF;
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+div.borderXwidth a:before, div.borderXwidth a:after{
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #00d01b;
+    transition: all 0.3s;
+}
+div.borderXwidth a:before{
+    left: 0px;
+    top: 0px;
+}
+div.borderXwidth a:after{
+    right: 0px;
+    bottom: 0px;
+}
+div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
+    opacity: 1;
+    width: 100%;
+}
+
+/* ======== Social Buttons ======== */
+.icons{
+  text-align: center;
+	max-width: 500px;
+	max-height: 300px;
+  margin: auto;
+  padding-top: 3%;
+}
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-linkedin, .fa-github{
+	border: 1px solid;
+	border-radius: 50%;
+	color: #fff;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	padding-top: 15px;
+	margin: 10px;
+	-webkit-transition: all .5s ease 0s;
+	-moz-transition: all .5s ease 0s;
+	-o-transition: all .5s ease 0s;
+	transition: all .5s ease 0s;
+}
+.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-linkedin:hover, .fa-github:hover{
+	background: rgba(10, 10, 10, 0.1);
+	border-color: rgba(10, 10, 10, 0.1);
 }
 
 /* =========== About ================ */
@@ -260,15 +324,27 @@ svg rect {
   float: left;
   margin: 5%;
 }
-
 .about-text1 h5{
   font-size: 1.8em;
   text-align: center;
-  color: #00ace6;
+  color: #00c5fd;
+}
+.about-text1 h4{
+  font-size: 1.8em;
+  text-align: center;
+  color: #00c5fd;
+}
+.about-text1 h6{
+  font-size: 1.8em;
+  text-align: center;
+  color: #00d01b;
 }
 .about-text1 p span{
   font-size: 1.3em;
-  color: #00ace6;
+  color: #00c5fd;
+}
+#can-help{
+  margin: 2%;
 }
 #can-help p{
   width: 100%;
@@ -277,19 +353,23 @@ svg rect {
   text-transform: uppercase;
 }
 #can-help a{
-  color: #00ace6 !important;
+  color: #00c5fd !important;
 }
 .about-text1, .about-text2, .about-text3{
   float: left;
 }
 .about-text1 p, .about-text2 p, .about-text3{
-  color: #00a800;
+  color: #00d01b;
   text-align: center;
 }
-
+.about-text2 h4{
+  font-size: 2.3em;
+  text-align: center;
+  color: #00c5fd;
+}
 .about-container{
-  border-top: 1px solid #00a800;
-  border-bottom: 1px solid #00a800;
+  border-top: 1px solid #00d01b;
+  border-bottom: 1px solid #00d01b;
   float: left;
   width: 100%;
   margin: 5% 0 5% 0;
@@ -303,7 +383,7 @@ svg rect {
 }
 .about-text2 p span{
   font-size: 1.5em;
-  color: #00ace6;
+  color: #00c5fd;
 }
 #about-work-with-me{
   width: 98%;
@@ -313,7 +393,7 @@ svg rect {
 #about-work-with-me p{
   text-align: center;
   font-size: 1.5em;
-  color: #00ace6;
+  color: #00c5fd;
 }
 #button{
   margin-top: 3%;
@@ -325,7 +405,7 @@ svg rect {
 }
 
 .about-container2{
-  border-bottom: 1px solid #00a800;
+  border-bottom: 1px solid #00d01b;
   float: left;
   width: 100%;
   margin: 1% 0 1% 0;
@@ -335,7 +415,7 @@ svg rect {
   padding: 2% 2% 10% 13%;
 }
 .about-text3 h5, .about-text3 h4{
-  color: #00ace6;
+  color: #00c5fd;
 }
 
 
@@ -351,7 +431,11 @@ svg rect {
 .port-intro-box{
   width: 100%;
   height: 300px;
+<<<<<<< HEAD
   background: #111 url("http://localhost:8888/natalierose/wp-content/uploads/2017/12/succulent1450.jpg") no-repeat ;
+=======
+  background: #111 url("/wp-content/uploads/2017/12/succulent1450.jpg") no-repeat ;
+>>>>>>> projects
   float: left;
 }
 .port-intro{
@@ -428,6 +512,7 @@ svg rect {
   display: inline-block;
   float: left;
   width: 30%;
+<<<<<<< HEAD
 }
 #docon3, #docon5, #docon7{
   clear: both;
@@ -439,6 +524,19 @@ svg rect {
 #docon2{
   margin-top: 3%;
 }
+=======
+}
+#docon3, #docon5, #docon7{
+  clear: both;
+}
+
+#docon1{
+  margin-top: 6%;
+}
+#docon2{
+  margin-top: 3%;
+}
+>>>>>>> projects
 #docon3{
   margin-top: 4%;
 }
@@ -475,7 +573,7 @@ svg rect {
   font-weight: bold;
 }
 .special-all{
-  border: 3px solid #00a800;
+  border: 3px solid #00d01b;
   float: left;
   padding: 0 1% 0 1%;
   background-color: #cfe2cf;
@@ -528,7 +626,7 @@ svg rect {
   clear: both;
 }
 .outtro a{
-  color: #00a800 !important;
+  color: #00d01b !important;
 }
 
 /*============== Contact Me ==================*/
@@ -664,14 +762,27 @@ svg rect {
 .front-work{
   float: left;
   width: 100%;
-  padding: 5% 14% 5% 14%;
+  padding: 3% 20% 3% 20%;
+  margin: auto;
+}
+.front-rainbow{
+  float: left;
+  width:100%;
+  margin: auto;
+  padding: 4%;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
 }
 .front-work-section{
   float: left;
+  width: 100%;
   border: 1px solid #00d01b;
   clear: both;
-  padding: 0% 7% 3% 7%;
-  margin: 5%;
+  background-color: #111;
+  margin: auto;
+  padding: 0 5% 3% 5%;
 }
 .front-work h3{
   font-size: 3.7em;
@@ -692,6 +803,7 @@ svg rect {
   margin: 5%;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .front-about-text{
   padding: 0 2% 0 2%;
   display: inline-block;
@@ -711,6 +823,11 @@ svg rect {
 }
 =======
 
+>>>>>>> projects
+=======
+#work-with-me{
+  padding-top: 2%;
+}
 >>>>>>> projects
 /* =========== About ================ */
 .about-intro-box{
@@ -733,7 +850,7 @@ svg rect {
 #work-img1{
   display: inline-block;
   width: 41%;
-  margin: 1%;
+  margin: 15% 1% 0 1%;
   padding-top: 6%;
 }
 #work-img1 img{
@@ -748,6 +865,10 @@ svg rect {
 .about-text2{
   display: inline-block;
   width: 70%;
+  margin: 9% 5% 2% 5%;
+}
+.about-text2 h4{
+  font-size: 2.3em;
 }
 #about-work-with-me{
   width: 30%;
@@ -755,13 +876,15 @@ svg rect {
 }
 #about-work-with-me p{
   font-size: 1.5em;
-  color: #00ace6;
+  color: #00c5fd;
   text-align: center;
 }
 #teacup{
   margin: 0 0 5% 8%;
 }
-
+.about-text3 h4{
+  font-size: 2.3em;
+}
 /* ============ Work =========== */
 .port-intro{
   width: 50%;
@@ -811,6 +934,7 @@ svg rect {
   text-decoration: underline;
   font-size: 2.8em;
   font-weight: bold;
+<<<<<<< HEAD
 }
 
 #docon1, #docon2, #docon3, #docon4, #docon5, #docon6, #docon7{
@@ -818,6 +942,15 @@ svg rect {
   display: inline-block;
   float: left;
 }
+=======
+}
+
+#docon1, #docon2, #docon3, #docon4, #docon5, #docon6, #docon7{
+  width: 39%;
+  display: inline-block;
+  float: left;
+}
+>>>>>>> projects
 #docon1, #docon2, #docon3, #docon4, #docon5, #docon6, #docon7{
   margin-top: 1%;
 }
@@ -834,7 +967,10 @@ svg rect {
   text-align: center;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> projects
 #special1, #special2{
   width: 45%;
   height: 100%;
@@ -867,7 +1003,11 @@ svg rect {
 .port-intro-box{
   width: 100%;
   height: 500px;
+<<<<<<< HEAD
   background: #111 url("http://localhost:8888/natalierose/wp-content/uploads/2017/12/succulent4000k.jpg") no-repeat;
+=======
+  background: #111 url("/wp-content/uploads/2017/12/succulent4000k.jpg") no-repeat;
+>>>>>>> projects
   float: left;
 }
 .port-into{

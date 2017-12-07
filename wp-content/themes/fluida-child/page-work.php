@@ -99,7 +99,11 @@ get_header(); ?>
 				</script>
 				</div>
 				<div class="port-pic">
+<<<<<<< HEAD
 					<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/natrose-green2300.png">
+=======
+					<img src="/wp-content/uploads/2017/12/natrose-green2300.png">
+>>>>>>> projects
 				</div>
 			</div>
 
@@ -129,7 +133,11 @@ get_header(); ?>
 
 					<div id="dobox1">
 						<div id="docon1">
+<<<<<<< HEAD
 							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/dropper230.png" alt="design icon">
+=======
+							<img src="/wp-content/uploads/2017/12/dropper230.png" alt="design icon">
+>>>>>>> projects
 						</div>
 						<div id="dotext1">
 							<p><strong>Web & Graphic Design</strong></p>
@@ -143,13 +151,21 @@ get_header(); ?>
 								<p>I craft, code, and customize unique websites for small businesses, individuals, and start-ups. I can code everything up from scratch, or work on your existing website easily.</p>
 						</div>
 						<div id="docon2">
+<<<<<<< HEAD
 							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/051-laptop230.png" alt="development icon">
+=======
+							<img src="/wp-content/uploads/2017/12/051-laptop230.png" alt="development icon">
+>>>>>>> projects
 						</div>
 					</div>
 
 					<div id="dobox3">
 						<div id="docon3">
+<<<<<<< HEAD
 							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/051-crown230.png" alt="crown icon">
+=======
+							<img src="/wp-content/uploads/2017/12/051-crown230.png" alt="crown icon">
+>>>>>>> projects
 						</div>
 						<div id="dotext3">
 							<p><strong>Custom WordPress Themes</strong></p>
@@ -163,13 +179,21 @@ get_header(); ?>
 								<p>If your website is static or functions poorly on mobile devices, I can give it a thorough responsive overhaul to keep it current and competitive.</p>
 						</div>
 						<div id="docon4">
+<<<<<<< HEAD
 							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/051-responsive230.png" alt="responsive icon">
+=======
+							<img src="/wp-content/uploads/2017/12/051-responsive230.png" alt="responsive icon">
+>>>>>>> projects
 						</div>
 					</div>
 
 					<div id="dobox5">
 						<div id="docon5">
+<<<<<<< HEAD
 							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/032-online-shop230.png" alt="ecommerce icon">
+=======
+							<img src="/wp-content/uploads/2017/12/032-online-shop230.png" alt="ecommerce icon">
+>>>>>>> projects
 						</div>
 						<div id="dotext5">
 							<p><strong>E-Commerce Solutions</strong></p>
@@ -183,13 +207,21 @@ get_header(); ?>
 								<p>Transfering a current website and migrating content to another hosting platform can be time-consuming and complicated. I am here when you need website transfer help, and will take care of the entire process. </p>
 						</div>
 						<div id="docon6">
+<<<<<<< HEAD
 							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/051-networking230.png" alt="transfer icon">
+=======
+							<img src="/wp-content/uploads/2017/12/051-networking230.png" alt="transfer icon">
+>>>>>>> projects
 						</div>
 					</div>
 
 					<div id="dobox7">
 						<div id="docon7">
+<<<<<<< HEAD
 							<img src="http://localhost:8888/natalierose/wp-content/uploads/2017/11/051-browser-230.png" alt="bug fix icon">
+=======
+							<img src="/wp-content/uploads/2017/12/051-browser-230.png" alt="bug fix icon">
+>>>>>>> projects
 						</div>
 						<div id="dotext7">
 							<p><strong>Website Maintenance</strong></p>
