@@ -431,11 +431,7 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 .port-intro-box{
   width: 100%;
   height: 300px;
-<<<<<<< HEAD
-  background: #111 url("http://localhost:8888/natalierose/wp-content/uploads/2017/12/succulent1450.jpg") no-repeat ;
-=======
-  background: #111 url("/wp-content/uploads/2017/12/succulent1450.jpg") no-repeat ;
->>>>>>> projects
+  background: #111 url("/wp-content/uploads/2017/12/succulent1450.jpg") no-repeat;
   float: left;
 }
 .port-intro{
@@ -512,31 +508,16 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
   display: inline-block;
   float: left;
   width: 30%;
-<<<<<<< HEAD
 }
 #docon3, #docon5, #docon7{
   clear: both;
 }
-
 #docon1{
   margin-top: 6%;
 }
 #docon2{
   margin-top: 3%;
 }
-=======
-}
-#docon3, #docon5, #docon7{
-  clear: both;
-}
-
-#docon1{
-  margin-top: 6%;
-}
-#docon2{
-  margin-top: 3%;
-}
->>>>>>> projects
 #docon3{
   margin-top: 4%;
 }
@@ -558,10 +539,6 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
   float: left;
   margin: 2%;
 }
-
-
-
-
 .specialties{
   float: left;
   margin: 3% 0 3% 0;
@@ -653,7 +630,7 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
   float: left;
   display: block;
   max-width: 80%;
-  margin: 5% 0 5% 30%
+  margin: 5% 0 5% 30%;
 }
 #about-text, #front-about-text{
   padding: 1% 0 1% 0;
@@ -710,7 +687,6 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
   padding: 5% 5% 5% 5%;
   text-align: center;
 }
-
 #docon1, #docon2, #docon3, #docon4, #docon5, #docon6, #docon7{
   width: 39%;
   display: inline-block;
@@ -728,8 +704,6 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 #dotext2, #dotext4, #dotext6{
   clear: both;
 }
-
-
 #special1, #special2{
   width: 45%;
   height: 100%;
@@ -802,18 +776,6 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
   max-width: 30%;
   margin: 5%;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-.front-about-text{
-  padding: 0 2% 0 2%;
-  display: inline-block;
-  float: left;
-<<<<<<< HEAD
-  width: 40%;
-=======
-  width: 45%;
->>>>>>> projects
-}
 /* =========== Buttons ============== */
 .frontworkBox, .aboutBox{
   margin: 3% auto;
@@ -821,14 +783,9 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 .workBox{
   margin: 5% auto;
 }
-=======
-
->>>>>>> projects
-=======
 #work-with-me{
   padding-top: 2%;
 }
->>>>>>> projects
 /* =========== About ================ */
 .about-intro-box{
   width: 60%;
@@ -934,7 +891,6 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
   text-decoration: underline;
   font-size: 2.8em;
   font-weight: bold;
-<<<<<<< HEAD
 }
 
 #docon1, #docon2, #docon3, #docon4, #docon5, #docon6, #docon7{
@@ -942,15 +898,6 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
   display: inline-block;
   float: left;
 }
-=======
-}
-
-#docon1, #docon2, #docon3, #docon4, #docon5, #docon6, #docon7{
-  width: 39%;
-  display: inline-block;
-  float: left;
-}
->>>>>>> projects
 #docon1, #docon2, #docon3, #docon4, #docon5, #docon6, #docon7{
   margin-top: 1%;
 }
@@ -967,10 +914,6 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
   text-align: center;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> projects
 #special1, #special2{
   width: 45%;
   height: 100%;
@@ -992,7 +935,6 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 @media screen and (min-width: 1500px) {
     /*Huge Desktop styles here!*/
 
-
 /* ========= About ===========*/
 #teacup{
   margin-left: 16%;
@@ -1003,11 +945,7 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 .port-intro-box{
   width: 100%;
   height: 500px;
-<<<<<<< HEAD
-  background: #111 url("http://localhost:8888/natalierose/wp-content/uploads/2017/12/succulent4000k.jpg") no-repeat;
-=======
   background: #111 url("/wp-content/uploads/2017/12/succulent4000k.jpg") no-repeat;
->>>>>>> projects
   float: left;
 }
 .port-into{
