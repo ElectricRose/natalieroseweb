@@ -126,6 +126,7 @@ span.current{
   color: #00d01b;
 }
 
+
 /* ===== Buttons ====== */
 
 .frontworkBox, .aboutBox, .basicBox{
@@ -227,6 +228,33 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
     width: 100%;
 }
 
+/* ======== Social Buttons ======== */
+.icons{
+  text-align: center;
+	max-width: 500px;
+	max-height: 300px;
+  margin: auto;
+  padding-top: 3%;
+}
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-linkedin, .fa-github{
+	border: 1px solid;
+	border-radius: 50%;
+	color: #fff;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	padding-top: 15px;
+	margin: 10px;
+	-webkit-transition: all .5s ease 0s;
+	-moz-transition: all .5s ease 0s;
+	-o-transition: all .5s ease 0s;
+	transition: all .5s ease 0s;
+}
+.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-linkedin:hover, .fa-github:hover{
+	background: rgba(10, 10, 10, 0.1);
+	border-color: rgba(10, 10, 10, 0.1);
+}
+
 /* =========== About ================ */
 .about-content{
   float: left;
@@ -301,13 +329,13 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
   text-align: center;
   color: #00c5fd;
 }
-.about-text1 h4, .about-text2 h4{
+.about-text1 h4{
   font-size: 1.8em;
   text-align: center;
   color: #00c5fd;
 }
 .about-text1 h6{
-  font-size: 1.5em;
+  font-size: 1.8em;
   text-align: center;
   color: #00d01b;
 }
@@ -334,7 +362,11 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
   color: #00d01b;
   text-align: center;
 }
-
+.about-text2 h4{
+  font-size: 2.3em;
+  text-align: center;
+  color: #00c5fd;
+}
 .about-container{
   border-top: 1px solid #00d01b;
   border-bottom: 1px solid #00d01b;
@@ -712,14 +744,27 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 .front-work{
   float: left;
   width: 100%;
-  padding: 5% 14% 5% 14%;
+  padding: 3% 20% 3% 20%;
+  margin: auto;
+}
+.front-rainbow{
+  float: left;
+  width:100%;
+  margin: auto;
+  padding: 4%;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
 }
 .front-work-section{
   float: left;
+  width: 100%;
   border: 1px solid #00d01b;
   clear: both;
-  padding: 0% 7% 3% 7%;
-  margin: 5%;
+  background-color: #111;
+  margin: auto;
+  padding: 0 5% 3% 5%;
 }
 .front-work h3{
   font-size: 3.7em;
@@ -739,7 +784,9 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
   max-width: 30%;
   margin: 5%;
 }
-
+#work-with-me{
+  padding-top: 2%;
+}
 /* =========== About ================ */
 .about-intro-box{
   width: 60%;
@@ -761,7 +808,7 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 #work-img1{
   display: inline-block;
   width: 41%;
-  margin: 1%;
+  margin: 15% 1% 0 1%;
   padding-top: 6%;
 }
 #work-img1 img{
@@ -776,6 +823,10 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 .about-text2{
   display: inline-block;
   width: 70%;
+  margin: 9% 5% 2% 5%;
+}
+.about-text2 h4{
+  font-size: 2.3em;
 }
 #about-work-with-me{
   width: 30%;
@@ -789,7 +840,9 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 #teacup{
   margin: 0 0 5% 8%;
 }
-
+.about-text3 h4{
+  font-size: 2.3em;
+}
 /* ============ Work =========== */
 .port-intro{
   width: 50%;
@@ -861,7 +914,6 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 #dotext1 p, #dotext2 p, #dotext3 p, #dotext4 p, #dotext5 p, #dotext6 p, #dotext7 p{
   text-align: center;
 }
-
 
 #special1, #special2{
   width: 45%;

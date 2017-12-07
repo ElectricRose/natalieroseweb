@@ -52,6 +52,7 @@ function fluida_lp_layoutclass () {
 	?>
 
   <div class="front-work">
+		<div class="front-rainbow">
 		<div class="front-work-section">
       <h3>Do you need a website?</h3>
       <p><span id="problems">Are you a small business or individual with a product, service, or idea to share?<br><br>
@@ -72,6 +73,7 @@ function fluida_lp_layoutclass () {
         </div>
 			</div>
   </div>
+</div>
 
   <div class="front-about">
       <div class="front-about-text">
@@ -107,6 +109,16 @@ function fluida_lp_layoutclass () {
 				  </svg></a>
 			</div>
 	</div><!--work-with-me-->
+
+	<div class="icons center-block">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<a href="https://www.facebook.com/Natalie-Rose-191345558020334/" target="_blank" class="fa fa-facebook fa-2x"></a>
+		<a href="https://twitter.com/ElectricRose4" target="_blank" class="fa fa-twitter fa-2x"></a>
+		<a href="https://www.instagram.com/electric._.rose/?hl=en" target="_blank"  class="fa fa-instagram fa-2x"></a>
+		<a href="https://www.linkedin.com/in/natalie-rose-b43632143/" target="_blank"  class="fa fa-linkedin fa-2x"></a>
+		<a href="https://github.com/ElectricRose" target="_blank" class="fa fa-github fa-2x"></a>
+	</div>
+
 </div><!--front-contact-->
 	</main><!-- #main -->
 	<?php if ( ! $fluida_landingpage ) { fluida_get_sidebar(); } ?>

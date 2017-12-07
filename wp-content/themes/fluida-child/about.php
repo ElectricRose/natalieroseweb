@@ -95,6 +95,15 @@
             <div class="container borderXwidth">
             <h5><a href="http://www.natalieroseblog.com">Check out my blog!</h5></p>
             </div>
+
+            <div class="icons center-block">
+          		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          		<a href="https://www.facebook.com/Natalie-Rose-191345558020334/" target="_blank" class="fa fa-facebook fa-2x"></a>
+          		<a href="https://twitter.com/ElectricRose4" target="_blank" class="fa fa-twitter fa-2x"></a>
+          		<a href="https://www.instagram.com/electric._.rose/?hl=en" target="_blank"  class="fa fa-instagram fa-2x"></a>
+          		<a href="https://www.linkedin.com/in/natalie-rose-b43632143/" target="_blank"  class="fa fa-linkedin fa-2x"></a>
+          		<a href="https://github.com/ElectricRose" target="_blank" class="fa fa-github fa-2x"></a>
+          	</div>
           </div>
         </div>
 
