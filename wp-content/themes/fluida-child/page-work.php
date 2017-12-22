@@ -28,7 +28,12 @@ get_header(); ?>
 				</div>
 
 
+		<div class="pic-js-box-border">
+			<div class="pic-js-box">
 				<div class="js-pic-holder">
+						<img class="port-pic" src="http://natalierose.net/wp-content/uploads/2017/12/natrose-green2300.png">
+					</div>
+
 				<div class="port-js">
 					<h2> What can I help you with today?</h2>
 					<h3>I do
@@ -98,10 +103,8 @@ get_header(); ?>
 				};
 				</script>
 				</div>
-				<div class="port-pic">
-					<img src="/wp-content/uploads/2017/12/natrose-green2300.png">
-				</div>
-			</div>
+			</div><!--pic-js-box-->
+		</div><!--pic-js-box-border-->
 
 				<div class="desc-hire-holder">
 			<div class="port-desc">
