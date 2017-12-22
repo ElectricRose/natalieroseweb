@@ -125,6 +125,7 @@ get_header(); ?>
 
 
 			<div class="do-list">
+				<div class="inner-dolist">
 					<h4>What I Do</h4>
 
 					<div id="dobox1">
@@ -196,6 +197,7 @@ get_header(); ?>
 								<p>I offer optional monthly or quarterly maintenance packages to my customers. With my website maintenance packages, you will never have to worry that your website will be out of date or stop working because of changing technologies. If you have any issues or problems with your website I am only a phone call or email away, and will be there with technical support promptly.</p>
 						</div>
 					</div>
+				</div><!--inner-dolist-->
 				</div><!--do list -->
 
 
