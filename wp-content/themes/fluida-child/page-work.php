@@ -226,32 +226,14 @@ get_header(); ?>
 										<p>Many small businesses and individuals such as bloggers initially start out with a cheap, pre-made website such as Blogger, Weebly, Wix, etc. Often they quickly outgrow these websites and get tired of their built-in limitations. When a customer wishes to switch to a more flexible, custom, and better-designed platform such as WordPress.org I’m here to offer site transfer services. The transfer of domain names, hosting platforms, and migration of content can take a few weeks and can be incredibly complicated for inexperienced users. I am here when a customer needs website transfer help, and will take care of the entire process easily and affordably. </p>
 								</div>
 							</div><!--special-all-->
-					</div>
+					</div><!--specialties-->
 
-						<div class="projects">
-							<h4>Projects</h4>
+					<div class="popup">
+					<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us15.list-manage.com","uuid":"68a463293d4bcdc94fbadb219","lid":"cb7778fe44"}) })</script>
+				</div>
 
-							<div id="pro1">
-								<a href="http://natalierose.net/accelerate-2/">
-								<img src="http://natalierose.net/wp-content/uploads/2017/08/Accelerate.png" alt="Accelerate Project">
-							</a>
-							</div>
-
-							<div id="pro2">
-								<a href="http://natalierose.net/unplugged/">
-								<img src="http://natalierose.net/wp-content/uploads/2017/08/Untitled-design.png" alt="Unplugged Project">
-							</a>
-						</div>
-
-					<div class="outtro">
-						<h3><strong>Interested in learning more?</strong></h3>
-							<div class="container borderXwidth">
-								<h4><a href="http://natalierose.net/packages/">Check out my packages and pricing options here!</a></h4>
-							</div>
-						</div>
-					</div>
-			</div>
-		</div>
+			</div><!--port-content-->
+		</div><!--all-content-->
 			<?php cryout_after_content_hook(); ?>
 		</main><!-- #main -->
 		<?php fluida_get_sidebar(); ?>
