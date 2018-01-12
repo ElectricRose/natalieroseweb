@@ -323,6 +323,7 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 .about-desc{
   float: left;
   margin: 5%;
+  border-top: 1px solid #00d01b;
 }
 .about-text1 h4{
   font-size: 1.8em;
@@ -669,7 +670,7 @@ img.port-pic{
 #about-img{
   float: left;
   display: block;
-  max-width: 99%;
+  max-width: 50%;
   margin-left: 25%;
 }
 #front-about-img {
@@ -883,7 +884,7 @@ img.port-pic{
 #about-img{
   float: left;
   display: inline-block;
-  max-width: 40%;
+  max-width: 35%;
   margin: 9% 0 0 5%;
 }
 #front-about-text{

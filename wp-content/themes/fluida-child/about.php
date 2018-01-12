@@ -30,7 +30,7 @@
       </div><!--about-intro-box-->
 
         <div id="about-img">
-          <img src="/wp-content/uploads/2017/06/natalierose-img.jpg" alt="Photo of Natalie Rose">
+          <img src="http://localhost:8888/natalierose/wp-content/uploads/2018/01/natalieRoseCircle1-450.png" alt="Photo of Natalie Rose">
         </div>
 
         <div class="about-desc">
@@ -93,10 +93,6 @@
             <p>I strive to be as sustainable and environmentally friendly as possible. When I’m not online or neck deep in code, I spend as much time as possible exploring the wild nooks and spectacular vistas nature has to offer.</p><br>
             <p>On my off time, you can find me wandering the forests, climbing mountains, swimming in the ocean, and tubing down rivers. <br>If you want to see more of this side of me check out my lifestyle blog filled with my adventures, my love of the outdoors, and self-sustainability tips like working with essential oils, gardening, cooking, and DIY projects.</p>
             <p>Give me some love on social media or browse my pics on Instagram!</p><br>
-            <h5>Want to see more of me?</h5>
-            <div class="container borderXwidth">
-            <h5><a href="http://www.natalieroseblog.com">Check out my blog!</h5></p>
-            </div>
 
             <div class="icons center-block">
           		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
