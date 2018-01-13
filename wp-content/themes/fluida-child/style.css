@@ -316,6 +316,16 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 #about-img img{
   border-radius: 25px;
 }
+#about-work-with-me{
+  width: 98%;
+  float: left;
+  display: block;
+}
+#about-work-with-me p{
+  text-align: center;
+  font-size: 1.5em;
+  color: #00c5fd;
+}
 #work-img1{
   display: none;
   float: left;
@@ -334,7 +344,7 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 .about-text1 h5{
   font-size: 1.6em;
   text-align: center;
-  color: #00c5fd;
+  color: #00d01b;
 }
 .about-text1 h6{
   font-size: 1.8em;
@@ -388,15 +398,10 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
   display: block;
   width: 98%;
 }
-#about-work-with-me{
-  width: 98%;
-  float: left;
+.shop-pic{
   display: block;
-}
-#about-work-with-me p{
-  text-align: center;
-  font-size: 1.5em;
-  color: #00c5fd;
+  float: left;
+  width: 100%;
 }
 #button{
   margin-top: 3%;
@@ -679,14 +684,37 @@ img.port-pic{
   max-width: 80%;
   margin: 5% 0 5% 30%;
 }
+#about-work-with-me{
+  margin-bottom: 5%;
+}
 #about-text, #front-about-text{
   padding: 1% 0 1% 0;
 }
 #work-img1{
   display: none;
 }
-#teacup{
-  margin-left: 25%;
+.about-desc{
+  float: left;
+  background-image: url( "http://localhost:8888/natalierose/wp-content/uploads/2018/01/darkWoodDesk1450.jpg");
+  background-repeat: no-repeat;
+  margin: 0%;
+}
+.about-text1{
+  width: 85%;
+  margin: 5% 0 5% 8%;
+  background-color: #000000;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  border-radius: 36px;
+  padding: 4% 4% 0 4%;
+}
+.about-container{
+  margin: 0%;
+}
+.shop-pic{
+  width: 70%;
+  display: block;
+  margin: 3% 0 1% 15%;
 }
 
 /* =========== Work =========== */
@@ -861,37 +889,41 @@ img.port-pic{
   font-size: 2em;
 }
 .front-about-text{
-  width: 50%;
   display: inline-block;
   float: left;
   margin: 5%;
+  padding: 0 2% 0 2%;
+  width: 53%;
 }
 #front-about-img{
   float: left;
   display: inline-block;
   max-width: 30%;
-  margin: 5%;
+  margin: 5% 0;
 }
 #work-with-me{
   padding-top: 2%;
 }
 /* =========== About ================ */
 .about-intro-box{
-  width: 60%;
-}
-.about-intro{
+  width: 58%;
+  margin-bottom: 7%;
 }
 #about-img{
   float: left;
   display: inline-block;
   max-width: 35%;
-  margin: 9% 0 0 5%;
+  margin: 3% 0 0 5%;
 }
-#front-about-text{
-  padding: 0 2% 0 2%;
+#about-work-with-me{
+  width: 35%;
   display: inline-block;
-  float: left;
-  width: 60%;
+  margin-left: 5%;
+}
+#about-work-with-me p{
+  font-size: 1.5em;
+  color: #00c5fd;
+  text-align: center;
 }
 #work-img1{
   display: inline-block;
@@ -903,30 +935,24 @@ img.port-pic{
   border-radius: 25px;
 }
 .about-text1{
-  width: 55%;
+  width: 60%;
   float: left;
   display: inline-block;
-  padding: 1% 5% 1% 2%;
+  padding: 3% 3% 0% 3%;
+  margin-left: 20%;
 }
 .about-text2{
   display: inline-block;
-  width: 60%;
-  margin: 5% 5% 2% 5%;
+  width: 50%;
+  margin: 3% 1% 2% 2%;
 }
 .about-text2 h4{
   font-size: 2.3em;
 }
-#about-work-with-me{
-  width: 30%;
+.shop-pic{
+  width: 45%;
   display: inline-block;
-}
-#about-work-with-me p{
-  font-size: 1.5em;
-  color: #00c5fd;
-  text-align: center;
-}
-#teacup{
-  margin: 0 0 5% 8%;
+  margin: 9% 0;
 }
 .about-text3 h4{
   font-size: 2.3em;
@@ -1062,8 +1088,15 @@ img.port-pic{
     /*Huge Desktop styles here!*/
 
 /* ========= About ===========*/
-#teacup{
-  margin-left: 16%;
+
+#about-work-with-me{
+  margin-left: 2%;
+}
+.about-text1{
+  width: 50%;
+}
+.about-text2{
+  margin: 12% 1% 2% 2%;
 }
 
 /* ======== Work =========== */

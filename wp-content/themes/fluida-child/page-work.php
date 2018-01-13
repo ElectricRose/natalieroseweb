@@ -113,7 +113,7 @@ get_header(); ?>
 					<p>I specialize in crafting websites for an affordable price. I work with HTML5, CSS3, PHP, WordPress, and a touch of JavaScript & JQuery to create unique custom websites. </p>
 			</div>
 			<div class="hire-me">
-				<h4>Want to hire me?</h4>
+				<h4>WANT TO HIRE ME?</h4>
 				<p>Have some questions?<br> I'd be happy to answer them for you!</p>
 				<p>If you are a business owner, individual, or company looking to hire please contact me here!<p>
 				<div class="workBox">
