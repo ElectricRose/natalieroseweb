@@ -31,7 +31,7 @@ get_header(); ?>
 		<div class="pic-js-box-border">
 			<div class="pic-js-box">
 				<div class="js-pic-holder">
-						<img class="port-pic" src="http://natalierose.net/wp-content/uploads/2017/12/natrose-green2300.png">
+						<img class="port-pic" src="http://natalierose.net/wp-content/uploads/2018/01/natalieRoseCircle1-450.png">
 					</div>
 
 				<div class="port-js">
@@ -113,12 +113,11 @@ get_header(); ?>
 					<p>I specialize in crafting websites for an affordable price. I work with HTML5, CSS3, PHP, WordPress, and a touch of JavaScript & JQuery to create unique custom websites. </p>
 			</div>
 			<div class="hire-me">
-				<h4>WANT TO HIRE ME?</h4>
-				<p>Have some questions?<br> I'd be happy to answer them for you!</p>
-				<p>If you are a business owner, individual, or company looking to hire please contact me here!<p>
+				<h4>LOOKING FOR WEB SERVICES?</h4>
+				<p><span>I'm available to answer all your questions.</span><br> Schedule a FREE 30 min consultation now!</p></p>
 				<div class="workBox">
 					<a href="http://natalierose.net/contact/">
-						Contact Me!
+						Let's Chat!
 						<svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
 							<rect x='0' y='0' fill='none' width='130' height='65'/>
 						</svg></a>

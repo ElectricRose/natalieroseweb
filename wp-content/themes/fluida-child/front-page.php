@@ -81,7 +81,7 @@ function fluida_lp_layoutclass () {
           <p>I'm a busy 30-something millennial, currently living on beautiful Vancouver Island, Canada. I love to create powerful, easy to use, and fully responsive websites that stand out from the crowd. I build websites from scratch and have experience editing and updating existing websites and dynamic web applications.</p>
 			</div>
 			<div id="front-about-img">
-	      <img src="http://localhost:8888/natalierose/wp-content/uploads/2018/01/natalieRoseCircle300-2.png" alt="Photo of Natalie Rose">
+	      <img src="http://natalierose.net/wp-content/uploads/2018/01/profile-circle3.png">
 	    </div>
 					<div id="about-more">
 						<div class="aboutBox">

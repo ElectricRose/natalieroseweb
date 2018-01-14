@@ -30,7 +30,7 @@
       </div><!--about-intro-box-->
 
         <div id="about-img">
-          <img src="http://localhost:8888/natalierose/wp-content/uploads/2018/01/natalieRoseCircle1-450.png" alt="Photo of Natalie Rose">
+          <img src="http://natalierose.net/wp-content/uploads/2018/01/natalieRoseCircle1-450.png" alt="Photo of Natalie Rose">
         </div>
 
         <div id="about-work-with-me">
@@ -41,7 +41,7 @@
                 <rect x='0' y='0' fill='none' width='130' height='65'/>
               </svg></a>
           </div>
-          <p>I'm available to answer all your questions! <br> Schedule a FREE 30 min consultation now.</p>
+          <p>I'm available to answer all your questions. <br> Schedule a FREE 30 min consultation now!</p>
         </div>
 
         <div class="about-desc">
@@ -71,7 +71,7 @@
         </div><!--about-text2-->
 
           <div class="shop-pic">
-            <img src="http://localhost:8888/natalierose/wp-content/uploads/2018/01/rest-plate700.jpg" alt="">
+            <img src="http://natalierose.net/wp-content/uploads/2018/01/rest-plate700.jpg" alt="Fancy food on table at restaurant">
           </div>
 
       </div><!--about-container-->

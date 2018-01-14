@@ -681,8 +681,8 @@ img.port-pic{
 #front-about-img {
   float: left;
   display: block;
-  max-width: 80%;
-  margin: 5% 0 5% 30%;
+  max-width: 50%;
+  margin: 5% 0 5% 25%;
 }
 #about-work-with-me{
   margin-bottom: 5%;
@@ -695,7 +695,7 @@ img.port-pic{
 }
 .about-desc{
   float: left;
-  background-image: url( "http://localhost:8888/natalierose/wp-content/uploads/2018/01/darkWoodDesk1450.jpg");
+  background-image: url( "http://natalierose.net/wp-content/uploads/2018/01/darkWoodDesk-1400.jpg");
   background-repeat: no-repeat;
   margin: 0%;
 }
@@ -751,7 +751,7 @@ img.port-pic{
   margin-top: 8%;
 }
 img.port-pic{
-  width: 40%;
+  width: 56%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -778,7 +778,7 @@ img.port-pic{
 .do-list{
   padding: 5%;
   text-align: center;
-  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2017/12/vine1.png");
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/01/darkWood1500.jpg");
 }
 .inner-dolist{
   width: 95%;
@@ -806,7 +806,8 @@ img.port-pic{
 }
 .special-all{
   border: none;
-  background: #111;
+  background: url("http://natalierose.net/wp-content/uploads/2017/12/vine1.png");
+  padding: 10% 0 10% 0;
 }
 #special1{
   width: 60%;
@@ -975,7 +976,7 @@ img.port-pic{
   width: 49%;
 }
 .port-js{
-  margin-top: 11%;
+  margin-top: 0%;
 }
 .port-intro h1, .port-intro h4{
   text-align: center;
@@ -1004,6 +1005,10 @@ img.port-pic{
 }
 .hire-me h4{
   font-size: 2.7em;
+}
+.hire-me span{
+  font-weight: bold;
+  font-size: 1.1em;
 }
 .do-list{
   width: 100%;
@@ -1086,6 +1091,12 @@ img.port-pic{
 /*=============================================*/
 @media screen and (min-width: 1500px) {
     /*Huge Desktop styles here!*/
+
+
+/* ========= Front-Page ====== */
+.front-about-img{
+  max-width: 13%;
+}
 
 /* ========= About ===========*/
 
