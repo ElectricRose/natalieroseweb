@@ -792,8 +792,11 @@ img.port-pic{
   display: inline-block;
   float: left;
 }
-#docon1, #docon2, #docon3, #docon4, #docon5, #docon6, #docon7{
-  margin-top: 1%;
+#docon1, #docon2{
+  margin-top: 17%;
+}
+ #docon3, #docon4, #docon5, #docon6, #docon7{
+  margin-top: 5%;
 }
 #dotext1, #dotext2, #dotext3, #dotext4, #dotext5, #dotext6, #dotext7{
   width: 50%;
@@ -1033,8 +1036,11 @@ img.port-pic{
   display: inline-block;
   float: left;
 }
-#docon1, #docon2, #docon3, #docon4, #docon5, #docon6, #docon7{
-  margin-top: 1%;
+#docon1, #docon2{
+  margin-top: 12%;
+}
+ #docon3, #docon4, #docon5, #docon6, #docon7{
+  margin-top: 5%;
 }
 #dotext1, #dotext2, #dotext3, #dotext4, #dotext5, #dotext6, #dotext7{
   width: 50%;
