@@ -86,9 +86,11 @@
              <p>I love to support small businesses, individuals, and start-ups to achieve their own goals by providing them with an instrumental tool to success. I understand the financial pressures of self-employment and small business. That's why I keep my prices lower than average. I want to serve my local and wider communities well, while also being able to feed my family.</p><br>
             <h5>I love this beautiful planet.</h5>
             <p>I strive to be as sustainable and environmentally friendly as possible. When I’m not online or neck deep in code, I spend as much time as possible exploring the wild nooks and spectacular vistas nature has to offer.</p><br>
-            <p>On my off time, you can find me wandering the forests, climbing mountains, swimming in the ocean, and tubing down rivers. <br>If you want to see more of this side of me check out my lifestyle blog filled with my adventures, my love of the outdoors, and self-sustainability tips like working with essential oils, gardening, cooking, and DIY projects.</p><br>
+            <p>On my off time, you can find me wandering the forests, climbing mountains, swimming in the ocean, and tubing down rivers.</p>
+            <p> I'm also a huge DIY fan & sci-fi lover who loves to garden, forage, & preserve my homemade goodies. I love to sing loudly, make my own essential oil products, & enjoy life to the fullest!</p><br>
             <h5>Want to see more of me?</h5>
             <p>Give me some love on social media or browse my pics on Instagram!</p><br>
+            <p>Cheers!</p>
 
             <div class="icons center-block">
           		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
