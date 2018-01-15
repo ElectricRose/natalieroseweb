@@ -62,7 +62,7 @@ function fluida_lp_layoutclass () {
 			<p><span id="i-build">I build websites for small businesses, blogs, and start-ups.</span></p><br>
 			<p><strong>You work hard, and you need your website to work hard for you!</strong></p>
 			<p>Your business is as unique as you are. </p>
-			<p>I work closely with my clients to create a truly one of a kind website tailored to your specific needs.</p>
+			<p>I work closely with my clients to create a truly one-of-a-kind website tailored to you and your business.</p>
         <div id="work-more">
 					<div class="frontworkBox">
 						<a href="http://natalierose.net/work/">Learn More
@@ -77,8 +77,10 @@ function fluida_lp_layoutclass () {
 
   <div class="front-about">
       <div class="front-about-text">
-        <h3>I'm dedicated to helping you reach a wider audience online.</h3>
-          <p>I'm a busy 30-something millennial, currently living on beautiful Vancouver Island, Canada. I love to create powerful, easy to use, and fully responsive websites that stand out from the crowd. I build websites from scratch and have experience editing and updating existing websites and dynamic web applications.</p>
+        <h3>Reach a wider audience online with a custom website.</h3>
+          <p>If you need a website that is powerful, easy to use, and fully responsive that won't break the bank consider Natalie Rose for your web design & development needs.<br>
+					Designing and building websites is my passion.
+					I craft custom websites from scratch so you can focus on what you do best. Grow your business online with a custom website and experience the unlimited possibilities the online business world has to offer. Stand out in your local community or reach potential customers from all over the world. From Ecommerce to brick and mortar businesses, I've got web solutions for you!<p>
 			</div>
 			<div id="front-about-img">
 	      <img src="http://natalierose.net/wp-content/uploads/2018/01/profile-circle3.png">

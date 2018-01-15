@@ -108,7 +108,7 @@ get_header(); ?>
 
 				<div class="desc-hire-holder">
 			<div class="port-desc">
-					<h5>I tailor all of my services to suit your individual needs.</h5>
+					<h5>SERVICES TAILORED TO YOU</h5>
 					<p>If you are a small business or an individual with products, services, ideas, or inspiration to share there is no better way to reach people around the world than with a website or blog.</p>
 					<p>I specialize in crafting websites for an affordable price. I work with HTML5, CSS3, PHP, WordPress, and a touch of JavaScript & JQuery to create unique custom websites. </p>
 			</div>
@@ -135,15 +135,16 @@ get_header(); ?>
 							<img src="/wp-content/uploads/2017/12/dropper230.png" alt="design icon">
 						</div>
 						<div id="dotext1">
-							<p><strong>Web & Graphic Design</strong></p>
-								<p>I design elegant & stylish websites with a modern edge. I can design your entire website from start to finish. Need a set of graphics for your social media ads? I can do that for you! I also do print media and can design your printed materials, such as posters, brochures, and business cards. Need a fresh new look on your website or an updated logo? I do branding and re-design work to keep your site sleek and on trend.</p>
+							<p><strong>Branding, Web & Graphic Design</strong></p>
+								<p><strong>Allow your brand to shine!</strong><br> A great brand is distinct, memorable, and cohesive. Things change and businesses grow. If your brand doesn't represent your business well you may want to consider a brand refresh or re-design. I can help tweak or completely overhaul your brand identity. Working together, we will get your typography on point & redesign your logos, graphics, icons, & website.<br><strong>Starting from scratch?</strong><br> I can make the branding process simple, so you have an exciting and cohesive brand that starts off strong and captures the essence of your business.<br>Need a website or social media graphics that speak to your audience?<br> I design visually stunning websites, graphics, and ads that will take your website or promotion to the next level.</p>
 						</div>
 					</div>
 
 					<div id="dobox2">
 						<div id="dotext2">
 							<p><strong>Web Development</strong></p>
-								<p>I craft, code, and customize unique websites for all types of businesses. I can code everything up from scratch and build you a one-of-a-kind website from the ground up. Already have a website? I can fix bugs, update your info, or make quick functionality fixes. From completely new projects to small fixes on existing sites, I'm ready to dig in! No job is too big or small.</p>
+								<p><strong>Custom coded websites? That's my jam!</strong><br>I craft, code, and customize unique websites for all types of businesses. If you need something truly unique that stands out and functions flawlessly, consider me for your web development needs. Don't settle for a boring "cookie cutter" website that looks like all the others. You can have something lovelingly hand crafted just for you, without breaking the bank!
+								<br><strong>Already have a website?</strong><br> I can fix bugs, update your info, or make quick functionality fixes. From completely new projects to small fixes on existing sites, I'm ready to dig in! No job is too big or too small.</p>
 						</div>
 						<div id="docon2">
 							<img src="/wp-content/uploads/2017/12/051-laptop230.png" alt="development icon">
@@ -176,7 +177,7 @@ get_header(); ?>
 						</div>
 						<div id="dotext5">
 							<p><strong>E-Commerce Solutions</strong></p>
-								<p>If you have products to sell there's no better way to reach a large audience than online. Setting up an E-Commerce website doesn't have to be daunting or unaffordable. I can install, add products, test, and set up your shipping and payment options for you so you can get those products in front of and out to the people who need them. Reach a wider audience, sell more products & make more money. The investment is worth it and you will thank yourself in the future!</p>
+								<p>If you have products to sell there's no better way to reach a large audience than online. Setting up an E-Commerce website doesn't have to be daunting or unaffordable. I can install, add products, and set up your shipping and payment options for you so you can get those products in front of and out to the people who need them. Reach a wider audience, sell more products, & ultimately make more money. Let me make ECommerce easy!</p>
 						</div>
 					</div>
 
@@ -212,7 +213,7 @@ get_header(); ?>
 
 							<div id="special1">
 								<h5>Promotional Graphics</h5>
-									<p>Does your business have an upcoming sale, promotion or ad campaign? Don't want to spend countless hours designing graphics for all your social media, website & print ads? I offer custom graphic design packages for just those occasions! I'll create banner images for your website and social media accounts. I'll also design a series of promotional graphics that can easily be schedualed into your social media platforms of choice. Only want a couple of simple ads? No job is too small! Need a large series for many months worth of promotions? I can do that too! Ask me about my promotional graphic packages.</p>
+									<p>Does your business have an upcoming sale, promotion or ad campaign? Don't want to spend countless hours designing graphics for all your social media, website & print ads? I offer custom graphic design packages for just those occasions! I'll create banner images for your website and social media accounts. I'll also design a series of promotional graphics that can easily be schedualed into your social media platforms of choice. Only want a couple of simple ads? No job is too small! Need a large series for many months worth of promotions? I can do that too! Ask me about my promotional graphic packages and see what I can create for you.</p>
 								</div>
 
 							<div id="special2">
@@ -222,7 +223,7 @@ get_header(); ?>
 
 								<div id="special3">
 									<h5>Site Transfers</h5>
-										<p>Many small businesses and individuals such as bloggers initially start out with a cheap, pre-made website such as Blogger, Weebly, Wix, etc. Often they quickly outgrow these websites and get tired of their built-in limitations. When a customer wishes to switch to a more flexible, custom, and better-designed platform such as WordPress.org I’m here to offer site transfer services. The transfer of domain names, hosting platforms, and migration of content can take a few weeks and can be incredibly complicated for inexperienced users. I am here when a customer needs website transfer help, and will take care of the entire process easily and affordably. </p>
+										<p>Many small businesses and individuals such as bloggers initially start out with a cheap, pre-made website such as Blogger, Weebly, Wix, etc. Often they quickly outgrow these websites and get tired of their built-in limitations. When you want to switch to a more flexible, custom, and better-designed platform such as WordPress.org I’m here to offer site transfer services. The transfer of domain names, hosting platforms, and migration of content can take a few weeks and can be incredibly complicated for inexperienced users. I am here when you need website transfer help, and will take care of the entire process easily and affordably. </p>
 								</div>
 							</div><!--special-all-->
 					</div><!--specialties-->
