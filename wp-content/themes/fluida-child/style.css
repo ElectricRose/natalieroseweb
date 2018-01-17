@@ -15,7 +15,14 @@ Fluida WordPress Theme - Copyright 2015, Cryout Creations - http://www.cryoutcre
 This theme, like WordPress, is licensed under the GPL.
 */
 @import url("../fluida-theme/style.css");
-
+@font-face {
+font-family: "Tuesday Night";
+src: url("fonts/tuesdaynight-regular-webfont.eot");
+src:
+url("fonts/tuesdaynight-regular-webfont") format("woff"),
+url("fonts/TuesdayNight-Regular.otf") format("opentype"),
+url("fonts/tuesdaynight-regular-webfont.svg#filename") format("svg");
+}
 
 /*colors =
 blue #00c5fd
@@ -61,8 +68,8 @@ span.current{
 .front-work h3{
   color: #00c5fd;
   text-align: center;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
+  font-size: 3em;
 }
 .front-work-section{
   text-align: center;
@@ -73,21 +80,6 @@ span.current{
 .front-work p, .front-about p{
   color: #00d01b;
 }
-#problems{
-  font-style: italic;
-  font-weight: bold;
-}
-#front-solutions{
-  color: #00c5fd;
-  font-weight: bold;
-  font-size: 1.5em;
-  text-transform: uppercase;
-}
-#i-build{
-  color: #00c5fd;
-  font-weight: bold;
-}
-
 .front-about{
   border-bottom: 1px solid #00d01b;
   padding: 5%;
@@ -111,6 +103,7 @@ span.current{
  color: #00c5fd;
  text-align: center;
  font-size: 1.8em;
+ text-transform: uppercase;
 }
 
 .front-contact{

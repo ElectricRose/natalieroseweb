@@ -108,10 +108,19 @@ get_header(); ?>
 
 				<div class="desc-hire-holder">
 			<div class="port-desc">
-					<h5>SERVICES TAILORED TO YOU</h5>
-					<p>If you are a small business or an individual with products, services, ideas, or inspiration to share there is no better way to reach people around the world than with a website or blog.</p>
-					<p>I specialize in crafting websites for an affordable price. I work with HTML5, CSS3, PHP, WordPress, and a touch of JavaScript & JQuery to create unique custom websites. </p>
+					<h5>Featured Promotion</h5>
+					<?php
+					$image = get_field('promotional_image');
+					$size = 'full'; // (thumbnail, medium, large, full or custom size)
+					if( $image ) {
+						echo wp_get_attachment_image( $image, $size );
+					}
+					?>
+
+					<?php the_field( 'promotional_text' ); ?>
 			</div>
+
+
 			<div class="hire-me">
 				<h4>LOOKING FOR WEB SERVICES?</h4>
 				<p><span>I'm available to answer all your questions.</span><br> Schedule a FREE 30 min consultation now!</p></p>

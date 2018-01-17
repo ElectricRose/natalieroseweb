@@ -17,14 +17,16 @@
       <div class="about-intro-box">
       <div class="about-inner-box">
         <div class="about-intro">
-          <h2>From passion to profit</h2>
-          <h3>I craft custom websites to turn your dreams into a reality.</h3>
+          <h2>Hello, I’m Natalie Rose.</h2>
+          <h3>Web Designer & Developer</h3>
+          <h4>with a passion for adventure</h4>
               <div id="about-break">
                 <img src="/wp-content/uploads/2017/06/break2.png" alt="Swirly Line Break" class="center">
               </div>
-            <h6>Hello, I’m Natalie Rose.</h6>
-            <p>If you are running a small business or blog, you know that a great website is one of the most important investments you can make. A solid online presence is essential these days, especially if you have products, services, or ideas to share.</h3>
-            <p>Nothing loses potential clients, customers, or subscribers faster than a poorly crafted, slow, or hard to navigate website. With a huge amount of users now accessing the web on mobile devices, having a responsive website that scales properly can make or break your business. Don't be one of those websites that is too slow to load or so frustrating to use on a mobile that people give up and look elsewhere.<br> <span id="about-solutions">I have solutions for you!</span></p>
+            <p>I’m here to help you grow!<br>
+              First impressions are everything. Are you tired of attracting the wrong people? Having a solid & consistent brand style is the first step to attracting your ideal clients. As a designer, I’m here as your partner to work with you to create a brand that truly reflects your business and attracts the right crowd. I can alleviate some of your design stress and create custom graphics for all your social media platforms, promotions, and advertisements. I work with both digital and print medias, and can create flyers, posters, and business cards as well.
+              <p>I’m sure you know how important it is to have a great website. If your website is old & outdated, has glitches and functionality issues or just plain sucks, I’m here to help build you a new one! From design to deployment, I’m here to take care of the whole process so you can focus on what you do best.
+            <br> <span id="about-solutions">Let’s build a better future together.</span></p>
           </div><!--about-intro-->
         </div><!--about-intro-inner-box-->
       </div><!--about-intro-box-->
@@ -47,7 +49,7 @@
         <div class="about-desc">
         <div class="about-text1">
           <h4>My Mission</h4>
-          <p>My mission is to provide affordable, accessible, and beautifully functional web solutions to small businesses and individuals. I am an independent freelance service provider that offers a personal experience by working closely on-one-one to create a custom website tailored to your specific needs and budget.</p><br>
+          <p>My mission is to provide engaging, empowering, and beautifully functional web solutions to small businesses. I am an independent freelance service provider that offers a personal experience by working closely on-one-one to help my clients reach their business goals.</p><br>
 
           <h4>Have you struggled with website creation in the past?</h4>
           <h5>Building a website doesn't have to be hard!</h5>
@@ -64,8 +66,8 @@
         <div class="about-text2">
           <h4>Do you run a retail store or restaurant?</h4>
           <p><span id="hours">Are your hours of operation, location, and contact info easy to find?</span></p>
-          <p>How many times have you had to shop or dine elsewhere because you couldn't look up this simple info online? <br>It happens far too often to me.</p>
-          <p>This common and frustrating error can cost you a lot of business. Don't miss out on opportunities because of simple website mistakes or oversights.</p>
+          <p>If not you need to fix it!</p>
+          <p>This common and frustrating error can cost you a lot of business. Don't miss out on opportunities because of simple website mistakes or design flaws.</p>
           <p>I can make quick and easy changes to your website for a small fee. Contact me to request a free quote. <br>No job is too small!</p>
 
         </div><!--about-text2-->
@@ -81,16 +83,17 @@
             <h4>A little about me</h4>
             <h5>I chose to blaze my own path to freedom!</h5>
             <p>After many years of working for other companies, I'd had enough. I decided I would break out of the rat race and charge head first onto the path of self-employment. I couldn't be happier that I did!</p><br>
-            <p>I have been working hard and taking a variety of web development and coding courses since 2016. I have recently started learning more advanced Javascript and am pleased to now offer design services as well. I'm continuously learning and challenging myself to be able to offer you more and better services.</p><br>
+            <p>I have been working hard and taking a variety of design, development, and coding courses since 2016. I have recently started learning more advanced Javascript and am diving into marketing and advertising techniques. I'm continuously learning and challenging myself to be able to offer you more and better services.</p><br>
             <h5>I am passionate about what I do.</h5>
-             <p>I love to support small businesses, individuals, and start-ups to achieve their own goals by providing them with an instrumental tool to success. I understand the financial pressures of self-employment and small business. That's why I keep my prices lower than average. I want to serve my local and wider communities well, while also being able to feed my family.</p><br>
+             <p>I love to support small businesses and service providers to achieve their own goals by providing them with instrumental tools to success. I understand the financial pressures of self-employment and small business. That's why I keep my prices lower than average. I want to serve my local and wider communities well, while also being able to feed my family.</p><br>
             <h5>I love this beautiful planet.</h5>
-            <p>I strive to be as sustainable and environmentally friendly as possible. When I’m not online or neck deep in code, I spend as much time as possible exploring the wild nooks and spectacular vistas nature has to offer.</p><br>
+            <p>I strive to be as sustainable and environmentally friendly as possible. When I’m not online or neck deep in code, I spend as much time as possible exploring the wild nooks and spectacular vistas nature has to offer. </p><br>
             <p>On my off time, you can find me wandering the forests, climbing mountains, swimming in the ocean, and tubing down rivers.</p>
-            <p> I'm also a huge DIY fan & sci-fi lover who loves to garden, forage, & preserve my homemade goodies. I love to sing loudly, make my own essential oil products, & enjoy life to the fullest!</p><br>
+            <p> I'm also a huge DIY fan & sci-fi lover who loves to garden, forage, & preserve my homemade goodies. I love to sing loudly, make my own EO products, slap paint on canvas, &  generally enjoy life to the fullest!</p><br>
+            <p>I believe in love, laughter, positive energy, & holistic healing.</p>
             <h5>Want to see more of me?</h5>
             <p>Give me some love on social media or browse my pics on Instagram!</p><br>
-            <p>Cheers!</p>
+            <p>xoxo Natalie Rose</p>
 
             <div class="icons center-block">
           		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
