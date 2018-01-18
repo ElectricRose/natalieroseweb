@@ -20,11 +20,8 @@ get_header(); ?>
 
 		<div class="all-content">
 			<div class="port-content">
-				<div class="port-intro-box">
-					<div class="port-intro">
+				<div class="port-intro">
 			<h1>Welcome!</h1>
-			<h4>I'm Natalie Rose,<br> your web solution specialist.</h4>
-					</div>
 				</div>
 
 
@@ -108,18 +105,8 @@ get_header(); ?>
 
 				<div class="desc-hire-holder">
 			<div class="port-desc">
-					<h5>Featured Promotion</h5>
-					<?php
-					$image = get_field('promotional_image');
-					$size = 'full'; // (thumbnail, medium, large, full or custom size)
-					if( $image ) {
-						echo wp_get_attachment_image( $image, $size );
-					}
-					?>
-
-					<?php the_field( 'promotional_text' ); ?>
+				<p>some text in here</p>
 			</div>
-
 
 			<div class="hire-me">
 				<h4>LOOKING FOR WEB SERVICES?</h4>
@@ -130,10 +117,24 @@ get_header(); ?>
 						<svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
 							<rect x='0' y='0' fill='none' width='130' height='65'/>
 						</svg></a>
-				</div>
-			</div>
-		</div>
+				</div><!--workBox-->
+			</div><!--hire-me-->
+		</div><!--desc-hire-holder-->
 
+		<div class="work-container">
+			<div class="work-text1">
+				<h4>Do you run a retail store or restaurant?</h4>
+				<p><span id="hours">Are your hours of operation, location, and contact info easy to find?</span></p>
+				<p>If not you need to fix it!</p>
+				<p>This common and frustrating error can cost you a lot of business. Don't miss out on opportunities because of simple website mistakes or design flaws.</p>
+				<p>I can make quick and easy changes to your website for a small fee. Contact me to request a free quote. <br>No job is too small!</p>
+
+			</div><!--work-text1-->
+
+				<div class="shop-pic">
+					<img src="http://natalierose.net/wp-content/uploads/2018/01/rest-plate700.jpg" alt="Fancy food on table at restaurant">
+				</div>
+		</div><!--work-container-->
 
 			<div class="do-list">
 				<div class="inner-dolist">
@@ -214,6 +215,19 @@ get_header(); ?>
 
 
 					<div class="specialties">
+						<div class="promotions">
+							<h5>Featured Promotion</h5>
+							<?php
+							$image = get_field('promotional_image');
+							$size = 'full'; // (thumbnail, medium, large, full or custom size)
+							if( $image ) {
+								echo wp_get_attachment_image( $image, $size );
+							}
+							?>
+
+							<?php the_field( 'promotional_text' ); ?>
+						</div>
+
 						<div id="special-title">
 							<h4>Specialty Services</h4>
 						</div>

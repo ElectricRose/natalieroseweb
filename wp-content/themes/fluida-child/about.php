@@ -17,15 +17,14 @@
       <div class="about-intro-box">
       <div class="about-inner-box">
         <div class="about-intro">
-          <h2>Hello, I’m Natalie Rose.</h2>
+          <h2>Natalie Rose</h2>
           <h3>Web Designer & Developer</h3>
-          <h4>with a passion for adventure</h4>
               <div id="about-break">
                 <img src="/wp-content/uploads/2017/06/break2.png" alt="Swirly Line Break" class="center">
               </div>
-            <p>I’m here to help you grow!<br>
-              First impressions are everything. Are you tired of attracting the wrong people? Having a solid & consistent brand style is the first step to attracting your ideal clients. As a designer, I’m here as your partner to work with you to create a brand that truly reflects your business and attracts the right crowd. I can alleviate some of your design stress and create custom graphics for all your social media platforms, promotions, and advertisements. I work with both digital and print medias, and can create flyers, posters, and business cards as well.
-              <p>I’m sure you know how important it is to have a great website. If your website is old & outdated, has glitches and functionality issues or just plain sucks, I’m here to help build you a new one! From design to deployment, I’m here to take care of the whole process so you can focus on what you do best.
+            <p><strong>I’m here to help you grow your business!</strong><br>
+              If you are struggling to attract the right customers and grow your business you may have an issue with your onine presence. In a world of fierce competition, first impressions are everything. Your brand & style speaks volumes. As a designer, I’m here as your partner to work with you to create a brand that truly reflects your business, sends the right message, and attracts your ideal customers. Let me alleviate some of your design stress and create custom graphics for all your social media platforms, promotions, and advertisements. I work with both digital and print medias, and can create flyers, posters, and business cards as well.
+              <p>I’m sure you know how important a great website is. If your website is old & outdated, has glitches and functionality issues or just plain sucks, I’m here to help build you a new one! From design to deployment, I’m here to take care of the whole process so you can focus on what you do best.
             <br> <span id="about-solutions">Let’s build a better future together.</span></p>
           </div><!--about-intro-->
         </div><!--about-intro-inner-box-->
@@ -48,7 +47,7 @@
 
         <div class="about-desc">
         <div class="about-text1">
-          <h4>My Mission</h4>
+          <h3>My Mission</h3>
           <p>My mission is to provide engaging, empowering, and beautifully functional web solutions to small businesses. I am an independent freelance service provider that offers a personal experience by working closely on-one-one to help my clients reach their business goals.</p><br>
 
           <h4>Have you struggled with website creation in the past?</h4>
@@ -62,25 +61,9 @@
         </div><!--about-text1-->
       </div><!--about-desc-->
 
-      <div class="about-container">
-        <div class="about-text2">
-          <h4>Do you run a retail store or restaurant?</h4>
-          <p><span id="hours">Are your hours of operation, location, and contact info easy to find?</span></p>
-          <p>If not you need to fix it!</p>
-          <p>This common and frustrating error can cost you a lot of business. Don't miss out on opportunities because of simple website mistakes or design flaws.</p>
-          <p>I can make quick and easy changes to your website for a small fee. Contact me to request a free quote. <br>No job is too small!</p>
-
-        </div><!--about-text2-->
-
-          <div class="shop-pic">
-            <img src="http://natalierose.net/wp-content/uploads/2018/01/rest-plate700.jpg" alt="Fancy food on table at restaurant">
-          </div>
-
-      </div><!--about-container-->
-
         <div class="about-container2">
           <div class="about-text3">
-            <h4>A little about me</h4>
+            <h4>About Me</h4>
             <h5>I chose to blaze my own path to freedom!</h5>
             <p>After many years of working for other companies, I'd had enough. I decided I would break out of the rat race and charge head first onto the path of self-employment. I couldn't be happier that I did!</p><br>
             <p>I have been working hard and taking a variety of design, development, and coding courses since 2016. I have recently started learning more advanced Javascript and am diving into marketing and advertising techniques. I'm continuously learning and challenging myself to be able to offer you more and better services.</p><br>
@@ -93,7 +76,7 @@
             <p>I believe in love, laughter, positive energy, & holistic healing.</p>
             <h5>Want to see more of me?</h5>
             <p>Give me some love on social media or browse my pics on Instagram!</p><br>
-            <p>xoxo Natalie Rose</p>
+            <h6>xoxo Natalie Rose</h6>
 
             <div class="icons center-block">
           		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

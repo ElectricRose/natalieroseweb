@@ -69,7 +69,15 @@ span.current{
   color: #00c5fd;
   text-align: center;
   font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
-  font-size: 3em;
+  font-size: 4em;
+}
+#green-bold{
+  font-weight: bold;
+}
+#blue{
+  color: #00c5fd;
+  font-weight: bold;
+  font-size: 1.1em;
 }
 .front-work-section{
   text-align: center;
@@ -264,10 +272,10 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
   margin: 3%;
 }
 .about-intro h2{
-  font-size: 2em;
+  font-size: 3.6em;
   text-align: center;
+  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
   font-weight: bold;
-  text-transform: uppercase;
 }
 .about-intro h3{
   font-size: 1.8em;
@@ -327,6 +335,14 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
   float: left;
   margin: 5%;
   border-top: 1px solid #00d01b;
+  border-bottom: 1px solid #00d01b;
+}
+.about-text1 h3{
+  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 3.5em;
+  text-align: center;
+  color: #00c5fd;
 }
 .about-text1 h4{
   font-size: 1.8em;
@@ -367,35 +383,6 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
   color: #00d01b;
   text-align: center;
 }
-.about-container{
-  border-top: 1px solid #00d01b;
-  border-bottom: 1px solid #00d01b;
-  float: left;
-  width: 100%;
-  margin: 5% 0 5% 0;
-}
-.about-text2 h4{
-  font-size: 2.3em;
-  text-align: center;
-  color: #00c5fd;
-  text-transform: uppercase;
-}
-#hours{
-  font-weight: bold;
-  font-size: 1.1em;
-}
-.about-text2{
-  margin-top: 2%;
-  padding: 2% 5% 2% 5%;
-  float: left;
-  display: block;
-  width: 98%;
-}
-.shop-pic{
-  display: block;
-  float: left;
-  width: 100%;
-}
 #button{
   margin-top: 3%;
 }
@@ -408,18 +395,27 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
   border-bottom: 1px solid #00d01b;
   float: left;
   width: 100%;
-  margin: 1% 0 1% 0;
+  margin: 8% 0 1% 0;
 }
 .about-text3{
   width: 90%;
   padding: 2% 2% 10% 13%;
 }
 .about-text3 h4{
+  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 3.5em;
+  text-align: center;
   color: #00c5fd;
-  text-transform: uppercase;
 }
 .about-text3 h5{
   color: #00c5fd;
+}
+.about-text3 h6{
+  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
 }
 
 
@@ -433,33 +429,18 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
   float: left;
   background-color: #111 !important;
 }
-.port-intro-box{
-  width: 100%;
-  height: 300px;
-  background: #111 url("http://natalierose.net/wp-content/uploads/2017/12/natalieRoseBanner.png") no-repeat;
-  float: left;
-}
 .port-intro{
-  width: 78%;
+  width: 100%;
+  height: 200px;
+  background: #111;
   float: left;
-  background-color: #dbfff2de;
-  opacity: 0.6;
-  filter: alpha(opacity=60);
-  border-radius: 36px;
-  margin: 11% 5% 5% 13%;
-  padding: 0% 2% 3% 2%;
-}
-.port-intro h1, .port-intro h4{
-  color: black;
-  font-weight: bold;
-  text-align: center;
 }
 .port-intro h1{
-  font-size: 2.2em;
-  text-transform: uppercase;
-}
-.port-intro h4{
-  font-size: 1.5em;
+  color: #00d01b;
+  font-weight: bold;
+  text-align: center;
+  font-size: 5em;
+  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
 }
 .pic-js-box-border{
   float: left;
@@ -522,6 +503,40 @@ img.port-pic{
 .hire-me h4{
   color: #00c5fd;
   font-weight: bold;
+}
+.work-container{
+  border-bottom: 1px solid #00d01b;
+  float: left;
+  width: 100%;
+  margin: 5% 0 5% 0;
+}
+.work-text1{
+  margin-top: 2%;
+  padding: 2% 5% 2% 5%;
+  float: left;
+  display: block;
+  width: 98%;
+}
+.work-text1 h4{
+  font-size: 2em;
+  text-align: center;
+  color: #00c5fd;
+  text-transform: uppercase;
+}
+.work-text1 p{
+  text-align: center;
+  color: #00d01b;
+}
+#hours{
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #00d01b;
+  text-align: center;
+}
+.shop-pic{
+  display: block;
+  float: left;
+  width: 100%;
 }
 .do-list h4{
   text-transform: uppercase;
@@ -663,8 +678,15 @@ img.port-pic{
 
 @media screen and (min-width: 768px) {
   /*Tablet styles here!*/
+/* =========== Front Page ========= */
+.front-work h3{
+  font-size: 6em;
+}
 
 /* =========== About ================ */
+.about-intro h2{
+  font-size: 5em;
+}
 #about-img{
   float: left;
   display: block;
@@ -701,34 +723,14 @@ img.port-pic{
   border-radius: 36px;
   padding: 4% 4% 0 4%;
 }
-.about-container{
-  margin: 0%;
-}
-.shop-pic{
-  width: 70%;
-  display: block;
-  margin: 3% 0 1% 15%;
-}
 
 /* =========== Work =========== */
-.port-intro-box{
-  width: 100%;
-  height: 350px;
-}
 .port-intro{
-  width: 40%;
-  margin: 8% 3% 3% 30%;
-  background-color: #dbfff2de;
-  opacity: 0.6;
-  filter: alpha(opacity=60);
-  border-radius: 36px;
-  padding: 0% 2% 3% 2%;
-}
-.port-intro h1, .port-intro h4{
-  color: black;
+  width: 100%;
+  height: 250px;
 }
 .port-intro h1{
-  font-size: 2.5em;
+  font-size: 6em;
 }
 .pic-js-box-border{
   width: 58%;
@@ -767,6 +769,20 @@ img.port-pic{
   display: inline-block;
   margin: 1%;
   padding-bottom: 2%;
+}
+.work-text1{
+  width: 85%;
+  display: block;
+  margin-left: 9%;
+}
+.work-container{
+  width: 100%;
+  margin: 0%;
+}
+.shop-pic{
+  width: 70%;
+  display: block;
+  margin: 3% 0 1% 15%;
 }
 .do-list{
   padding: 5%;
@@ -880,7 +896,7 @@ img.port-pic{
   padding: 0 5% 3% 5%;
 }
 .front-work h3{
-  font-size: 3.4em;
+  font-size: 4.7em;
 }
 .front-about h3{
   font-size: 2em;
@@ -938,48 +954,13 @@ img.port-pic{
   padding: 3% 3% 0% 3%;
   margin-left: 20%;
 }
-.about-text2{
-  display: inline-block;
-  width: 50%;
-  margin: 3% 1% 2% 2%;
-}
-.about-text2 h4{
-  font-size: 2.3em;
-}
-.shop-pic{
-  width: 45%;
-  display: inline-block;
-  margin: 9% 0;
-}
-.about-text3 h4{
-  font-size: 2.3em;
-}
+
 /* ============ Work =========== */
-.port-intro{
-  width: 40%;
-  margin: 9% 3% 3% 30%;
-  background-color: #dbfff2de;
-  opacity: 0.6;
-  filter: alpha(opacity=60);
-  border-radius: 36px;
-  padding: 0 2% 3% 2%;
-}
-.port-intro-box{
-  width: 100%;
-  height: 600px;
-}
 .pic-js-box-border{
   width: 49%;
 }
 .port-js{
   margin-top: 0%;
-}
-.port-intro h1, .port-intro h4{
-  text-align: center;
-  color: #111111;
-}
-.port-intro h1{
-  font-size: 3em;
 }
 .port-intro h4{
   font-size: 2em;
@@ -994,6 +975,22 @@ img.port-pic{
   border: 3px dashed #00c5fd;
   padding: 0 3%;
 }
+
+.work-text1{
+  display: inline-block;
+  width: 50%;
+  margin: 3% 1% 2% 2%;
+}
+.shop-pic{
+  width: 45%;
+  display: inline-block;
+  margin: 9% 0;
+}
+
+
+
+
+
 .hire-me{
   width: 100%;
   margin: 1% 2% 0 2%;
@@ -1110,25 +1107,6 @@ img.port-pic{
 }
 
 /* ======== Work =========== */
-
-.port-intro-box{
-  width: 100%;
-  height: 500px;
-  background: #111 url("http://natalierose.net/wp-content/uploads/2017/12/Untitled-design.png") no-repeat;
-  float: left;
-}
-.port-into{
-  width: 35%;
-  margin: 2% 3% 4% 33%;
-  background-color: #dbfff2de;
-  opacity: 0.6;
-  filter: alpha(opacity=60);
-  border-radius: 50px;
-  padding: 0;
-}
-.port-intro h1{
-  font-size: 3.7em;
-}
 .js-pic-holder{
   width: 75%;
   margin-left: 13%;
