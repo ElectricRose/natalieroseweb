@@ -23,9 +23,9 @@
                 <img src="/wp-content/uploads/2017/06/break2.png" alt="Swirly Line Break" class="center">
               </div>
             <p><strong>I’m here to help you grow your business!</strong><br>
-              If you are struggling to attract the right customers and grow your business you may have an issue with your onine presence. In a world of fierce competition, first impressions are everything. Your brand & style speaks volumes. As a designer, I’m here as your partner to work with you to create a brand that truly reflects your business, sends the right message, and attracts your ideal customers. Let me alleviate some of your design stress and create custom graphics for all your social media platforms, promotions, and advertisements. I work with both digital and print medias, and can create flyers, posters, and business cards as well.
-              <p>I’m sure you know how important a great website is. If your website is old & outdated, has glitches and functionality issues or just plain sucks, I’m here to help build you a new one! From design to deployment, I’m here to take care of the whole process so you can focus on what you do best.
-            <br> <span id="about-solutions">Let’s build a better future together.</span></p>
+              If you are struggling to attract the right customers and grow your business you may have an issue with your online presence. In a world of fierce competition, first impressions are everything. Your brand & style speaks volumes. As a designer, I’m here to work with you to create a brand that truly reflects your business, sends the right message, and attracts your ideal customers. Let me alleviate some of your design stress and create custom graphics for all your social media platforms, promotions, and advertisements. I work with both digital and print medias, and can create flyers, posters, and business cards as well.
+              <p>I’m sure you know how important it is to have a great website. If your website is old & outdated, has glitches and functionality issues or just plain sucks, I’m here to help build you a new one! From design to deployment, I’m here to take care of the whole process so you can focus on what you do best.
+            <br> <span id="about-solutions">Let’s build something better!</span></p>
           </div><!--about-intro-->
         </div><!--about-intro-inner-box-->
       </div><!--about-intro-box-->
@@ -73,7 +73,7 @@
             <p>I strive to be as sustainable and environmentally friendly as possible. When I’m not online or neck deep in code, I spend as much time as possible exploring the wild nooks and spectacular vistas nature has to offer. </p><br>
             <p>On my off time, you can find me wandering the forests, climbing mountains, swimming in the ocean, and tubing down rivers.</p>
             <p> I'm also a huge DIY fan & sci-fi lover who loves to garden, forage, & preserve my homemade goodies. I love to sing loudly, make my own EO products, slap paint on canvas, &  generally enjoy life to the fullest!</p><br>
-            <p>I believe in love, laughter, positive energy, & holistic healing.</p>
+            <p>I believe in love, laughter, positive energy, & vibrational arts.</p>
             <h5>Want to see more of me?</h5>
             <p>Give me some love on social media or browse my pics on Instagram!</p><br>
             <h6>xoxo Natalie Rose</h6>

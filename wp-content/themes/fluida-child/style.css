@@ -32,7 +32,7 @@ lightblack #0f1316
 
 
 a{
-  color: #00ff40 !important;
+  color: #00ff40;
 }
 .lp-boxes-static .lp-box-title{
   color: #00c5fd !important;
@@ -170,7 +170,7 @@ svg rect {
   -ms-transition: all 0.8s ease-in-out;
   -o-transition: all 0.8s ease-in-out;
 }
-.frontworkBox:hover svg rect, .aboutBox:hover svg rect, .basicBox:hover svg rect, .workBox:hover svg rect {
+.frontworkBox:hover svg rect, .aboutBox:hover svg rect, .basicBox:hover svg rect, .workBox:hover svg rect, .specialBox:hover svg rect {
   stroke-width: 3;
   stroke-dasharray: 35, 245;
   stroke-dashoffset: 38;
@@ -217,6 +217,27 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
     width: 100%;
 }
 
+/* Special Services Buttons */
+.button-box{
+  margin: 5% 2% 5% 2%;
+}
+.btn {
+ border: 2px solid black;
+ background-color: white;
+ color: black;
+ padding: 14px 28px;
+ font-size: 16px;
+ cursor: pointer;
+}
+.slay{
+  border-color: #00d01b;
+  color: #111;
+}
+.slay:hover{
+  background-color: #00d01b;
+  color: white;
+}
+
 /* ======== Social Buttons ======== */
 .icons{
   text-align: center;
@@ -228,7 +249,7 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 .fa-facebook, .fa-twitter, .fa-instagram, .fa-linkedin, .fa-github{
 	border: 1px solid;
 	border-radius: 50%;
-	color: #fff;
+	color: #00d01b;
 	width: 60px;
 	height: 60px;
 	text-align: center;
@@ -419,7 +440,6 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 }
 
 
-
 /* ========== Work ============== */
 
 #masthead .header-image{
@@ -539,8 +559,10 @@ img.port-pic{
   width: 100%;
 }
 .do-list h4{
-  text-transform: uppercase;
   font-weight: bold;
+  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
+  font-size: 4em;
+  margin-right: 10%;
 }
 .do-list{
   float: left;
@@ -554,8 +576,12 @@ img.port-pic{
   margin: 2%;
   background-color: #f6fffd;
 }
+#do-title{
+  font-weight: bold;
+  font-size: 1.2em;
+}
 .do-list p{
-  text-align: left;
+  text-align: center;
 }
 #docon1, #docon2, #docon3, #docon4, #docon5, #docon6, #docon7{
   display: inline-block;
@@ -565,7 +591,6 @@ img.port-pic{
 #docon3, #docon5, #docon7{
   clear: both;
 }
-
 #docon1{
   margin-top: 6%;
 }
@@ -598,12 +623,11 @@ img.port-pic{
   margin: 3% 0 3% 0;
 }
 #special-title h4{
-  width: 99%;
-  float: left;
   text-align: center;
   font-weight: bold;
-  text-transform: uppercase;
+  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
   color: #00c5fd;
+  font-size: 4em;
 }
 .special-all{
   float: left;
@@ -625,51 +649,35 @@ img.port-pic{
   font-weight: bold;
   text-align: center;
 }
-#pro1, #pro2{
-  max-width: 99%;
-  height: auto;
-  display: block;
+.promotions{
   float: left;
-  margin: 1%;
-}
-#pro1 h6, #pro1 p, #pro2 h6, #pro2 p{
+  width: 100%;
   text-align: center;
-  display: none;
-}
-#pro1 p, #pro2 p{
-  font-size: 0.75em;
-}
-#pro1 h6, #pro2 h6{
-  font-size: 1.5em;
-}
-#pro1 img:hover { opacity: 0.3; filter: alpha(opacity=30);
-}
-#pro2 img:hover { opacity: 0.3; filter: alpha(opacity=30);
-}
-.projects{
-  float: left;
-  clear: both;
-  display: none;
-}
-.projects h4{
-  text-align: center;
-}
-.outtro{
-  width: 95%;
-  text-align: center;
+  color: #00d01b;
   margin-top: 5%;
-  margin-bottom: 5%;
-  float: left;
-  clear: both;
 }
-.outtro a{
-  color: #00d01b !important;
+.inner-promo{
+  float: left;
+  width: 80%;
+  margin:5% 0 0 10%;
+}
+.inner-promo h5{
+  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+}
+#special2-con, #special3-con{
+  max-width: 75%;
+  margin-left: 13%;
 }
 
 /*============== Contact Me ==================*/
 #post-47948{
   background-color: #111111 !important;
 }
+
+
+
 
 
 /*=============================================*/
@@ -804,8 +812,20 @@ img.port-pic{
 #docon1, #docon2{
   margin-top: 17%;
 }
- #docon3, #docon4, #docon5, #docon6, #docon7{
-  margin-top: 5%;
+ #docon3{
+  margin-top: 8%;
+}
+#docon4{
+  margin-top: 6%;
+}
+#docon5{
+  margin-top: 10%;
+}
+#docon6{
+  margin-top: 8%;
+}
+#docon7{
+  margin-top: 12%;
 }
 #dotext1, #dotext2, #dotext3, #dotext4, #dotext5, #dotext6, #dotext7{
   width: 50%;
@@ -822,42 +842,34 @@ img.port-pic{
   padding: 10% 0 10% 0;
 }
 #special1{
-  width: 60%;
+  width: 30%;
   height: 100%;
   display: inline-block;
   float: left;
-  margin: 1% 2% 1% 5%;
+  margin: 1% 2% 1% 2%;
   padding: 0 2%;
   border: 3px solid #00d01b;
 }
 #special2{
-  width: 60%;
+  width: 30%;
   height: 100%;
   display: inline-block;
   float: left;
-  margin: 1% 2% 1% 20%;
+  margin: 1% 2% 1% 1%;
   padding: 0 2%;
   border: 3px solid #00d01b;
 }
 #special3{
-  width: 60%;
+  width: 30%;
   height: 100%;
   display: inline-block;
-  float: right;
-  margin: 1% 2% 1% 35%;
+  float: left;
+  margin: 1% 2% 1% 1%;
   padding: 0 2%;
   border: 3px solid #00d01b;
 }
-#pro1 h6, #pro1 p, #pro2 h6, #pro2 p{
-  text-align: center;
-  display: block;
-}
-#pro1, #pro2{
-  max-width: 47%;
-  height: auto;
-  display: inline-block;
-  float: left;
-  margin: 1%;
+.inner-promo h5{
+  font-size: 4em;
 }
 
 }
@@ -975,7 +987,6 @@ img.port-pic{
   border: 3px dashed #00c5fd;
   padding: 0 3%;
 }
-
 .work-text1{
   display: inline-block;
   width: 50%;
@@ -986,11 +997,6 @@ img.port-pic{
   display: inline-block;
   margin: 9% 0;
 }
-
-
-
-
-
 .hire-me{
   width: 100%;
   margin: 1% 2% 0 2%;
@@ -1010,11 +1016,10 @@ img.port-pic{
 .inner-dolist{
   width: 95%;
   margin: 3%;
-  padding: 2% 7% 2% 7%;
+  padding: 2% 1% 2% 7%;
 }
 .do-list h4{
-  text-decoration: underline;
-  font-size: 2.8em;
+  font-size: 4.5em;
   font-weight: bold;
 }
 .do-list p{
@@ -1022,15 +1027,30 @@ img.port-pic{
 }
 
 #docon1, #docon2, #docon3, #docon4, #docon5, #docon6, #docon7{
-  width: 39%;
+  width: 30%;
   display: inline-block;
   float: left;
 }
-#docon1, #docon2{
+#docon1{
   margin-top: 12%;
 }
- #docon3, #docon4, #docon5, #docon6, #docon7{
+#docon2{
+  margin-top: 12%;
+}
+#docon3{
+  margin-top: 8%;
+}
+#docon4{
   margin-top: 5%;
+}
+#docon5{
+  margin-top: 7%;
+}
+#docon6{
+  margin-top: 6%;
+}
+#docon7{
+  margin-top: 8%;
 }
 #dotext1, #dotext2, #dotext3, #dotext4, #dotext5, #dotext6, #dotext7{
   width: 50%;
@@ -1047,40 +1067,12 @@ img.port-pic{
 .special-all{
   border: none;
 }
-#special1{
+.inner-promo{
   width: 60%;
-  height: 100%;
-  display: inline-block;
-  float: left;
-  margin: 1% 2% 1% 5%;
-  padding: 0 2%;
-  border: 3px solid #00d01b;
+  margin: 5% 0 0 20%;
 }
-#special2{
-  width: 60%;
-  height: 100%;
-  display: inline-block;
-  float: left;
-  margin: 1% 2% 1% 20%;
-  padding: 0 2%;
-  border: 3px solid #00d01b;
-}
-#special3{
-  width: 60%;
-  height: 100%;
-  display: inline-block;
-  float: right;
-  margin: 1% 2% 1% 35%;
-  padding: 0 2%;
-  border: 3px solid #00d01b;
-}
-#pro1, #pro2{
-  max-width: 30%;
-  height: auto;
-  display: inline-block;
-  float: left;
-  margin: 2%;
-}
+
+
 
 }
 /*=============================================*/

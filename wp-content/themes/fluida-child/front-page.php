@@ -74,7 +74,7 @@ function fluida_lp_layoutclass () {
   <div class="front-about">
       <div class="front-about-text">
         <h3>Reach a wider audience online</h3>
-          <p>I build solid brands & craft engaging websites.<br>I design & develop for the freedom junkies, the holistic healers, health & wellness providers, and the creative entrepreneurs. I also love to work with businesses and organizations focused on nature, outdoor adventure, and eco-tourism.<br>If you want to grow your business online and attract more customers, I can help you to stand out in your local community or reach potential customers from all over the world. From Ecommerce to brick and mortar businesses, I've got web solutions for you! You don't have to struggle alone, I'm here to take this journey with you.<p>
+          <p>I build solid brands & craft engaging websites.<br>I design & develop for the freedom seekers, the holistic healers, health & wellness providers, and the creative entrepreneurs. I also love to work with businesses and organizations focused on nature, outdoor adventure, and eco-tourism.<br>If you want to grow your business online and attract more customers, I can help you to stand out in your local community or reach potential customers from all over the world. From Ecommerce to brick and mortar businesses, I've got web solutions for you! You don't have to struggle alone, I'm here to take this journey with you.<p>
 			</div>
 			<div id="front-about-img">
 	      <img src="http://natalierose.net/wp-content/uploads/2018/01/profile-circle3.png">
