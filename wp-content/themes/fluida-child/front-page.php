@@ -51,10 +51,26 @@ function fluida_lp_layoutclass () {
     cryout_after_content_hook();
 	?>
 
+	<div class="optin-section">
+		<div id="optin-pic">
+			<img src="http://localhost:8888/natalierose/wp-content/uploads/2018/01/header2.png">
+		</div>
+			<div class="optin-text">
+				<p><span id="opt-firstline">Is your website working for you?</span></p>
+				<p>Are you struggling to grow your business online? You may have website issues!</p>
+				<p>Download my free guide to see my suggestions on how to improve your website.</p>
+			</div>
+			<div class="signup-box">
+				<a href="http://natalierose.net/sign-up/">
+			<button id="signup-btn">I WANT IT!</button></a>
+		</div><!--button-box-->
+	</div><!--opting-section-->
+
+
   <div class="front-work">
 		<div class="front-rainbow">
 		<div class="front-work-section">
-      <h3>Future growth by design</h3>
+      <h3>Empowering organic growth</h3>
       <p><span id="blue">Let me guess, you are here because you need some help to grow your business.</span><br><span id="green-bold">You have the passion and the skills.<br> You have the drive and the ambition.<br> You have amazing gifts that you want to share with the people who need them.<br> But what you lack is the steady stream of customers begging for your help.</span><br>Am I right?<br> Maybe you have tried on your own for a while now, or maybe you are just getting started. You are overwhelmed and frustrated and your website or lack-there-of isn’t working for you.<br> You need a change, something different, and just building a website isn’t going to solve all of your problems.<br><span id="green-bold"> Sure you can throw your money at the problem, and hope it works out.<br> Or you can invest in someone who wants to see you succeed.</span><br><span id="blue">You need a plan, an amazing website, and a brand that captures your customer’s imagination.</span><br> You need someone who can see who you are and what you have to offer the world. Someone who can unearth the essence of your business and deliver it in a meaningful and captivating way.
 			<br><span id="green-bold">You need Natalie Rose.</span>
 			<br>When you are ready to dig deep and invest in yourself to grow your business I’m here to help.<br>
