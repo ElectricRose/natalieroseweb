@@ -57,7 +57,7 @@ function fluida_lp_layoutclass () {
 		</div>
 			<div class="optin-text">
 				<p><span id="opt-firstline">Is your website working for you?</span></p>
-				<p>Are you struggling to grow your business online? You may have website issues!</p>
+				<p><span id="opt-secondline">Are you struggling to grow your business online? You may have website issues!</span></p>
 				<p>Download my free guide to see my suggestions on how to improve your website.</p>
 			</div>
 			<div class="signup-box">
@@ -71,9 +71,10 @@ function fluida_lp_layoutclass () {
 		<div class="front-rainbow">
 		<div class="front-work-section">
       <h3>Empowering organic growth</h3>
-      <p><span id="blue">Let me guess, you are here because you need some help to grow your business.</span><br><span id="green-bold">You have the passion and the skills.<br> You have the drive and the ambition.<br> You have amazing gifts that you want to share with the people who need them.<br> But what you lack is the steady stream of customers begging for your help.</span><br>Am I right?<br> Maybe you have tried on your own for a while now, or maybe you are just getting started. You are overwhelmed and frustrated and your website or lack-there-of isn’t working for you.<br> You need a change, something different, and just building a website isn’t going to solve all of your problems.<br><span id="green-bold"> Sure you can throw your money at the problem, and hope it works out.<br> Or you can invest in someone who wants to see you succeed.</span><br><span id="blue">You need a plan, an amazing website, and a brand that captures your customer’s imagination.</span><br> You need someone who can see who you are and what you have to offer the world. Someone who can unearth the essence of your business and deliver it in a meaningful and captivating way.
-			<br><span id="green-bold">You need Natalie Rose.</span>
-			<br>When you are ready to dig deep and invest in yourself to grow your business I’m here to help.<br>
+      <p><span id="blue">Let me guess, you are here because you need some help to grow your business.</span><br><span id="green-bold">You have the passion and the skills.<br> You have the drive and the ambition.<br> You have amazing gifts that you want to share with the people who need them.<br> But what you lack is the steady stream of customers begging for your help.<br>Am I right?</span><br><br> Maybe you have tried on your own for a while now, or maybe you are just getting started. You are overwhelmed and frustrated and your website or lack-there-of isn’t working for you.<br> You need a change, something different, and just building a website isn’t going to solve all of your problems.<br><br><span id="green-bold"> Sure you can throw your money at the problem, and hope it works out.<br> Or you can invest in someone who wants to see you succeed.</span><br><span id="blue">You need a plan, an amazing website, and a brand that captures your customer’s imagination.</span>
+				<br> You need someone who can see who you are and what you have to offer the world. Someone who can unearth the essence of your business and deliver it in a meaningful and captivating way.
+			<br><span id="green-bold">You need Natalie Rose.</span><br>
+			<br>When you are ready to dive in and invest in yourself to grow your business I’m here to help.<br>
 			I can help you by designing and providing you with a signature style and cohesive brand that speaks to the true essence of your business. We can work together to develop a strategy to promote your business and capture leads through branded graphics and advertising. And I can build you a website that functions flawlessly and helps to turn those leads into paying customers.<br><span id="green-bold"> The future is yours. Are you ready to grab it?</span></p>
         <div id="work-more">
 					<div class="frontworkBox">

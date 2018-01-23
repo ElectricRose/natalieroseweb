@@ -71,6 +71,7 @@ span.current{
   width: 100%;
   float: left;
   clear: both;
+  margin-bottom: 5%;
 }
 .optin-section p{
   color: #00d01b;
@@ -80,6 +81,9 @@ span.current{
   font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
   font-size: 3em;
   color: #00c5fd;
+}
+#opt-secondline{
+  font-size: 1.1em;
 }
 #optin-pic{
   width: 90%;
@@ -144,7 +148,6 @@ span.current{
  font-size: 1.8em;
  text-transform: uppercase;
 }
-
 .front-contact{
   float: left;
   width: 100%;
@@ -350,7 +353,10 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
   font-weight: bold;
   font-size: 1.1em;
 }
-
+.signup-form{
+  width: 100%;
+  float: left;
+}
 
 article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main > header, .main > nav#nav-below, .pagination span, .pagination a, #nav-old-below .nav-previous, #nav-old-below .nav-next, #cryout_ajax_more_trigger{
   background-color: #111 !important;
@@ -368,7 +374,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
    color: #00c5fd;
    text-align: center;
    font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
-   font-size: 2em !important;
+   font-size: 2em;
 }
 #mc_embed_signup .mc-field-group label{
   color: #00d01b;
@@ -383,6 +389,25 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 }
 #mc_embed_signup .mc-field-group{
   color: #00d01b;
+  margin: 2% 0 0 5%;
+  padding-left: 12%;
+}
+#mc_embed_signup_scroll{
+  margin: 2%;
+}
+#mc_embed_signup .mc-field-group li{
+  list-style-type: none !important;
+}
+
+.signup-thank-you{
+  width: 100%;
+  float: left;
+  margin: 10% 2%;
+}
+.signup-thank-you p{
+  color: #00d01b;
+  font-size: 1.1em;
+  text-align: center;
 }
 
 
@@ -572,7 +597,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 }
 .port-intro{
   width: 100%;
-  height: 350px;
+  height: 210px;
   background: #111;
   float: left;
 }
@@ -792,6 +817,48 @@ img.port-pic{
   margin-left: 13%;
 }
 
+/* ============ Socials ========== */
+.social-header, .social-section, .something-else{
+  width: 90%;
+  float: left;
+  margin-left: 5%;
+}
+.social-header h1{
+  text-align: center;
+  color: #00c5fd;
+  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
+  font-size: 3em;
+}
+.social-header p, .social-block1 p, .social-block2 p, .social-block3 p, .social-block4 p, .social-block5 p, .something-else p{
+  text-align: center;
+  color: #00d01b;
+}
+
+.social-block1 h1, .social-block2 h1, .social-block3 h1, .social-block4 h1, .social-block5 h1{
+  color: #00c5fd;
+}
+
+.social-block1, .social-block2, .social-block3, .social-block4, .social-block5{
+  display: block;
+  text-align: center;
+  border: 1px solid #00d01b;
+  padding: 2%;
+  margin: 4% 0;
+}
+.something-else{
+  border-top: 1px solid #00d01b;
+  margin-top: 3%;
+}
+.something-else h1{
+  text-align: center;
+  color: #00c5fd;
+}
+#orders{
+  text-align: center;
+  color: #00d01b;
+  font-size: 2em;
+}
+
 /*============== Contact Me ==================*/
 #post-47948{
   background-color: #111111 !important;
@@ -819,6 +886,9 @@ img.port-pic{
 #opt-firstline{
   display: none;
 }
+#opt-secondline{
+  font-size: 1.3em;
+}
 #signup-btn{
   width: 18%;
 }
@@ -842,7 +912,21 @@ img.port-pic{
   padding: 0 5%;
   margin: 0 0 1% 3%;
 }
-
+#mc_embed_signup{
+  width: 60%;
+}
+#mc_embed_signup .button{
+  width: 30%;
+}
+#mc_embed_signup .mc-field-group{
+  padding-left: 15%;
+}
+.signup-thank-you{
+  margin: 6% 2%;
+}
+#mc_embed_signup h2{
+  font-size: 3em;
+}
 /* =========== About ================ */
 .about-intro h2{
   font-size: 5em;
@@ -886,8 +970,9 @@ img.port-pic{
 
 /* =========== Work =========== */
 .port-intro{
-  width: 100%;
-  height: 250px;
+  width: 70%;
+  height: 285px;
+  margin-left: 15%;
 }
 .port-intro h1{
   font-size: 6em;
@@ -990,7 +1075,8 @@ img.port-pic{
 }
 .special-all{
   border: none;
-  background: url("http://natalierose.net/wp-content/uploads/2017/12/vine1.png");
+  background: url("http://localhost:8888/natalierose/wp-content/uploads/2018/01/natrosepaint3-1200.png");
+  background-repeat: no-repeat;
   padding: 10% 0 10% 0;
 }
 #special1{
@@ -1024,6 +1110,18 @@ img.port-pic{
   font-size: 4em;
 }
 
+/* ============ Socials =========== */
+.social-block1, .social-block2, .social-block3, .social-block4, .social-block5{
+  width: 45%;
+  display: inline-block;
+  margin: 2%;
+}
+
+
+
+
+
+
 }
 
 
@@ -1034,6 +1132,9 @@ img.port-pic{
     /*Desktop styles here!*/
 
 /* =========== Front Page =========== */
+.optin-text{
+  margin-bottom: 3%;
+}
 #signup-btn{
   width: 16%;
 }
@@ -1084,6 +1185,28 @@ img.port-pic{
 #work-with-me{
   padding-top: 2%;
 }
+
+/* =========== Sign Up ============== */
+.signup-text p{
+  margin: 0 0 1% 20%;
+  width: 60%;
+}
+#mc_embed_signup h2{
+  font-size: 4em;
+}
+#mc_embed_signup{
+  width: 50%;
+}
+#mc_embed_signup .button{
+  width: 20%;
+}
+#mc_embed_signup .mc-field-group{
+  padding-left: 25%;
+}
+.signup-thank-you{
+  margin:2%;
+}
+
 /* =========== About ================ */
 .about-intro-box{
   width: 58%;
@@ -1128,6 +1251,11 @@ img.port-pic{
 }
 .port-js{
   margin-top: 0%;
+}
+.port-intro{
+  width: 65%;
+  height: 350px;
+  margin-left: 22%;
 }
 .port-intro h4{
   font-size: 2em;
@@ -1237,6 +1365,9 @@ img.port-pic{
 
 
 /* ========= Front-Page ====== */
+#optin-pic{
+  margin-left: 14%;
+}
 .front-about-img{
   max-width: 13%;
 }
@@ -1254,6 +1385,9 @@ img.port-pic{
 }
 
 /* ======== Work =========== */
+.port-intro{
+  margin-left: 30%;
+}
 .js-pic-holder{
   width: 75%;
   margin-left: 13%;

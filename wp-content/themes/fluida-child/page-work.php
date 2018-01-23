@@ -21,7 +21,7 @@ get_header(); ?>
 		<div class="all-content">
 			<div class="port-content">
 				<div class="port-intro">
-			<h1>Welcome!</h1>
+			<img src="http://localhost:8888/natalierose/wp-content/uploads/2018/01/welcome1.png" alt="welcome web design">
 				</div>
 
 
@@ -229,7 +229,8 @@ get_header(); ?>
 									</div><!--special1-con-->
 
 									<div class="button-box">
-									<button class="btn slay">SLAY THOSE SOCIALS!</button>
+										<a href="http://natalierose.net/socials/">
+									<button class="btn slay">SLAY THOSE SOCIALS!</button></a>
 								</div><!--button-box-->
 								</div><!--special1-->
 
