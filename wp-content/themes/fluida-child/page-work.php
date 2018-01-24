@@ -109,8 +109,8 @@ get_header(); ?>
 			</div>
 
 			<div class="hire-me">
-				<h4>LOOKING FOR WEB SERVICES?</h4>
-				<p><span>I'm available to answer all your questions.</span><br> Schedule a FREE 30 min consultation now!</p></p>
+				<h4>Is your website attracting wealth?</h4>
+				<p><span>Request a website audit and make sure your website is working for you!</span><br>I'll take a peek and suggest simple changes to increase your website's effectiveness.<br>Invest in solid solutions for only $45.</p>
 				<div class="workBox">
 					<a href="http://natalierose.net/contact/">
 						Let's Chat!

@@ -80,7 +80,7 @@ get_header(); ?>
 
         <div class="social-block5">
           <img src="">
-          <h1>Post Card</h1>
+          <h1>Postcard</h1>
           <p>Getting married?<br>Hosting a party or big event?<br>Need promotional postcards for your products?<br>Wow your audience with beautiful double sided postcard designs!<br>Price does not include printing</p>
           <p>$65</p>
 
