@@ -105,12 +105,8 @@ get_header(); ?>
 
 				<div class="desc-hire-holder">
 			<div class="port-desc">
-				<p>some text in here</p>
-			</div>
-
-			<div class="hire-me">
 				<h4>Is your website attracting wealth?</h4>
-				<p><span>Request a website audit and make sure your website is working for you!</span><br>I'll take a peek and suggest simple changes to increase your website's effectiveness.<br>Invest in solid solutions for only $45.</p>
+				<p><span>Request a website review and make sure your website is working for you!</span><br> From simple spelling and content errors to design & functionality issues, I'll help you discover what isn't working on your website. I'll also run an SEO audit to see how your rankings can be improved and suggest simple changes to increase your website's effectiveness.<br>Make a lasting impression, grow your business, and attract more wealth with simple tweaks and solutions to your current website.<br>Invest in solid solutions for only $99.</p>
 				<div class="workBox">
 					<a href="http://natalierose.net/contact/">
 						Let's Chat!
@@ -118,7 +114,7 @@ get_header(); ?>
 							<rect x='0' y='0' fill='none' width='130' height='65'/>
 						</svg></a>
 				</div><!--workBox-->
-			</div><!--hire-me-->
+			</div><!--port-desc-->
 		</div><!--desc-hire-holder-->
 
 		<div class="work-container">

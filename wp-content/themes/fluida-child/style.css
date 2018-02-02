@@ -688,6 +688,7 @@ img.port-pic{
   font-weight: bold;
 }
 .work-container{
+  border-top: 1px solid #00d01b;
   border-bottom: 1px solid #00d01b;
   float: left;
   width: 100%;
@@ -818,6 +819,7 @@ img.port-pic{
   text-align: center;
   color: #00d01b;
   margin-top: 5%;
+  border-top: 1px solid #00d01b;
 }
 .inner-promo{
   float: left;
@@ -835,7 +837,12 @@ img.port-pic{
 }
 
 /* ============ Socials ========== */
-.social-header, .social-section, .something-else{
+.social-header{
+  width: 70%;
+  float: left;
+  margin-left: 16%;
+  }
+  .social-section, .something-else{
   width: 90%;
   float: left;
   margin-left: 5%;
@@ -861,6 +868,9 @@ img.port-pic{
   border: 1px solid #00d01b;
   padding: 2%;
   margin: 4% 0;
+}
+#social3-fb-img{
+  padding-top: 15%;
 }
 .something-else{
   border-top: 1px solid #00d01b;
