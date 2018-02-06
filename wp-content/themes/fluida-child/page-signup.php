@@ -23,7 +23,7 @@ get_header(); ?>
 
 
 	<div class="signup-header">
-	 <img src="http://localhost:8888/natalierose/wp-content/uploads/2018/01/header2.png">
+	 <img src="http://natalierose.net/wp-content/uploads/2018/02/header2.png">
  </div>
 	 <div class="signup-text">
 		 <h1>Is your website working for you?</h1>

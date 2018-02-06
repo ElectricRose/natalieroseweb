@@ -19,17 +19,22 @@ get_header(); ?>
 			<?php cryout_before_content_hook(); ?>
 
 		<div class="all-content">
+      <div class="brandweb-title">
+        <img src="http://natalierose.net/wp-content/uploads/2018/02/brandingandwebdesign1.png" alt="branding and web design title">
+      </div>
       <div class="brandweb-header">
-        <h1>Branding & Web Design</h1>
-        <p>Are you ready to stand out with a fresh new look?<br>With my full branding & web design packages we will work together to create something truly unique! We will dig deep to find a look & style that truly reflects you and your business.<br>Take your business to new heights with a captivating brand style, including graphics, logos, and icons. Then top it all of with a sleek new website designed to intrigue your visitors and capture leads.</p>
-        <p>It doesn't have to stop at design!<br>I'll craft & code your website by hand. Build with integrity, I'll add custom functionalities and features that streamline your lead flow and capture your customers with ease. I'll make sure you know exactly how things work, so you can make updates and add content quickly and easily.</p>
+        <p><strong>Are you ready to stand out with a fresh new look?</strong><br>With my full branding & web design packages we will work together to create something truly unique! We will dig deep to find a look & style that truly reflects you and your business.<br>Take your business to new heights with a captivating brand style, including graphics, logos, and icons. Then top it all of with a sleek new website designed to intrigue your visitors and capture customers.</p>
+        <p><strong>It doesn't have to stop at design!</strong><br>I'll craft & code your website by hand. Built with integrity, I'll add custom functionalities and features that streamline your lead flow and capture new customers with ease. I'll make sure you know exactly how things work on your website, so you can make updates and add content quickly and easily.</p>
       </div><!--brandweb-header-->
 
       <div class="brandweb-content">
 
         <div class="brandweb-box1">
-          <h1>Brand Brilliance</h1>
+          <div id="brandweb-product-title">
+          <img src="http://natalierose.net/wp-content/uploads/2018/02/brandbrilliance1.png" alt="brand brilliance"></div>
+          <div class="brandweb-firstp">
           <p>You need a brand that speaks to your true purpose and represents your business perfectly. You know that a strong and cohesive brand style will be a game changer for you and your business. Transform your brand from blah to brilliant with my customizable branding packages.</p>
+        </div>
           <p>What you get</p>
             <ul>
               <li>Business personality discovery</li>
@@ -66,15 +71,18 @@ get_header(); ?>
         </div>
 
           <div class="brandweb-button">
-              <a href="">
+              <a href="http://natalierose.net/contact/">
             <button class="btn-brandweb">BUILD MY BRAND</button></a>
           </div><!--brandweb-button-->
         </div><!--brandweb-box1-->
 
 
         <div class="brandweb-box2">
-          <h1>Wonderful Web Design</h1>
+          <div id="brandweb-product-title">
+          <img src="http://natalierose.net/wp-content/uploads/2018/02/wonderfulweb.png" alt="wonderful web design"></div>
+          <div class="brandweb-firstp">
           <p>You already have your branding on lock and now you need a website to compliment your style. You need a website that is beautifully designed with your business' needs in mind. Attract more customers, increase your sales, and grow your business online with a fresh new website.<br></p>
+        </div>
           <p>What I offer</p>
           <ul>
             <li>Stylish Web Design</li>
@@ -99,15 +107,18 @@ get_header(); ?>
         </div>
 
           <div class="brandweb-button">
-              <a href="">
+              <a href="http://natalierose.net/contact/">
             <button class="btn-brandweb">I WANT A WEBSITE</button></a>
           </div><!--brandweb-button-->
         </div><!--brandweb-box2-->
 
 
         <div class="brandweb-box3">
-          <h1>Dynamic Development</h1>
+          <div id="brandweb-product-title">
+          <img src="http://natalierose.net/wp-content/uploads/2018/02/dynamicdevelopment.png" alt="dynamic development"></div>
+          <div class="brandweb-firstp">
           <p>You already have your brand on point and your designs ready to rock. All you need is the web development to bring it all together. I'll hand code your WordPress or HTML website from scratch so you can be assured of perfect performance and flawless functionality. I'll work with your chosen designs to create the website that you want.</p>
+        </div>
 
           <ul>
           <li>Lovingly Hand Crafted</li>
@@ -115,7 +126,7 @@ get_header(); ?>
             <li>Website development</li>
             <p>WordPress websites start from $645 for a simple website with 1-5 pages.<br>ECommerce websites start at $985+</p>
             <li>Receive Online Tech Support for 3 months</li>
-            <p>If things go wrong or you need help, I've got you covered!</p>
+            <p>If things go wrong or if you need help, there's no need to worry! I've got you covered with prompt solutions!</p>
           </ul>
 
         <div class="timebox">
@@ -127,15 +138,18 @@ get_header(); ?>
         </div>
 
           <div class="brandweb-button">
-              <a href="">
+              <a href="http://natalierose.net/contact/">
             <button class="btn-brandweb">CODE MY WEBSITE </button></a>
           </div><!--brandweb-button-->
         </div><!--brandweb-box3-->
 
 
         <div class="brandweb-box4">
-          <h1>The Ultimate All Inclusive</h1>
+          <div id="brandweb-product-title">
+          <img src="http://natalierose.net/wp-content/uploads/2018/02/thewholeenchilada.png" alt="the whole enchilada"></div>
+          <div class="brandweb-firstp">
           <p>Need a full package that includes everything from start to finish?<br>This is the solution for you!<br> With a full branding, web design, & web development package we will build your brand and website from the ground up.</p>
+        </div>
 
           <ul>
             <li>All Inclusive</li>
@@ -157,17 +171,17 @@ get_header(); ?>
           </div>
 
           <div class="brandweb-button">
-              <a href="">
+              <a href="http://natalierose.net/contact/">
             <button class="btn-brandweb">I WANT IT ALL</button></a>
           </div><!--brandweb-button-->
         </div><!--brandweb-box4-->
 
         <div class="brandweb-footer">
         <h1>How does it all work?</h1>
-        <p>Find out more about the process here!</p>
+        <p>Find answers to frequently asked questions and more about how the process works here!</p>
 
         <div class="brandweb-button">
-            <a href="">
+            <a href="http://natalierose.net/faq/">
           <button class="btn-brandweb">FIND OUT MORE</button></a>
         </div><!--brandweb-button-->
 
@@ -175,7 +189,7 @@ get_header(); ?>
 
 
 
-      </div><!--bandweb-content-->
+    </div><!--brandweb-content-->
 
     </div><!--all-content-->
       <?php cryout_after_content_hook(); ?>

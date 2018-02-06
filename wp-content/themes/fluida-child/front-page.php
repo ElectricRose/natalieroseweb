@@ -53,7 +53,7 @@ function fluida_lp_layoutclass () {
 
 	<div class="optin-section">
 		<div id="optin-pic">
-			<img src="http://localhost:8888/natalierose/wp-content/uploads/2018/01/header2.png">
+			<img src="http://natalierose.net/wp-content/uploads/2018/02/header2.png">
 		</div>
 			<div class="optin-text">
 				<p><span id="opt-firstline">Is your website working for you?</span></p>
@@ -115,7 +115,7 @@ function fluida_lp_layoutclass () {
 			</p>
 		<div id="work-with-me">
 			<div class="basicBox">
-				<a href="http://natalierose.net/contact/">
+				<a href="http://natalierose.net/schedule-a-call/">
 					Let's Chat!
 				  <svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
 				    <rect x='0' y='0' fill='none' width='130' height='65'/>

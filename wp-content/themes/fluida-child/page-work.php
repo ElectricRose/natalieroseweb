@@ -21,7 +21,7 @@ get_header(); ?>
 		<div class="all-content">
 			<div class="port-content">
 				<div class="port-intro">
-			<img src="http://localhost:8888/natalierose/wp-content/uploads/2018/01/welcome1.png" alt="welcome web design">
+			<img src="http://natalierose.net/wp-content/uploads/2018/02/welcome1.png" alt="welcome web design">
 				</div>
 
 
@@ -105,15 +105,15 @@ get_header(); ?>
 
 				<div class="desc-hire-holder">
 			<div class="port-desc">
-				<h4>Is your website attracting wealth?</h4>
+				<h3>Website Woes?</h3>
+				<h4>Is your website making money?</h4>
 				<p><span>Request a website review and make sure your website is working for you!</span><br> From simple spelling and content errors to design & functionality issues, I'll help you discover what isn't working on your website. I'll also run an SEO audit to see how your rankings can be improved and suggest simple changes to increase your website's effectiveness.<br>Make a lasting impression, grow your business, and attract more wealth with simple tweaks and solutions to your current website.<br>Invest in solid solutions for only $99.</p>
-				<div class="workBox">
+
+				<div class="brandweb-button">
 					<a href="http://natalierose.net/contact/">
-						Let's Chat!
-						<svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
-							<rect x='0' y='0' fill='none' width='130' height='65'/>
-						</svg></a>
-				</div><!--workBox-->
+				<button class="btn-webwoe">REQUEST A REVIEW!</button></a>
+			</div><!--button-box-->
+
 			</div><!--port-desc-->
 		</div><!--desc-hire-holder-->
 
@@ -124,6 +124,13 @@ get_header(); ?>
 				<p>If not you need to fix it!</p>
 				<p>This common and frustrating error can cost you a lot of business. Don't miss out on opportunities because of simple website mistakes or design flaws.</p>
 				<p>I can make quick and easy changes to your website for a small fee. Contact me to request a free quote. <br>No job is too small!</p>
+				<div class="workBox">
+					<a href="http://natalierose.net/schedule-a-call/">
+						Let's Chat!
+						<svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
+							<rect x='0' y='0' fill='none' width='130' height='65'/>
+						</svg></a>
+				</div><!--workBox-->
 
 			</div><!--work-text1-->
 
@@ -138,7 +145,7 @@ get_header(); ?>
 
 					<div id="dobox1">
 						<div id="docon1">
-							<img src="http://localhost:8888/natalierose/wp-content/uploads/2018/01/paintBoard200.png" alt="design icon">
+							<img src="http://natalierose.net/wp-content/uploads/2018/02/paintBoard200.png" alt="design icon">
 						</div>
 						<div id="dotext1">
 							<p><span id="do-title">Branding, Web & Graphic Design</span></p>
@@ -153,13 +160,13 @@ get_header(); ?>
 								<br><strong>Already have a website?</strong><br> I can fix bugs, update your info, or make quick functionality fixes. From completely new projects to small fixes on existing sites, I'm ready to dig in! No job is too big or too small.</p>
 						</div>
 						<div id="docon2">
-							<img src="http://localhost:8888/natalierose/wp-content/uploads/2018/01/webDev200.png" alt="development icon">
+							<img src="http://natalierose.net/wp-content/uploads/2018/02/webDev200.png" alt="development icon">
 						</div>
 					</div>
 
 					<div id="dobox3">
 						<div id="docon3">
-							<img src="http://localhost:8888/natalierose/wp-content/uploads/2018/01/diamond200.png" alt="diamond icon">
+							<img src="http://natalierose.net/wp-content/uploads/2018/02/diamond200.png" alt="diamond icon">
 						</div>
 						<div id="dotext3">
 							<p><span id="do-title">Custom WordPress Themes</span></p>
@@ -170,16 +177,16 @@ get_header(); ?>
 					<div id="dobox4">
 						<div id="dotext4">
 							<p><span id="do-title">Responsive Design Transitions</span></p>
-								<p>No one likes a website thats frustrating to use on a tablet or mobile, especially when your competitor's is easy to use. If your website is static or functions poorly on mobile devices, I can give it a thorough responsive overhaul to keep it current and competitive. Don't lose money over poor design! I have solutions!</p>
+								<p>No one likes a website that's frustrating to use on a tablet or mobile, especially when your competitors is easy to use. If your website is static or functions poorly on mobile devices, I can give it a thorough responsive overhaul to keep it current and competitive. Don't lose money over poor design! I have solutions!</p>
 						</div>
 						<div id="docon4">
-							<img src="http://localhost:8888/natalierose/wp-content/uploads/2018/01/responsive200.png" alt="responsive icon">
+							<img src="http://natalierose.net/wp-content/uploads/2018/02/responsive200.png" alt="responsive icon">
 						</div>
 					</div>
 
 					<div id="dobox5">
 						<div id="docon5">
-							<img src="http://localhost:8888/natalierose/wp-content/uploads/2018/01/cart200.png" alt="ecommerce icon">
+							<img src="http://natalierose.net/wp-content/uploads/2018/02/cart200.png" alt="ecommerce icon">
 						</div>
 						<div id="dotext5">
 							<p><span id="do-title">E-Commerce Solutions</span></p>
@@ -193,17 +200,17 @@ get_header(); ?>
 								<p>Tired of your old platform? Need something better? Transfering a current website and migrating content to another hosting platform can be time-consuming and complicated. But there's no need to struggle on your own! I am here when you need website transfer help, and will take care of the entire process for you. </p>
 						</div>
 						<div id="docon6">
-							<img src="http://localhost:8888/natalierose/wp-content/uploads/2018/01/transfer200.png" alt="transfer icon">
+							<img src="http://natalierose.net/wp-content/uploads/2018/02/transfer200.png" alt="transfer icon">
 						</div>
 					</div>
 
 					<div id="dobox7">
 						<div id="docon7">
-							<img src="http://localhost:8888/natalierose/wp-content/uploads/2018/01/bug200.png" alt="bug fix icon">
+							<img src="http://natalierose.net/wp-content/uploads/2018/02/bug200.png" alt="bug fix icon">
 						</div>
 						<div id="dotext7">
 							<p><span id="do-title">Website Maintenance</span></p>
-								<p>I offer optional monthly or quarterly maintenance packages to my customers. With my website maintenance packages you will never have to worry that your website will be out of date or stop working because of changing technologies. If you have any issues or problems with your website I am only a phone call or email away, and will be there with technical support promptly. If a website that I built or worked on crashes I will be there to fix it right away. I've got your back!</p>
+								<p>I offer optional monthly or quarterly maintenance packages to my customers. With my website maintenance packages, you will never have to worry that your website will be out of date or stop working because of changing technologies. If you have any issues or problems with your website I am only a phone call or email away and will be there with technical support promptly. If a website that I built or worked on crashes I will be there to fix it right away. I've got your back!</p>
 						</div>
 					</div>
 				</div><!--inner-dolist-->
@@ -221,7 +228,7 @@ get_header(); ?>
 								<h5>Digital & Print Design</h5>
 									<p>You need awesome graphics for social media. Maybe you need business cards, postcards, or posters.<br> I've got you covered!</p>
 									<p>Promote your business or event with custom designed printed or digital materials.</p>
-									<div id="special1-con"><img src="http://localhost:8888/natalierose/wp-content/uploads/2018/01/Insta1.jpg" alt="instagram ad">
+									<div id="special1-con"><img src="http://natalierose.net/wp-content/uploads/2018/02/Insta1.jpg" alt="instagram ad">
 									</div><!--special1-con-->
 
 									<div class="button-box">
@@ -235,24 +242,26 @@ get_header(); ?>
 								<h5>Brand & Web Design</h5>
 									<p>You know that first impressions matter.<br> That's why you need a brand that truly reflects who you are and what your business has to offer.<br>You are ready to create a solid brand identity that you are proud to show off.<br> You also want an amazing website to capture more customers and wow them with your offerings.<br>Let's do this!
 									</p>
-									<div id="special2-con"><img src="http://localhost:8888/natalierose/wp-content/uploads/2018/01/BeanComputer1.png" alt="computer with coffeehouse website">
+									<div id="special2-con"><img src="http://natalierose.net/wp-content/uploads/2018/02/BeanComputer1.png" alt="computer with coffeehouse website">
 									</div><!--special2-con-->
 
 									<div class="button-box">
-									<button class="btn slay">I'M READY TO ROCK!</button>
+										<a href="http://natalierose.net/brandweb/">
+									<button class="btn slay">I'M READY TO ROCK!</button></a>
 								</div><!--button-box-->
 							</div><!--special2-->
 
 								<div id="special3">
 									<h5>Site Transfers</h5>
 										<p>You want to move on to better things.<br> Your current platform is dragging you down.<br>You wouldn't be the first.<br>
-										Many businesses start off with cheap, pre-made, or drag and drop websites.<br>If you are tired of limitations & extra add-on expenses, it's time to move on to something better.<br>Transfers can be complicated, but no need to worry. I'm here for ya! I'll take care of the entire process so you don't have to stress.<br>Ditch that dumpy old host, your ready for something fabulous!
+										Many businesses start off with cheap, pre-made, or drag and drop websites.<br>If you are tired of limitations & extra add-on expenses, it's time to move on to something better.<br>Transfers can be complicated, but no need to worry. I'm here for ya! I'll take care of the entire process so you don't have to stress.<br>Ditch that dumpy old host, you're ready for something fabulous!
 									</p>
-									<div id="special3-con"><img src="http://localhost:8888/natalierose/wp-content/uploads/2018/01/webTransfers.png" alt="desktop computer with website transfers on the screen">
+									<div id="special3-con"><img src="http://natalierose.net/wp-content/uploads/2018/02/webTransfers.png" alt="desktop computer with website transfers on the screen">
 									</div><!--special3-con-->
 
 									<div class="button-box">
-									<button class="btn slay">MOVING ON UP!</button>
+										<a href="http://natalierose.net/contact/">
+									<button class="btn slay">MOVING ON UP!</button></a>
 								</div><!--button-box-->
 							</div><!--special3-->
 

@@ -287,16 +287,24 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
   background-color: #00c5fd;
   color: white;
 }
-.btn-brandweb{
+.btn-brandweb, .btn-webwoe, .btn-socials{
   background-color: #33e1b6;
   color: white;
   display: block;
-  width: 45%;
   height: 50px;
   margin-left: auto;
   margin-right: auto;
 }
-.btn-brandweb:hover{
+.btn-brandweb{
+  width: 45%;
+}
+.btn-webwoe{
+  width: 56%;
+}
+.btn-socials{
+  width: 45%;
+}
+.btn-brandweb:hover, .btn-webwoe:hover{
   background-color: #00c5fd;
   color: white;
 }
@@ -667,6 +675,11 @@ img.port-pic{
   font-size: 1.5em;
   color: #00c5fd;
 }
+.port-desc h3{
+  font-size: 3em;
+  color: #00c5fd;
+  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
+}
 .port-desc{
   float: left;
   margin: 2%;
@@ -879,25 +892,40 @@ img.port-pic{
 .something-else h1{
   text-align: center;
   color: #00c5fd;
-}
-#orders{
-  text-align: center;
-  color: #00d01b;
   font-size: 2em;
 }
+.something-else p{
+  text-align: center;
+  color: #00d01b;
+  font-size: 1.6em;
+}
 /* ============ Brandweb ============== */
+.brandweb-title{
+  width: 98%;
+  margin: auto;
+  text-align: center;
+}
 .brandweb-header{
   width: 100%;
   float: left;
   text-align: center;
 }
-.brandweb-header h1, .brandweb-footer h1{
+#brandweb-product-title{
+  width: 98%;
+  margin: auto;
+  text-align: center;
+}
+.brandweb-firstp{
+  text-align: center;
+  font-weight: bold;
+}
+.brandweb-footer h1{
   font-size: 3em;
 }
 .brandweb-box1 h1, .brandweb-box2 h1, .brandweb-box3 h1, .brandweb-box4 h1{
   font-size: 2.5em;
 }
-.brandweb-header h1, .brandweb-box1 h1, .brandweb-box2 h1, .brandweb-box3 h1, .brandweb-box4 h1, .brandweb-footer h1{
+.brandweb-box1 h1, .brandweb-box2 h1, .brandweb-box3 h1, .brandweb-box4 h1, .brandweb-footer h1{
   text-align: center;
   color: #00c5fd;
   font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
@@ -936,10 +964,41 @@ img.port-pic{
   font-size: 1.1em;
 }
 
+/*============== FAQ ================*/
+#howwork-title{
+  width: 98%;
+  text-align: center;
+  margin: auto;
+}
+.faq-howwork, .faq-questions{
+  border: 1px solid #00d01b;
+  margin: 1%;
+  padding: 5%;
+}
+.faq-howwork h1, .faq-questions h1{
+  color: #33e1b6;
+  font-size: 3em;
+  text-align: center;
+}
+.faq-howwork h2, .faq-questions h2{
+  color: #00c5fd;
+  font-size: 2em;
+}
+.faq-howwork p, .faq-questions p{
+  color: #00d01b;
+}
+.faq-askme h4{
+  color: #00c5fd;
+  text-align: center;
+}
+.faq-askme{
+  margin-bottom: 10%;
+}
 
 
-/*============== Contact Me ==================*/
-#post-47948{
+
+/*======= Contact Me + Schedule a call ==========*/
+#post-47948, #post-48259{
   background-color: #111111 !important;
 }
 
@@ -1154,7 +1213,7 @@ img.port-pic{
 }
 .special-all{
   border: none;
-  background: url("http://localhost:8888/natalierose/wp-content/uploads/2018/01/natrosepaint3-1200.png");
+  background: url("http://natalierose.net/wp-content/uploads/2018/02/natrosepaint3-1200.png");
   background-repeat: no-repeat;
   padding: 10% 0 10% 0;
 }
@@ -1188,14 +1247,22 @@ img.port-pic{
 .inner-promo h5{
   font-size: 4em;
 }
+.btn-webwoe{
+  width: 70%;
+}
 
 /* ============ Socials =========== */
+.social-header h1{
+  font-size: 4em;
+}
 .social-block1, .social-block2, .social-block3, .social-block4, .social-block5{
   width: 45%;
   display: inline-block;
   margin: 2%;
 }
+.something-else h1{
 
+}
 /* ============== Brandweb ============ */
 .brandweb-header{
   width: 75%;
@@ -1207,7 +1274,7 @@ img.port-pic{
   width: 80%;
 }
 .btn-brandweb{
-  width: 22%;
+  width: 32%;
 }
 
 
@@ -1447,11 +1514,13 @@ img.port-pic{
 }
 
 /* ============ Brandweb ========== */
+
 .brandweb-box1, .brandweb-box2, .brandweb-box3, .brandweb-box4{
-  width: 60%;
+  width: 70%;
+  margin-left: 16%;
 }
 .btn-brandweb{
-  width: 25%;
+  width: 30%;
 }
 .brandweb-header h1, .brandweb-footer h1{
   font-size: 4em;
@@ -1463,10 +1532,19 @@ img.port-pic{
   width: 60%;
   margin-left: 21%;
 }
+.brandweb-footer{
+  width: 60%;
+  margin-left: 20%;
+}
 
+/* ================ Socials =============*/
 
-
-
+/* ============== FAQ ================*/
+.faq-howwork, .faq-questions{
+  width: 80%;
+  margin:  5% 10% 10% 10%;
+  padding: 3% 10% 10% 10%;
+}
 
 
 
