@@ -31,7 +31,7 @@
       </div><!--about-intro-box-->
 
         <div id="about-img">
-          <img src="http://natalierose.net/wp-content/uploads/2018/01/natalieRoseCircle1-450.png" alt="Photo of Natalie Rose">
+          <img src="http://natalierose.net/wp-content/uploads/2018/01/natalieRoseCircle1-450.png" alt="Natalie Rose - Web designer & developer">
         </div>
 
         <div id="about-work-with-me">
@@ -48,7 +48,7 @@
         <div class="about-desc">
         <div class="about-text1">
           <h3>My Mission</h3>
-          <p>My mission is to provide engaging, empowering, and beautifully functional web solutions to small businesses. I am an independent freelance service provider that offers a personal experience by working closely on-one-one to help my clients reach their business goals.</p><br>
+          <p>My mission is to provide engaging, empowering, and beautifully functional web solutions to heart and eco-centered small businesses so they can grow their business and make more money. I am an independent freelance service provider that offers a personal experience by working closely on-one-one to help my clients reach their business goals.</p><br>
 
           <h4>Have you struggled with website creation in the past?</h4>
           <h5>Building a website doesn't have to be hard!</h5>
@@ -62,6 +62,7 @@
       </div><!--about-desc-->
 
         <div class="about-container2">
+          <div class="about-gold">
           <div class="about-text3">
             <h4>About Me</h4>
             <h5>I chose to blaze my own path to freedom!</h5>
@@ -87,6 +88,7 @@
           		<a href="https://github.com/ElectricRose" target="_blank" class="fa fa-github fa-2x"></a>
           	</div>
           </div>
+        </div>
         </div>
 
             </div><!--about-desc-->

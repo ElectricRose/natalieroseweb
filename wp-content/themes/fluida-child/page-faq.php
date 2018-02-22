@@ -21,7 +21,7 @@ get_header(); ?>
 		<div class="all-content">
 
       <div id="howwork-title">
-      <img src="http://natalierose.net/wp-content/uploads/2018/02/howdoesitwork.png" alt="how does it work?">
+      <img src="http://natalierose.net/wp-content/uploads/2018/02/howdoesitwork2.png" alt="how does it work?">
     </div>
 
       <div class="faq-howwork">

@@ -16,12 +16,12 @@ This theme, like WordPress, is licensed under the GPL.
 */
 @import url("../fluida-theme/style.css");
 @font-face {
-font-family: "Tuesday Night";
-src: url("fonts/tuesdaynight-regular-webfont.eot");
+font-family: "Anisha Free";
+src: url("fonts/anisha_free-webfont.eot");
 src:
-url("fonts/tuesdaynight-regular-webfont") format("woff"),
-url("fonts/TuesdayNight-Regular.otf") format("opentype"),
-url("fonts/tuesdaynight-regular-webfont.svg#filename") format("svg");
+url("fonts/anisha_free-webfont") format("woff"),
+url("fonts/anisha_free.otf") format("opentype"),
+url("fonts/anisha_free-webfont.svg#filename") format("svg");
 }
 
 /*colors =
@@ -78,7 +78,7 @@ span.current{
   text-align: center;
 }
 #opt-firstline{
-  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
+  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
   font-size: 3em;
   color: #00c5fd;
 }
@@ -102,8 +102,13 @@ span.current{
 .front-work h3{
   color: #00c5fd;
   text-align: center;
-  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
+  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
   font-size: 4em;
+  margin: 5% 0 0 0;
+}
+.front-work h4{
+  color: #33e1b6;
+  text-align: center;
 }
 #green-bold{
   font-weight: bold;
@@ -156,8 +161,14 @@ span.current{
 }
 .front-contact h5{
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
   color: #00c5fd;
+  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
+}
+.front-contact h4{
+  text-align: center;
+  font-size: 1.6em;
+  color: #33e1b6;
 }
 .front-contact p{
   text-align: center;
@@ -279,7 +290,7 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
   background-color: #33e1b6;
   color: white;
   display: block;
-  width: 45%;
+  width: 58%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -360,7 +371,7 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 .signup-text h1{
   color: #00c5fd;
   font-size: 3em;
-  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
+  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
 }
 .signup-text h2{
   color: #00c5fd;
@@ -381,6 +392,7 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 .signup-form{
   width: 100%;
   float: left;
+  display: block;
 }
 
 article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main > header, .main > nav#nav-below, .pagination span, .pagination a, #nav-old-below .nav-previous, #nav-old-below .nav-next, #cryout_ajax_more_trigger{
@@ -398,7 +410,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
  #mc_embed_signup h2{
    color: #00c5fd;
    text-align: center;
-   font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
+   font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
    font-size: 2em;
 }
 #mc_embed_signup .mc-field-group label{
@@ -423,7 +435,6 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 #mc_embed_signup .mc-field-group li{
   list-style-type: none !important;
 }
-
 .signup-thank-you{
   width: 100%;
   float: left;
@@ -434,8 +445,32 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   font-size: 1.1em;
   text-align: center;
 }
-
-
+.prohelp{
+  float: left;
+  width: 100%;
+  border-top: 1px solid #00d01b;
+}
+.prohelp h1{
+  text-align: center;
+  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
+  color: #00c5fd;
+}
+.prohelp p{
+  text-align: center;
+  color: #00d01b;
+}
+.prohelp-gold{
+  width: 100%;
+  float: left;
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/02/goldbkg1.jpg");
+}
+.prohelp-inner{
+  width: 95%;
+  float: left;
+  margin: 2%;
+  padding: 0 3% 5% 3%;
+  background-color: #111111;
+}
 /* =========== About ================ */
 .about-content{
   float: left;
@@ -448,16 +483,16 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 .about-intro-box{
   width: 100%;
   height: auto;
-  background-image: url("http://natalierose.net/wp-content/uploads/2017/12/zebra-print-background-vector.jpg");
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/02/peacockbg1.jpg");
   float: left;
-  padding: 5%;
+  padding: 1%;
 }
 .about-inner-box{
   float: left;
   width: 98%;
   height: auto;
   margin: 1%;
-  background-color: #eefefbfa;
+  background-color: #f4fffd;
 }
 .about-intro{
   float: left;
@@ -466,8 +501,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 .about-intro h2{
   font-size: 3.6em;
   text-align: center;
-  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
-  font-weight: bold;
+  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
 }
 .about-intro h3{
   font-size: 1.8em;
@@ -530,8 +564,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   border-bottom: 1px solid #00d01b;
 }
 .about-text1 h3{
-  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
-  font-weight: bold;
+  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
   font-size: 3.5em;
   text-align: center;
   color: #00c5fd;
@@ -589,13 +622,16 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   width: 100%;
   margin: 8% 0 1% 0;
 }
+.about-gold{
+  float: left;
+  width: 100%;
+}
 .about-text3{
   width: 90%;
   padding: 2% 2% 10% 13%;
 }
 .about-text3 h4{
-  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
-  font-weight: bold;
+  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
   font-size: 3.5em;
   text-align: center;
   color: #00c5fd;
@@ -604,8 +640,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   color: #00c5fd;
 }
 .about-text3 h6{
-  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
-  font-weight: bold;
+  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
   font-size: 2em;
   text-align: center;
 }
@@ -625,13 +660,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   height: 210px;
   background: #111;
   float: left;
-}
-.port-intro h1{
-  color: #00d01b;
-  font-weight: bold;
-  text-align: center;
-  font-size: 5em;
-  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
+  display: none;
 }
 .pic-js-box-border{
   float: left;
@@ -678,13 +707,24 @@ img.port-pic{
 .port-desc h3{
   font-size: 3em;
   color: #00c5fd;
-  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
+  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
+}
+.desc-hire-holder{
+  width: 100%;
+  float: left;
+}
+.desc-gold{
+  float: left;
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/02/goldbkg1.jpg");
+  margin: 2%;
 }
 .port-desc{
   float: left;
   margin: 2%;
+  padding: 0 7%;
   text-align: center;
   color: #00d01b;
+  background-color: #111111;
 }
 .hire-me{
   float: left;
@@ -736,8 +776,7 @@ img.port-pic{
   width: 100%;
 }
 .do-list h4{
-  font-weight: bold;
-  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
+  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
   font-size: 4em;
   margin-right: 10%;
 }
@@ -745,7 +784,6 @@ img.port-pic{
   float: left;
   width: 100%;
   text-align: center;
-  background-image: url("http://natalierose.net/wp-content/uploads/2017/12/vine1.png");
 }
 .inner-dolist{
   float: left;
@@ -801,8 +839,7 @@ img.port-pic{
 }
 #special-title h4{
   text-align: center;
-  font-weight: bold;
-  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
+  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
   color: #00c5fd;
   font-size: 4em;
 }
@@ -840,9 +877,8 @@ img.port-pic{
   margin:5% 0 0 10%;
 }
 .inner-promo h5{
-  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
+  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
   font-size: 3em;
-  font-weight: bold;
 }
 #special2-con, #special3-con{
   max-width: 75%;
@@ -863,7 +899,7 @@ img.port-pic{
 .social-header h1{
   text-align: center;
   color: #00c5fd;
-  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
+  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
   font-size: 3em;
 }
 .social-header p, .social-block1 p, .social-block2 p, .social-block3 p, .social-block4 p, .social-block5 p, .something-else p{
@@ -928,7 +964,7 @@ img.port-pic{
 .brandweb-box1 h1, .brandweb-box2 h1, .brandweb-box3 h1, .brandweb-box4 h1, .brandweb-footer h1{
   text-align: center;
   color: #00c5fd;
-  font-family: "Tuesday Night", 'Open Sans Condensed', sans-serif;
+  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
 }
 .brandweb-header p, .brandweb-box1 p, .brandweb-box2 p, .brandweb-box3 p, .brandweb-box4 p, .brandweb-footer p{
   color: #00d01b;
@@ -1028,12 +1064,32 @@ img.port-pic{
   font-size: 1.3em;
 }
 #signup-btn{
-  width: 18%;
+  width: 27%;
 }
 .front-work h3{
   font-size: 6em;
 }
-
+.front-work h4{
+  font-size: 1.8em;
+}
+.front-gold{
+  float: left;
+  width:100%;
+  margin: auto;
+  padding: 1%;
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/02/goldbkg1.jpg");
+}
+.front-work-section{
+  float: left;
+  width: 100%;
+  clear: both;
+  background-color: #111;
+  margin: auto;
+  padding: 0 5% 3% 5%;
+}
+.front-contact h5{
+  font-size: 3.5em;
+}
 /* ========== Sign up ============== */
 .signup-header{
   width: 90%;
@@ -1065,7 +1121,22 @@ img.port-pic{
 #mc_embed_signup h2{
   font-size: 3em;
 }
+.prohelp-gold{
+  width: 97%;
+  margin: 4% 2%;
+}
+.prohelp-inner{
+  width: 98%;
+  margin: 1%;
+  padding: 0 5% 5% 5%;
+}
+.prohelp h1{
+  font-size: 4em;
+}
 /* =========== About ================ */
+.about-intro-box{
+  padding: 3%;
+}
 .about-intro h2{
   font-size: 5em;
 }
@@ -1105,18 +1176,27 @@ img.port-pic{
   border-radius: 36px;
   padding: 4% 4% 0 4%;
 }
+.about-gold{
+  width: 100%;
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/02/gold-splatter2.jpg");
+  padding: 5% 5% 5% 15%;
+}
+.about-text3{
+  background-color: #111111;
+  width: 80%;
+  padding: 3%;
+  margin: 5% 5% 5% 5%;
 
+}
 /* =========== Work =========== */
 .port-intro{
-  width: 70%;
-  height: 285px;
-  margin-left: 15%;
-}
-.port-intro h1{
-  font-size: 6em;
+  width: 100%;
+  height: 270px;
+  display: block;
 }
 .pic-js-box-border{
-  width: 58%;
+  width: 75%;
+  margin-left: 15%;
 }
 .pic-js-box{
   float: left;
@@ -1140,12 +1220,18 @@ img.port-pic{
   margin-left: auto;
   margin-right: auto;
 }
-.port-desc{
-  width: 35%;
+.desc-hire-holder{
+  width: 98%;
   display: inline-block;
   margin: 5% 2% 1% 3%;
   padding: 0 1% 0 1%;
-  border: 3px dashed #00c5fd;
+}
+.desc-gold{
+  width: 95%;
+}
+.port-desc{
+  width: 98%;
+  margin: 1%;
 }
 .hire-me{
   width: 100%;
@@ -1170,7 +1256,7 @@ img.port-pic{
 .do-list{
   padding: 5%;
   text-align: center;
-  background-image: url("http://natalierose.net/wp-content/uploads/2018/01/darkWood1500.jpg");
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/02/gold-splatter2.jpg");
 }
 .inner-dolist{
   width: 95%;
@@ -1294,7 +1380,7 @@ img.port-pic{
   margin-bottom: 3%;
 }
 #signup-btn{
-  width: 16%;
+  width: 22%;
 }
 .front-work{
   float: left;
@@ -1302,27 +1388,16 @@ img.port-pic{
   padding: 3% 20% 3% 20%;
   margin: auto;
 }
-.front-rainbow{
-  float: left;
-  width:100%;
-  margin: auto;
-  padding: 4%;
-  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-  -webkit-animation: Gradient 15s ease infinite;
-  -moz-animation: Gradient 15s ease infinite;
-  animation: Gradient 15s ease infinite;
-}
 .front-work-section{
   float: left;
   width: 100%;
-  border: 1px solid #00d01b;
   clear: both;
   background-color: #111;
   margin: auto;
   padding: 0 5% 3% 5%;
 }
 .front-work h3{
-  font-size: 4.7em;
+  font-size: 5em;
 }
 .front-about h3{
   font-size: 2em;
@@ -1345,24 +1420,42 @@ img.port-pic{
 }
 
 /* =========== Sign Up ============== */
-.signup-text p{
-  margin: 0 0 1% 20%;
+.signup-text{
   width: 60%;
+  display: inline-block;
+  padding: 1% 2% 0 2%;
+  margin: 0%;
+}
+.signup-form{
+  width: 35%;
+  display: inline-block;
+  margin: 0%;
+  padding: 0%;
+  text-align: left;
+}
+.signup-content{
+  width: 100%;
+  float: left;
+  text-align: left;
 }
 #mc_embed_signup h2{
   font-size: 4em;
 }
 #mc_embed_signup{
-  width: 50%;
+  width: 100%;
 }
 #mc_embed_signup .button{
-  width: 20%;
+  width: 25%;
 }
 #mc_embed_signup .mc-field-group{
-  padding-left: 25%;
+  padding-left: 12%;
 }
 .signup-thank-you{
   margin:2%;
+}
+.prohelp-gold{
+  width: 90%;
+  margin: 3% 5%;
 }
 
 /* =========== About ================ */
@@ -1405,28 +1498,31 @@ img.port-pic{
 
 /* ============ Work =========== */
 .pic-js-box-border{
-  width: 49%;
+  width: 45%;
+  margin: 0%;
 }
 .port-js{
   margin-top: 0%;
 }
 .port-intro{
-  width: 65%;
-  height: 350px;
-  margin-left: 22%;
+  width: 100%;
+  height: 450px;
 }
-.port-intro h4{
-  font-size: 2em;
+.desc-hire-holder{
+  width: 49%;
+  display: inline-block;
+  margin: 5% 2% 1% 3%;
+  padding: 0 1% 0 1%;
 }
-.port-desc h5{
-  font-size: 1.7em;
-  font-weight: bold;
+.desc-gold{
+  width: 95%;
 }
 .port-desc{
-  width: 38%;
-  margin: 10% 3% 2% 3%;
-  border: 3px dashed #00c5fd;
-  padding: 0 3%;
+  width: 98%;
+  margin: 1%;
+}
+.port-desc h3{
+  font-size: 2.4em;
 }
 .work-text1{
   display: inline-block;
@@ -1577,7 +1673,7 @@ img.port-pic{
 
 /* ======== Work =========== */
 .port-intro{
-  margin-left: 30%;
+  height: 540px;
 }
 .js-pic-holder{
   width: 75%;

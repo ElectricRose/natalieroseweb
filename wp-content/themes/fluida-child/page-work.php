@@ -21,7 +21,7 @@ get_header(); ?>
 		<div class="all-content">
 			<div class="port-content">
 				<div class="port-intro">
-			<img src="http://natalierose.net/wp-content/uploads/2018/02/welcome1.png" alt="welcome web design">
+			<img src="http://natalierose.net/wp-content/uploads/2018/02/build-something-better4.png" alt="welcome web design">
 				</div>
 
 
@@ -104,10 +104,10 @@ get_header(); ?>
 		</div><!--pic-js-box-border-->
 
 				<div class="desc-hire-holder">
+					<div class="desc-gold">
 			<div class="port-desc">
-				<h3>Website Woes?</h3>
-				<h4>Is your website making money?</h4>
-				<p><span>Request a website review and make sure your website is working for you!</span><br> From simple spelling and content errors to design & functionality issues, I'll help you discover what isn't working on your website. I'll also run an SEO audit to see how your rankings can be improved and suggest simple changes to increase your website's effectiveness.<br>Make a lasting impression, grow your business, and attract more wealth with simple tweaks and solutions to your current website.<br>Invest in solid solutions for only $99.</p>
+				<h3>Is your website working for you?</h3>
+				<p><span>If you want to maximise your website's potential and make sure that everything is working perfectly, let me take a deeper look.</span><br> From simple spelling and content errors to design & functionality issues, I'll help you discover what is and isn't working on your website. I'll dive into your website's inner workings to create a comprehensive report on your website's strengths and weaknesses with actionable steps you can take to improve it.<br>Make sure your website is working to the best of it's ability and serving you and your customers well.<br>Invest in solid solutions for $145 for up to 8 pages.</p>
 
 				<div class="brandweb-button">
 					<a href="http://natalierose.net/contact/">
@@ -115,14 +115,15 @@ get_header(); ?>
 			</div><!--button-box-->
 
 			</div><!--port-desc-->
+		</div><!--desc-gold-->
 		</div><!--desc-hire-holder-->
 
 		<div class="work-container">
 			<div class="work-text1">
-				<h4>Do you run a retail store or restaurant?</h4>
+				<h4>Do you run a shop, eatery, or studio?</h4>
 				<p><span id="hours">Are your hours of operation, location, and contact info easy to find?</span></p>
-				<p>If not you need to fix it!</p>
-				<p>This common and frustrating error can cost you a lot of business. Don't miss out on opportunities because of simple website mistakes or design flaws.</p>
+				<p>If not you are loseing customers!</p>
+				<p>If you run a business with a physical location this important information is essential. If your customers can't find your address or hours of operation easily, typically from a mobile device, they will often move on and look elsewhere. This common and frustrating error can cost you a lot of business. Don't miss out on opportunities because of simple website mistakes or design flaws.</p>
 				<p>I can make quick and easy changes to your website for a small fee. Contact me to request a free quote. <br>No job is too small!</p>
 				<div class="workBox">
 					<a href="http://natalierose.net/schedule-a-call/">
@@ -135,7 +136,7 @@ get_header(); ?>
 			</div><!--work-text1-->
 
 				<div class="shop-pic">
-					<img src="http://natalierose.net/wp-content/uploads/2018/01/rest-plate700.jpg" alt="Fancy food on table at restaurant">
+					<img src="http://natalierose.net/wp-content/uploads/2018/02/shop-700.jpg" alt="shop front">
 				</div>
 		</div><!--work-container-->
 
@@ -246,7 +247,7 @@ get_header(); ?>
 									</div><!--special2-con-->
 
 									<div class="button-box">
-										<a href="http://natalierose.net/brandweb/">
+										<a href="http://natalierose.net/branding-design-and-development/">
 									<button class="btn slay">I'M READY TO ROCK!</button></a>
 								</div><!--button-box-->
 							</div><!--special2-->

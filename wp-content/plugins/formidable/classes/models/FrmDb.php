@@ -28,7 +28,10 @@ class FrmDb {
     public static function get_where_clause_and_values( &$args, $starts_with = ' WHERE ' ) {
         if ( empty($args) ) {
 			// add an arg to prevent prepare from failing
-			$args = array( 'where' => $starts_with . '1=%d', 'values' => array( 1 ) );
+			$args = array(
+				'where' => $starts_with . '1=%d',
+				'values' => array( 1 ),
+			);
 			return;
         }
 
@@ -56,26 +59,30 @@ class FrmDb {
             unset( $args['or'] );
         }
 
-        foreach ( $args as $key => $value ) {
-            $where .= empty( $where ) ? $base_where : $condition;
-            $array_inc_null = ( ! is_numeric( $key ) && is_array( $value ) && in_array( null, $value ) );
-            if ( is_numeric( $key ) || $array_inc_null ) {
-                $where .= ' ( ';
-                $nested_where = '';
-                if ( $array_inc_null ) {
-                    foreach ( $value as $val ) {
-                        self::parse_where_from_array( array( $key => $val, 'or' => 1 ), '', $nested_where, $values );
-                    }
-                } else {
-                    self::parse_where_from_array( $value, '', $nested_where, $values );
-                }
-                $where .= $nested_where;
-                $where .= ' ) ';
-            } else {
-                self::interpret_array_to_sql( $key, $value, $where, $values );
-            }
-        }
-    }
+		foreach ( $args as $key => $value ) {
+			$where .= empty( $where ) ? $base_where : $condition;
+			$array_inc_null = ( ! is_numeric( $key ) && is_array( $value ) && in_array( null, $value ) );
+			if ( is_numeric( $key ) || $array_inc_null ) {
+				$where .= ' ( ';
+				$nested_where = '';
+				if ( $array_inc_null ) {
+					foreach ( $value as $val ) {
+						$parse_where = array(
+							$key => $val,
+							'or' => 1,
+						);
+						self::parse_where_from_array( $parse_where, '', $nested_where, $values );
+					}
+				} else {
+					self::parse_where_from_array( $value, '', $nested_where, $values );
+				}
+				$where .= $nested_where;
+				$where .= ' ) ';
+			} else {
+				self::interpret_array_to_sql( $key, $value, $where, $values );
+			}
+		}
+	}
 
     /**
      * @param string $key
@@ -162,7 +169,8 @@ class FrmDb {
 	 */
     private static function add_query_placeholder( $key, $value, &$where ) {
 		if ( is_numeric( $value ) && ( strpos( $key, 'meta_value' ) === false || strpos( $key, '+0' ) !== false ) ) {
-			$where .= '%d';
+			$value = $value + 0; // switch string to number
+			$where .= is_float( $value ) ? '%f' : '%d';
 		} else {
 			$where .= '%s';
 		}
@@ -272,16 +280,16 @@ class FrmDb {
 	 */
 	public static function append_where_is( $where_is ) {
 		$switch_to = array(
-			'='		=> '',
-			'!=' 	=> '!',
-			'<='	=> '<',
-			'>='	=> '>',
-			'like'	=> 'like',
+			'='     => '',
+			'!='    => '!',
+			'<='    => '<',
+			'>='    => '>',
+			'like'  => 'like',
 			'not like' => 'not like',
-			'in'	=> '',
+			'in'    => '',
 			'not in' => 'not',
-			'like%'	=> 'like%',
-			'%like'	=> '%like',
+			'like%' => 'like%',
+			'%like' => '%like',
 		);
 
 		$where_is = strtolower( $where_is );
@@ -343,9 +351,6 @@ class FrmDb {
                 continue;
             }
 
-            if ( $k == 'limit' ) {
-				$args[ $k ] = self::esc_limit( $v );
-            }
             $db_name = strtoupper( str_replace( '_', ' ', $k ) );
             if ( strpos( $v, $db_name ) === false ) {
 				$args[ $k ] = $db_name . ' ' . $v;
@@ -375,7 +380,7 @@ class FrmDb {
 
 		$query = self::generate_query_string_from_pieces( $columns, $table, $where );
 
-		$cache_key = str_replace( array( ' ', ',' ), '_', trim( implode( '_', FrmAppHelper::array_flatten( $where ) ) . $columns . '_results_ARRAY_A' , ' WHERE' ) );
+		$cache_key = str_replace( array( ' ', ',' ), '_', trim( implode( '_', FrmAppHelper::array_flatten( $where ) ) . $columns . '_results_ARRAY_A', ' WHERE' ) );
 		$results = self::check_cache( $cache_key, $group, $query, 'get_associative_results' );
 
 		return $results;
@@ -395,6 +400,8 @@ class FrmDb {
 	private static function generate_query_string_from_pieces( $columns, $table, $where, $args = array() ) {
 		$query = 'SELECT ' . $columns . ' FROM ' . $table;
 
+		self::esc_query_args( $args );
+
 		if ( is_array( $where ) || empty( $where ) ) {
 			self::get_where_clause_and_values( $where );
 			global $wpdb;
@@ -402,13 +409,30 @@ class FrmDb {
 		} else {
 			/**
 			 * Allow the $where to be prepared before we recieve it here.
-			 * This is a fallback for reverse compatability, but is not recommended
+			 * This is a fallback for reverse compatibility, but is not recommended
 			 */
 			_deprecated_argument( 'where', '2.0', __( 'Use the query in an array format so it can be properly prepared.', 'formidable' ) );
 			$query .= $where . ' ' . implode( ' ', $args );
 		}
 
 		return $query;
+	}
+
+	/**
+	 * @since 2.05.07
+	 */
+	private static function esc_query_args( &$args ) {
+		foreach ( $args as $param => $value ) {
+			if ( $param == 'order_by' ) {
+				$args[ $param ] = self::esc_order( $value );
+			} elseif ( $param == 'limit' ) {
+				$args[ $param ] = self::esc_limit( $value );
+			}
+
+			if ( $args[ $param ] == '' ) {
+				unset( $args[ $param ] );
+			}
+		}
 	}
 
     /**
@@ -448,15 +472,10 @@ class FrmDb {
 
 		$order_query = explode( ' ', trim( $order_query ) );
 
-		$order_fields = array(
-			'id', 'form_key', 'name', 'description',
-			'parent_form_id', 'logged_in', 'is_template',
-			'default_template', 'status', 'created_at',
-		);
-
-		$order = trim( trim( reset( $order_query ), ',' ) );
-		if ( ! in_array( $order, $order_fields ) ) {
-			return '';
+		$order = trim( reset( $order_query ) );
+		$safe_order = array( 'count(*)' );
+		if ( ! in_array( strtolower( $order ), $safe_order ) ) {
+			$order = preg_replace( '/[^a-zA-Z0-9\-\_\.\+]/', '', $order );
 		}
 
 		$order_by = '';
@@ -488,7 +507,7 @@ class FrmDb {
 			return '';
 		}
 
-		$limit = trim( str_replace( ' limit', '', strtolower( $limit ) ) );
+		$limit = trim( str_replace( 'limit ', '', strtolower( $limit ) ) );
 		if ( is_numeric( $limit ) ) {
 			return ' LIMIT ' . $limit;
 		}

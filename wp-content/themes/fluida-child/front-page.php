@@ -53,29 +53,30 @@ function fluida_lp_layoutclass () {
 
 	<div class="optin-section">
 		<div id="optin-pic">
-			<img src="http://natalierose.net/wp-content/uploads/2018/02/header2.png">
+			<img src="http://natalierose.net/wp-content/uploads/2018/02/improve-your-website2.png" alt="Improve your website, increase your profits.">
 		</div>
 			<div class="optin-text">
-				<p><span id="opt-firstline">Is your website working for you?</span></p>
-				<p><span id="opt-secondline">Are you struggling to grow your business online? You may have website issues!</span></p>
-				<p>Download my free guide to see my suggestions on how to improve your website.</p>
+				<p><span id="opt-firstline">Improve your website<br>Increase your profits</span></p>
+				<p><span id="opt-secondline">Is your website the best that it can be? Are you struggling to attract the right clients or customers?<br> Is your website slow, glitchy, or so far down in the search engine rankings no one finds it?</span></p>
+				<p>Find out how you can improve your website's performance and see the results you need with my free website guide.</p>
 			</div>
 			<div class="signup-box">
 				<a href="http://natalierose.net/sign-up/">
-			<button id="signup-btn">I WANT IT!</button></a>
+			<button id="signup-btn">GRAB THE GUIDE</button></a>
 		</div><!--button-box-->
 	</div><!--opting-section-->
 
 
   <div class="front-work">
-		<div class="front-rainbow">
+		<div class="front-gold">
 		<div class="front-work-section">
-      <h3>Empowering organic growth</h3>
-      <p><span id="blue">Let me guess, you are here because you need some help to grow your business.</span><br><span id="green-bold">You have the passion and the skills.<br> You have the drive and the ambition.<br> You have amazing gifts that you want to share with the people who need them.<br> But what you lack is the steady stream of customers begging for your help.<br>Am I right?</span><br><br> Maybe you have tried on your own for a while now, or maybe you are just getting started. You are overwhelmed and frustrated and your website or lack-there-of isn’t working for you.<br> You need a change, something different, and just building a website isn’t going to solve all of your problems.<br><br><span id="green-bold"> Sure you can throw your money at the problem, and hope it works out.<br> Or you can invest in someone who wants to see you succeed.</span><br><span id="blue">You need a plan, an amazing website, and a brand that captures your customer’s imagination.</span>
+      <h3>You deserve more!</h3>
+			<h4>More clients, more wealth, & more freedom to live the life you deserve.</h3>
+      <p><span id="blue">You need your business to grow and thrive.</span><br><span id="green-bold">You have the passion and the skills.<br> You have the drive and the ambition.<br> You have amazing gifts that you want to share with the people who need them.<br>But what you lack is the steady stream of customers begging for your help.<br>Am I right?</span><br><br> Maybe you have tried on your own for a while now, or maybe you are just getting started. You are overwhelmed and frustrated and your website or lack-there-of isn’t working for you.<br> You need a change, something different, and just building a website isn’t going to solve all of your problems.<br><br><span id="green-bold"> Sure you can throw your money at the problem, and hope it works out.<br> Or you can invest in yourself and trust in someone who wants to see you succeed.</span><br><span id="blue">You need a game plan, an amazing website, and a brand that captures your customer’s imagination.</span>
 				<br> You need someone who can see who you are and what you have to offer the world. Someone who can unearth the essence of your business and deliver it in a meaningful and captivating way.
 			<br><span id="green-bold">You need Natalie Rose.</span><br>
-			<br>When you are ready to dive in and invest in yourself to grow your business I’m here to help.<br>
-			I can help you by designing and providing you with a signature style and cohesive brand that speaks to the true essence of your business. We can work together to develop a strategy to promote your business and capture leads through branded graphics and advertising. And I can build you a website that functions flawlessly and helps to turn those leads into paying customers.<br><span id="green-bold"> The future is yours. Are you ready to grab it?</span></p>
+			<br>Are you ready for something better?<br>
+			<span id="green-bold">Let's build your empire together!</span></p>
         <div id="work-more">
 					<div class="frontworkBox">
 						<a href="http://natalierose.net/work/">Learn More
@@ -90,11 +91,11 @@ function fluida_lp_layoutclass () {
 
   <div class="front-about">
       <div class="front-about-text">
-        <h3>Reach a wider audience online</h3>
-          <p>I build solid brands & craft engaging websites.<br>I help the heart-centered and creative entrepreneurs encourage wealth and grow their businesses through captivating web solutions and memorable marketing strategies. I also love to work with businesses and organizations focused on nature, outdoor adventure, and eco-tourism.<br>If you want to grow your business online and attract more customers, I can help you to stand out in your local community or reach potential customers from all over the world. From Ecommerce to brick and mortar businesses, I've got web solutions for you! You don't have to struggle alone, I'm here to take this journey with you.<p>
+        <h3>Hello, I'm Natalie Rose.</h3>
+          <p>I'm a designer, developer, and creative entrepreneur.<br>I help build solid brands & craft beautiful and engaging websites for the soulful small business.<br>I help the heart and eco-centered entrepreneurs and the creative minds encourage wealth and grow their businesses through creative web solutions and memorable marketing strategies. <br>If you want to grow your business online and attract more customers, more wealth, and more prosperity you need a solid plan and the proper tools to work with. I can help you to stand out in your local community or reach potential customers from all over the world. From Ecommerce to tourism to brick and mortar businesses, I can help you take your business to the next level.<p>
 			</div>
 			<div id="front-about-img">
-	      <img src="http://natalierose.net/wp-content/uploads/2018/01/profile-circle3.png">
+	      <img src="http://natalierose.net/wp-content/uploads/2018/02/peacock-circle-photo3-1.png" alt="Natalie Rose - Small business websites">
 	    </div>
 					<div id="about-more">
 						<div class="aboutBox">
@@ -107,7 +108,8 @@ function fluida_lp_layoutclass () {
   	</div><!--front-about-->
 
 	<div class="front-contact">
-		<h5>Interested? Want to know more?</h5>
+		<h5>Are you ready for something better?</h5>
+		<h4>Let's chat about your business.</h4>
 		<p>I'm available:<br>
 			Mon - Fri<br>
 			9am - 5pm<br>
