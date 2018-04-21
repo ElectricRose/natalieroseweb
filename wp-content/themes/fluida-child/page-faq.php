@@ -24,6 +24,7 @@ get_header(); ?>
       <img src="http://natalierose.net/wp-content/uploads/2018/02/howdoesitwork2.png" alt="how does it work?">
     </div>
 
+		<div class="faq-outter">
       <div class="faq-howwork">
         <h1>The Process</h1>
         <h2>First Step: Let's chat!</h2>
@@ -91,7 +92,7 @@ get_header(); ?>
       </div><!--faq-questions-->
 
       <div class="faq-askme">
-        <h4>If you have any questions please don't hesitate to ask!</h4>
+        <h4><strong>I'm here to help!</strong><br>If you have any questions please don't hesitate to ask.</h4>
         <div class="workBox">
           <a href="http://natalierose.net/contact/">
             Ask Me!
@@ -100,6 +101,8 @@ get_header(); ?>
             </svg></a>
         </div><!--workBox-->
       </div>
+
+		</div><!--faq-outter-->
 
 
     </div><!--all-content-->

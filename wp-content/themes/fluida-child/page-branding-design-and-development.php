@@ -18,14 +18,20 @@ get_header(); ?>
 		<main id="main" role="main" class="main">
 			<?php cryout_before_content_hook(); ?>
 
-		<div class="all-content">
+<div class="all-content">
+	<div class="brandweb-all">
+		<div class="brandweb-inner">
       <div class="brandweb-title">
         <img src="http://natalierose.net/wp-content/uploads/2018/02/brandingandwebdesign2.png" alt="branding and web design title">
       </div>
       <div class="brandweb-header">
-        <p><strong>Are you ready to stand out with a fresh new look?</strong><br>With my full branding & web design packages we will work together to create something truly unique! We will dig deep to find a look & style that truly reflects you and your business.<br>Take your business to new heights with a captivating brand style, including graphics, logos, and icons. Then top it all of with a sleek new website designed to intrigue your visitors and capture customers.</p>
-        <p><strong>It doesn't have to stop at design!</strong><br>I'll craft & code your website by hand. Built with integrity, I'll add custom functionalities and features that streamline your lead flow and capture new customers with ease. I'll make sure you know exactly how things work on your website, so you can make updates and add content quickly and easily.</p>
-      </div><!--brandweb-header-->
+				<div class="brandweb-header-gold">
+					<div class="brandweb-header-text">
+        <p><div id="areyouready">Are you ready to stand out with a fresh new look?</div><br>With my full branding & web design packages we will work together to create something truly unique! We will dig deep to find a look & style that truly reflects you and your business.<br>Take your business to new heights with a captivating brand style, including graphics, logos, and icons. Then top it all of with a sleek new website designed to intrigue your visitors and capture customers.<br>
+        <strong>It doesn't have to stop at design!</strong><br>I'll craft & code your website by hand. Built with integrity, I'll add custom functionalities and features that streamline your lead flow and capture new customers with ease. I'll make sure you know exactly how things work on your website, so you can make updates and add content quickly and easily.</p>
+			</div><!--brandweb-header-text-->
+		</div><!--brandweb-header-gold-->
+			</div><!--brandweb-header-->
 
       <div class="brandweb-content">
 
@@ -176,7 +182,7 @@ get_header(); ?>
 
         <div class="brandweb-footer">
         <h1>How does it all work?</h1>
-        <p>Find answers to frequently asked questions and more about how the process works here!</p>
+        <p><strong>Looking for more info?</strong><br>Find out how the process works and find answers to the most frequently asked questions here!</p>
 
         <div class="brandweb-button">
             <a href="http://natalierose.net/faq/">
@@ -185,11 +191,10 @@ get_header(); ?>
 
       </div>
 
-
-
-    </div><!--brandweb-content-->
-
-    </div><!--all-content-->
+  </div><!--brandweb-content-->
+		</div><!--brandweb-inner-->
+			</div><!--brandweb-all-->
+		    </div><!--all-content-->
       <?php cryout_after_content_hook(); ?>
     </main><!-- #main -->
     <?php fluida_get_sidebar(); ?>

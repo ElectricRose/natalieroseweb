@@ -1,7 +1,7 @@
 /*
 Theme Name: Fluida Child Theme
 Theme URI: http://www.cryoutcreations.eu/wordpress-themes/fluida-child/
-Description: Fluida is a modern, crystal clear and squeaky clean theme. It shines bright with a fluid and responsive layout and carries under its hood a light and powerful framework.
+Description: Fluida is a modern, crystal clear and squeaky clean theme.
 Author: Natalie Rose
 Author URI: http://www.cryoutcreations.eu
 Template: fluida
@@ -16,12 +16,26 @@ This theme, like WordPress, is licensed under the GPL.
 */
 @import url("../fluida-theme/style.css");
 @font-face {
-font-family: "Anisha Free";
-src: url("fonts/anisha_free-webfont.eot");
-src:
-url("fonts/anisha_free-webfont") format("woff"),
-url("fonts/anisha_free.otf") format("opentype"),
-url("fonts/anisha_free-webfont.svg#filename") format("svg");
+    font-family: 'hyperegular';
+    src: url('hype-webfont.eot');
+    src: url('hype-webfont.eot?#iefix') format('embedded-opentype'),
+         url('hype-webfont.woff2') format('woff2'),
+         url('hype-webfont.woff') format('woff'),
+         url('hype-webfont.ttf') format('truetype'),
+         url('hype-webfont.svg#hyperegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pier_sansregular';
+    src: url('pier-webfont.eot');
+    src: url('pier-webfont.eot?#iefix') format('embedded-opentype'),
+         url('pier-webfont.woff2') format('woff2'),
+         url('pier-webfont.woff') format('woff'),
+         url('pier-webfont.ttf') format('truetype'),
+         url('pier-webfont.svg#pier_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /*colors =
@@ -30,9 +44,14 @@ green #00d01b
 lightblack #0f1316
 */
 
-
+body{
+  width: auto;
+}
 a{
   color: #00ff40;
+}
+.main p{
+  margin-bottom: 0% !important;
 }
 .lp-boxes-static .lp-box-title{
   color: #00c5fd !important;
@@ -50,51 +69,77 @@ article#post-15.post-15.page.type-page.status-publish.hentry{
   display: none;
 }
 .pagination span, .pagination a{
-  background-color: #111 !important;
+  background-color: #000 !important;
   border: 1px solid #00d01b;
 }
 span.current{
   color:#00d01b;
 }
-
+.lp-staticslider .staticslider-caption, .seriousslider.seriousslider-theme .seriousslider-caption{
+  position: absolute;
+  background-color: #00c5fdab;
+  padding: 2%;
+  z-index: 3;
+  left: 30%;
+  right: 0%;
+  top: 48%;
+  bottom: auto;
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.lp-staticslider .staticslider-caption-title{
+  line-height: 1;
+}
+.lp-staticslider .staticslider-caption-title, .seriousslider.seriousslider-theme .seriousslider-caption-title{
+  font-size: 1.8em;
+}
+.lp-staticslider .staticslider-caption-text, .seriousslider.seriousslider-theme .seriousslider-caption-text{
+  font-size: 1em;
+}
 
 /*============= Front Page ==========*/
+
 .optin-section{
-  color:#111;
   float: left;
+  color:#111;
+  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/drkforest5.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
   width: 100%;
-  margin-top: 15%;
-  padding: 5% 2% 12% 2%;
+  margin-top: 5%;
   border-bottom: 1px solid #00d01b;
 }
 .optin-text{
-  width: 100%;
-  float: left;
-  clear: both;
-  margin-bottom: 5%;
+  width: 97%;
+  margin: 30% 2%;
+  padding: 1%;
+  background-color: #ffffffde;
+  border: 5px solid #33e1b6;
+}
+.compass{
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .optin-section p{
-  color: #00d01b;
+  color: #111111;
   text-align: center;
 }
-#opt-firstline{
-  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
-  font-size: 3em;
-  color: #00c5fd;
-}
 #opt-secondline{
-  font-size: 1.1em;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-weight: bold;
 }
-#optin-pic{
-  width: 90%;
-  float: left;
-  display: none;
-}
-#optin-pic img{
-  float: left;
-  max-width: 100%;
+#opt-thirdline{
+  font-size: 1.2em;
 }
 .front-work{
+  float: left;
   padding: 5%;
   border-top: 1px solid #00d01b;
   border-bottom: 1px solid #00d01b;
@@ -102,46 +147,55 @@ span.current{
 .front-work h3{
   color: #00c5fd;
   text-align: center;
-  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
-  font-size: 4em;
-  margin: 5% 0 0 0;
+  font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.5em;
+  margin: 5% 0;
 }
 .front-work h4{
-  color: #33e1b6;
+  color: #2d2d2d;
   text-align: center;
-}
-#green-bold{
+  text-transform: uppercase;
   font-weight: bold;
-}
-#blue{
-  color: #00c5fd;
-  font-weight: bold;
-  font-size: 1.1em;
+  font-size: 1.8em;
 }
 .front-work-section{
-  text-align: center;
+  background-color: white;
   float: left;
+  padding: 4%;
+  margin-top: 10%;
 }
-.front-about, .front-work, .front-contact{
-  background-color: #111 !important;
+.front-work, .front-contact{
+  background-color: #111;
 }
-.front-work p, .front-about p{
-  color: #00d01b;
+.front-work p{
+  color: #2d2d2d;
+  text-align: center;
+}
+.front-boots{
+  width: 68%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .front-about{
-  border-bottom: 1px solid #00d01b;
-  padding: 5%;
-  float: left;
-  text-align: center;
+    border-bottom: 1px solid #00d01b;
+    float: left;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
-.front-about-img{
+.front-about-inner{
   float: left;
-  display: block;
-  max-width: 80%;
-  margin: 5%;
+  margin: 2%;
 }
 .front-about-text{
   float: left;
+  background-color: white;
+  padding: 4%;
+}
+.front-about p{
+  color: #2f2f2f;
+  text-align: center;
 }
 #about-more{
   float: left;
@@ -159,13 +213,14 @@ span.current{
   border-bottom: 1px solid #00d01b;
   padding: 2%;
 }
-.front-contact h5{
-  text-align: center;
-  font-size: 3em;
-  color: #00c5fd;
-  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
-}
 .front-contact h4{
+  text-align: center;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: #00c5fd;
+  font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
+}
+.front-contact h5{
   text-align: center;
   font-size: 1.6em;
   color: #33e1b6;
@@ -293,6 +348,7 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
   width: 58%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 4%;
 }
 #signup-btn:hover{
   background-color: #00c5fd;
@@ -350,35 +406,45 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 	background: rgba(10, 10, 10, 0.1);
 	border-color: rgba(10, 10, 10, 0.1);
 }
+
+
 /* =========== Signup =============== */
-.signup-content{
-  float: left;
-  width: 100%;
+.signup-section1{
+  background-color: #111;
 }
 .signup-header{
   width: 100%;
-  background-color: #111;
-  float: left;
-  display: none;
+  text-align: center;
+  background-color: #111111d6;
 }
-.signup-text{
-  float: left;
+.signup-header h2{
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 1.8em;
+}
+#illshowyou{
+  text-align: left;
+}
+.signup-text1{
   text-align: center;
   width: 95%;
   padding: 5%;
   margin: 2% 0 1% 3%;
+  background-color: white;
+  border: 5px solid #33e1b6;
 }
-.signup-text h1{
-  color: #00c5fd;
-  font-size: 3em;
-  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
+.signup-text1 h1{
+  color: #000;
+  font-size: 1.8em;
+  font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
 }
-.signup-text h2{
+.signup-text1 h2{
   color: #00c5fd;
   font-size: 1.5em;
 }
-.signup-text p{
-  color: #00d01b;
+.signup-text1 p{
+  color: #000;
 }
 #onlyVIP{
   font-weight: bold;
@@ -391,7 +457,6 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 }
 .signup-form{
   width: 100%;
-  float: left;
   display: block;
 }
 
@@ -399,65 +464,65 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   background-color: #111 !important;
 }
 #mc_embed_signup{
-  background:#111;
   clear:left;
   font:14px 'Open Sans Condensed',sans-serif;
-  width: 50%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: block;
  }
  #mc_embed_signup h2{
-   color: #00c5fd;
+   color: #6833e1;
    text-align: center;
-   font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
+   font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
    font-size: 2em;
+   text-transform: uppercase;
+   font-weight: bold;
 }
 #mc_embed_signup .mc-field-group label{
-  color: #00d01b;
+  color: #111111;
+  font-weight: bold;
  }
 #mc_embed_signup .button{
   background-color: #00c5fd !important;
   font-weight: bold !important;
   display: block;
-  width: 50%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
 #mc_embed_signup .mc-field-group{
-  color: #00d01b;
-  margin: 2% 0 0 5%;
-  padding-left: 12%;
-}
-#mc_embed_signup_scroll{
+  color: #111111;
   margin: 2%;
 }
 #mc_embed_signup .mc-field-group li{
   list-style-type: none !important;
 }
 .signup-thank-you{
-  width: 100%;
   float: left;
-  margin: 10% 2%;
+  width: 100%;
+  margin: 8% 1%;
 }
-.signup-thank-you p{
-  color: #00d01b;
+.signup-thank-you-inner{
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/02/gold-scratch1.jpg");
+  padding: 1%;
+  margin: 2%;
+}
+.signup-thank-you-text{
+  background-color: white;
+  padding: 2%;
+  margin: 0%;
+}
+.signup-thank-you-text p{
+  color: #111111;
   font-size: 1.1em;
   text-align: center;
+  margin-top: 2%;
 }
 .prohelp{
-  float: left;
   width: 100%;
   border-top: 1px solid #00d01b;
-}
-.prohelp h1{
-  text-align: center;
-  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
-  color: #00c5fd;
-}
-.prohelp p{
-  text-align: center;
-  color: #00d01b;
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/03/gold-dot-design.jpg");
 }
 .prohelp-gold{
   width: 100%;
@@ -465,11 +530,24 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   background-image: url("http://natalierose.net/wp-content/uploads/2018/02/goldbkg1.jpg");
 }
 .prohelp-inner{
-  width: 95%;
-  float: left;
+  width: 96%;
   margin: 2%;
-  padding: 0 3% 5% 3%;
-  background-color: #111111;
+  padding: 0 1%;
+  background-color: white;
+}
+.prohelp h1{
+  text-align: center;
+  font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  color: #000;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-top: 6%;
+  font-size: 2em;
+}
+.prohelp p{
+  text-align: center;
+  color: #000;
 }
 /* =========== About ================ */
 .about-content{
@@ -483,7 +561,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 .about-intro-box{
   width: 100%;
   height: auto;
-  background-image: url("http://natalierose.net/wp-content/uploads/2018/02/peacockbg1.jpg");
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/03/gold-dot-design.jpg");
   float: left;
   padding: 1%;
 }
@@ -501,7 +579,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 .about-intro h2{
   font-size: 3.6em;
   text-align: center;
-  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
+  font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
 }
 .about-intro h3{
   font-size: 1.8em;
@@ -543,15 +621,22 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 #about-img img{
   border-radius: 25px;
 }
-#about-work-with-me{
+.about-work-with-me{
   width: 98%;
   float: left;
   display: block;
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/02/goldbkg1.jpg");
 }
-#about-work-with-me p{
+.about-work-with-me-inner{
+  background-color: white;
+  float: left;
+  margin: 1%;
+}
+.about-work-with-me-inner p{
   text-align: center;
   font-size: 1.5em;
-  color: #00c5fd;
+  color: #111111;
+  padding: 2%;
 }
 #work-img1{
   display: none;
@@ -564,7 +649,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   border-bottom: 1px solid #00d01b;
 }
 .about-text1 h3{
-  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
+  font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
   font-size: 3.5em;
   text-align: center;
   color: #00c5fd;
@@ -604,8 +689,12 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 .about-text1, .about-text2, .about-text3{
   float: left;
 }
-.about-text1 p, .about-text2 p, .about-text3{
+.about-text1 p, .about-text2 p{
   color: #00d01b;
+  text-align: center;
+}
+.about-text3 p{
+  color: #000;
   text-align: center;
 }
 #button{
@@ -627,20 +716,23 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   width: 100%;
 }
 .about-text3{
-  width: 90%;
-  padding: 2% 2% 10% 13%;
+  width: 100%;
+  padding: 4%;
+  background-color: white;
 }
 .about-text3 h4{
-  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
-  font-size: 3.5em;
+  font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
+  font-size: 4.2em;
   text-align: center;
-  color: #00c5fd;
+  color: #000;
 }
 .about-text3 h5{
   color: #00c5fd;
+  font-weight: bold;
+  text-align: center;
 }
 .about-text3 h6{
-  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
+  font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
   font-size: 2em;
   text-align: center;
 }
@@ -651,272 +743,135 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 #masthead .header-image{
   display: none;
 }
-.all-content{
-  float: left;
-  background-color: #111 !important;
-}
-.port-intro{
-  width: 100%;
-  height: 210px;
-  background: #111;
-  float: left;
-  display: none;
-}
-.pic-js-box-border{
-  float: left;
-  width: 100%;
-}
-.pic-js-box{
-  float: left;
-  width: 100%;
-  background: #111;
-}
-.js-pic-holder{
+.work-header{
   width: 100%;
   float: left;
-  margin-top: 8%;
+  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/forest-header1.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  height: 300px;
 }
-img.port-pic{
-  width: 66%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.port-js{
-  width: 100%;
-  float: left;
-  margin: 2%;
-  padding: 2%;
-  text-align: center;
-}
-.port-js h2{
-  font-size: 2.1em;
+.work-header h1{
+  font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
+  font-size: 2em;
+  letter-spacing: 10px;
   text-transform: uppercase;
   font-weight: bold;
-  color: #00c5fd;
-}
-.port-js h3{
-  font-size: 2em;
-  color: #00d01b;
-}
-.port-desc h5{
-  font-weight: bold;
-  font-size: 1.5em;
-  color: #00c5fd;
-}
-.port-desc h3{
-  font-size: 3em;
-  color: #00c5fd;
-  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
-}
-.desc-hire-holder{
-  width: 100%;
-  float: left;
-}
-.desc-gold{
-  float: left;
-  background-image: url("http://natalierose.net/wp-content/uploads/2018/02/goldbkg1.jpg");
-  margin: 2%;
-}
-.port-desc{
-  float: left;
-  margin: 2%;
-  padding: 0 7%;
+  color: white;
   text-align: center;
-  color: #00d01b;
-  background-color: #111111;
+  padding-top: 26%;
 }
-.hire-me{
-  float: left;
-  display: block;
-  width: 95%;
-  margin: 5%;
-  text-align: center;
-  border-top: 1px solid #00d01b;
-  border-bottom: 1px solid #00d01b;
-  color: #00d01b;
-}
-.hire-me h4{
-  color: #00c5fd;
-  font-weight: bold;
-}
-.work-container{
-  border-top: 1px solid #00d01b;
-  border-bottom: 1px solid #00d01b;
+.work-section1{
   float: left;
   width: 100%;
-  margin: 5% 0 5% 0;
+  background-color: #111;
 }
-.work-text1{
-  margin-top: 2%;
-  padding: 2% 5% 2% 5%;
-  float: left;
-  display: block;
-  width: 98%;
-}
-.work-text1 h4{
-  font-size: 2em;
-  text-align: center;
-  color: #00c5fd;
-  text-transform: uppercase;
-}
-.work-text1 p{
-  text-align: center;
-  color: #00d01b;
-}
-#hours{
-  font-weight: bold;
-  font-size: 1.1em;
-  color: #00d01b;
-  text-align: center;
-}
-.shop-pic{
-  display: block;
-  float: left;
-  width: 100%;
-}
-.do-list h4{
-  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
-  font-size: 4em;
-  margin-right: 10%;
-}
-.do-list{
-  float: left;
-  width: 100%;
-  text-align: center;
-}
-.inner-dolist{
-  float: left;
-  width: 95%;
-  margin: 2%;
-  background-color: #f6fffd;
-}
-#do-title{
-  font-weight: bold;
-  font-size: 1.2em;
-}
-.do-list p{
-  text-align: center;
-}
-#docon1, #docon2, #docon3, #docon4, #docon5, #docon6, #docon7{
+.work-square1, .work-square2, .work-square3{
   display: inline-block;
   float: left;
-  width: 30%;
+  width: 31%;
+  margin: 3% 1%;
 }
-#docon3, #docon5, #docon7{
-  clear: both;
-}
-#docon1{
-  margin-top: 6%;
-}
-#docon2{
-  margin-top: 3%;
-}
-#docon3{
-  margin-top: 4%;
-}
-#docon4{
-  margin-top: 8%;
-}
-#docon5{
-  margin-top: 20%;
-}
-#docon6{
-  margin-top: 15%;
-}
-#docon7{
-  margin-top: 20%;
-}
-#dotext1, #dotext2, #dotext3, #dotext4, #dotext5, #dotext6, #dotext7{
-  width: 62%;
-  display: inline-block;
+.work-section2{
   float: left;
+  width: 100%;
+  background-color: #fff;
+}
+.work-section3{
+  float: left;
+  width: 100%;
+  background-color: #111;
+}
+.work-package-gold{
+  float: left;
+  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/02/gold-scratch1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 2%;
 }
-.specialties{
+.package1, .package2, .package3, .package4{
+  background-color: #fff;
   float: left;
-  margin: 3% 0 3% 0;
-}
-#special-title h4{
-  text-align: center;
-  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
-  color: #00c5fd;
-  font-size: 4em;
-}
-.special-all{
-  float: left;
-  padding: 0 1% 0 1%;
-  background: #f6fffd;
-  text-align: center;
-}
-#special1, #special2, #special3{
-  width: 99%;
-  height: 100%;
-  display: block;
-  float: left;
+  display: inline-block;
+  margin: 1%;
   padding: 0 2%;
-  margin: 0 1%;
-  border: 3px solid #00d01b;
-  background: #f6fffd;
 }
-#special1 h5, #special2 h5, #special3 h5{
+.package1 h1, .package2 h1, .package3 h1, .package4 h1{
+  text-align: center;
+  text-transform: uppercase;
   font-weight: bold;
-  text-align: center;
+  font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
+  letter-spacing: 10px;
+  font-size: 2em;
 }
-.promotions{
-  float: left;
-  width: 100%;
+.packages-firstp{
   text-align: center;
+  font-weight: bold;
+  padding-bottom: 4%;
+}
+.work-bold{
+  font-weight: bold;
+}
+.work-section3 li{
+  font-weight: bold;
   color: #00d01b;
-  margin-top: 5%;
-  border-top: 1px solid #00d01b;
 }
-.inner-promo{
-  float: left;
-  width: 80%;
-  margin:5% 0 0 10%;
+.special-services{
+  background-color: #fff;
 }
-.inner-promo h5{
-  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
-  font-size: 3em;
-}
-#special2-con, #special3-con{
-  max-width: 75%;
-  margin-left: 13%;
+.ss-header{
+  width: 100%;
 }
 
+
 /* ============ Socials ========== */
-.social-header{
-  width: 70%;
+.social-content{
   float: left;
-  margin-left: 16%;
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/03/gold-dot-design.jpg");
+}
+.social-header{
+  width: 90%;
+  float: left;
+  margin: 5%;
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/02/goldbkg1.jpg");
+  }
+.social-header-inner{
+  background-color: white;
+  margin: 1%;
+  float: left;
+  padding: 5%;
   }
   .social-section, .something-else{
   width: 90%;
   float: left;
   margin-left: 5%;
 }
+.social-section{
+  background-color: #000000;
+}
 .social-header h1{
   text-align: center;
-  color: #00c5fd;
-  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
+  color: #111111;
+  font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
   font-size: 3em;
 }
-.social-header p, .social-block1 p, .social-block2 p, .social-block3 p, .social-block4 p, .social-block5 p, .something-else p{
+.social-header p, .social-block1 p, .social-block2 p, .social-block3 p, .social-block4 p, .social-block5 p, .social-block6 p, .something-else p{
   text-align: center;
-  color: #00d01b;
+  color: #111111;
 }
 
-.social-block1 h1, .social-block2 h1, .social-block3 h1, .social-block4 h1, .social-block5 h1{
+.social-block1 h1, .social-block2 h1, .social-block3 h1, .social-block4 h1, .social-block5 h1, .social-block6 h1{
   color: #00c5fd;
 }
 
-.social-block1, .social-block2, .social-block3, .social-block4, .social-block5{
+.social-block1, .social-block2, .social-block3, .social-block4, .social-block5, .social-block6{
   display: block;
   text-align: center;
-  border: 1px solid #00d01b;
+  border: 5px solid #33e1b6;
   padding: 2%;
   margin: 4% 0;
+  background-color: white;
 }
 #social3-fb-img{
   padding-top: 15%;
@@ -924,18 +879,35 @@ img.port-pic{
 .something-else{
   border-top: 1px solid #00d01b;
   margin-top: 3%;
+  margin-bottom: 5%;
+  background-color: white;
+  border: 5px solid #6833e1;
 }
 .something-else h1{
   text-align: center;
-  color: #00c5fd;
+  color: #111111;
   font-size: 2em;
 }
 .something-else p{
   text-align: center;
-  color: #00d01b;
-  font-size: 1.6em;
+  color: #111111;
+  font-size: 1.2em;
 }
 /* ============ Brandweb ============== */
+.brandweb-work-all{
+  float: left;
+  width: 100%;
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/02/goldsplatter1.jpg");
+}
+.brandweb-all{
+  float: left;
+  width: 100%;
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/03/gold-dot-design.jpg");
+}
+.brandweb-inner{
+  float: left;
+  background-color: #000;
+}
 .brandweb-title{
   width: 98%;
   margin: auto;
@@ -945,6 +917,24 @@ img.port-pic{
   width: 100%;
   float: left;
   text-align: center;
+  margin-bottom: 5%;
+  background-color: white;
+}
+.brandweb-header-gold{
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/02/gold-scratch1.jpg");
+  padding: 1%;
+}
+.brandweb-header-text{
+  background-color: white;
+  margin: 0%;
+  padding: 3%;
+}
+.brandweb-header-text p{
+  color: #000;
+}
+#areyouready{
+  font-weight: bold;
+  text-transform: uppercase;
 }
 #brandweb-product-title{
   width: 98%;
@@ -963,22 +953,27 @@ img.port-pic{
 }
 .brandweb-box1 h1, .brandweb-box2 h1, .brandweb-box3 h1, .brandweb-box4 h1, .brandweb-footer h1{
   text-align: center;
-  color: #00c5fd;
-  font-family: "Anisha Free", 'Open Sans Condensed', sans-serif;
+  color: #111111;
+  font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
 }
-.brandweb-header p, .brandweb-box1 p, .brandweb-box2 p, .brandweb-box3 p, .brandweb-box4 p, .brandweb-footer p{
-  color: #00d01b;
+ .brandweb-box1 p, .brandweb-box2 p, .brandweb-box3 p, .brandweb-box4 p{
+  color: #000;
+}
+.brandweb-footer p{
+  color: #6833e1;
+  padding: 0% 10% 0% 10%;
 }
 .brandweb-box1 ul, .brandweb-box2 ul, .brandweb-box3 ul, .brandweb-box4 ul{
   color: #00c5fd;
 }
 .brandweb-box1, .brandweb-box2, .brandweb-box3, .brandweb-box4{
-  border: 1px solid #00d01b;
+  border: 5px solid #33e1b6;
   float: left;
   display: block;
   margin: 2%;
   padding: 2%;
   width: 95%;
+  background-color: white;
 }
 .timebox{
   float: left;
@@ -987,12 +982,15 @@ img.port-pic{
 .timebox p{
   color: #33e1b6;
   text-align: center;
+  font-weight: bold;
 }
 .brandweb-footer{
   float: left;
   width: 100%;
   text-align: center;
   margin-top: 5%;
+  border: 5px solid #33e1b6;
+  background-color: white;
 }
 #notinclude{
   font-weight: bold;
@@ -1006,29 +1004,38 @@ img.port-pic{
   text-align: center;
   margin: auto;
 }
+.faq-outter{
+  width: 100%;
+  float: left;
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/03/blue-splatter1.jpg");
+}
 .faq-howwork, .faq-questions{
-  border: 1px solid #00d01b;
+  border: 5px solid #33e1b6;
   margin: 1%;
   padding: 5%;
+  background-color: white;
 }
 .faq-howwork h1, .faq-questions h1{
-  color: #33e1b6;
-  font-size: 3em;
+  color: #111111;
+  font-size: 4em;
   text-align: center;
+  font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
 }
 .faq-howwork h2, .faq-questions h2{
   color: #00c5fd;
   font-size: 2em;
 }
 .faq-howwork p, .faq-questions p{
-  color: #00d01b;
+  color: #111111;
 }
 .faq-askme h4{
-  color: #00c5fd;
+  color: #111111;
   text-align: center;
 }
 .faq-askme{
   margin-bottom: 10%;
+  border: 5px solid #33e1b6;
+  background-color: white;
 }
 
 
@@ -1049,81 +1056,147 @@ img.port-pic{
 @media screen and (min-width: 768px) {
   /*Tablet styles here!*/
 /* =========== Front Page ========= */
+.lp-staticslider .staticslider-caption, .seriousslider.seriousslider-theme .seriousslider-caption{
+  padding: 4%;
+  left: 39%;
+  right: 3%;
+  top: 48%;
+}
+.lp-staticslider .staticslider-caption-title{
+  line-height: 1.2;
+}
+.lp-staticslider .staticslider-caption-title, .seriousslider.seriousslider-theme .seriousslider-caption-title{
+  font-size: 5em;
+}
+.lp-staticslider .staticslider-caption-text, .seriousslider.seriousslider-theme .seriousslider-caption-text{
+  font-size: 1.8em;
+}
+
 .optin-section{
-  margin-top: 5%;
-  padding: 5% 2% 6% 2%;
+  height: 650px;
+  width: 100%;
 }
-#optin-pic{
-  display: block;
-  margin: 0 0 0 6%;
-}
-#opt-firstline{
-  display: none;
+.optin-text{
+  width: 90%;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3% 2% 0% 2%;
+  margin: 17% 5%;
 }
 #opt-secondline{
+  font-size: 1.6em;
+}
+#opt-thirdline{
   font-size: 1.3em;
 }
 #signup-btn{
   width: 27%;
 }
+.front-work{
+  border-bottom: none;
+}
 .front-work h3{
-  font-size: 6em;
+  font-size: 3em;
 }
 .front-work h4{
-  font-size: 1.8em;
+  font-size: 1.7em;
 }
 .front-gold{
   float: left;
   width:100%;
   margin: auto;
   padding: 1%;
+  margin-top: 5%;
   background-image: url("http://natalierose.net/wp-content/uploads/2018/02/goldbkg1.jpg");
 }
 .front-work-section{
   float: left;
   width: 100%;
   clear: both;
-  background-color: #111;
   margin: auto;
   padding: 0 5% 3% 5%;
 }
+.front-boots{
+  width: 27%;
+}
+.front-about{
+  margin: 0%;
+  background-color: #ffffff;
+}
+.front-nat1{
+  width: 42%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  padding: 0%;
+}
+.front-about-inner{
+  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/beach4.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.front-about-text{
+  padding: 3% 7% 0%;
+  background-color: #ffffffd6;
+}
+.front-contact h4{
+  font-size: 3em;
+}
 .front-contact h5{
-  font-size: 3.5em;
+  font-size: 2.5em;
 }
 /* ========== Sign up ============== */
-.signup-header{
-  width: 90%;
-  display: block;
-  margin-left: 6%;
+.signup-section1{
+  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/lost2-2.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
 }
-.signup-text h1{
-  display: none;
+.signup-header h2{
+  margin-top: 12%;
 }
-.signup-text h2{
-  font-size: 2em;
+.signup-text1{
+  width: 70%;
+  margin-top: 37%;
+  margin-left: 14%;
 }
-.signup-text{
-  padding: 0 5%;
-  margin: 0 0 1% 3%;
+.signup-text1 h1{
+  font-size: 2.5em;
+  margin-bottom: 0%;
+}
+.signup-text1 h2{
+  font-size: 1.5em;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 #mc_embed_signup{
-  width: 60%;
+  width: 100%;
 }
 #mc_embed_signup .button{
   width: 30%;
 }
 #mc_embed_signup .mc-field-group{
-  padding-left: 15%;
+  padding-left: 0%;
 }
 .signup-thank-you{
-  margin: 6% 2%;
+  width: 75%;
+  margin: 4% 13%;
 }
 #mc_embed_signup h2{
-  font-size: 3em;
+  font-size: 2em;
+}
+.prohelp{
+  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/dive4.jpg");
+  float: left;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .prohelp-gold{
   width: 97%;
-  margin: 4% 2%;
+  margin: 60% 2% 5% 2%;
+  padding: 0%;
 }
 .prohelp-inner{
   width: 98%;
@@ -1132,6 +1205,7 @@ img.port-pic{
 }
 .prohelp h1{
   font-size: 4em;
+  padding-top: 2%;
 }
 /* =========== About ================ */
 .about-intro-box{
@@ -1146,24 +1220,22 @@ img.port-pic{
   max-width: 50%;
   margin-left: 25%;
 }
-#front-about-img {
-  float: left;
+.about-work-with-me{
+  width: 67%;
   display: block;
-  max-width: 50%;
-  margin: 5% 0 5% 25%;
-}
-#about-work-with-me{
+  margin-left: 16%;
   margin-bottom: 5%;
 }
-#about-text, #front-about-text{
-  padding: 1% 0 1% 0;
+.about-work-with-me-inner{
+  margin: 1%;
 }
-#work-img1{
-  display: none;
+.about-work-with-me-inner p{
+  font-size: 1.5em;
+  text-align: center;
 }
 .about-desc{
   float: left;
-  background-image: url( "http://natalierose.net/wp-content/uploads/2018/01/darkWoodDesk-1400.jpg");
+  background-image: url( "http://localhost:8888/natalierose/wp-content/uploads/2018/04/travel1.jpg");
   background-repeat: no-repeat;
   margin: 0%;
 }
@@ -1178,170 +1250,26 @@ img.port-pic{
 }
 .about-gold{
   width: 100%;
-  background-image: url("http://natalierose.net/wp-content/uploads/2018/02/gold-splatter2.jpg");
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/02/goldsplatter1.jpg");
   padding: 5% 5% 5% 15%;
 }
 .about-text3{
-  background-color: #111111;
   width: 80%;
   padding: 3%;
   margin: 5% 5% 5% 5%;
 
 }
 /* =========== Work =========== */
-.port-intro{
-  width: 100%;
-  height: 270px;
-  display: block;
-}
-.pic-js-box-border{
-  width: 75%;
-  margin-left: 15%;
-}
-.pic-js-box{
-  float: left;
-  width: 100%;
-  padding-top: 7%;
-}
-.js-pic-holder{
-  width: 100%;
-  float: left;
-  margin-top: 8%;
-}
-img.port-pic{
-  width: 56%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.port-js{
-  width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.desc-hire-holder{
-  width: 98%;
-  display: inline-block;
-  margin: 5% 2% 1% 3%;
-  padding: 0 1% 0 1%;
-}
-.desc-gold{
-  width: 95%;
-}
-.port-desc{
-  width: 98%;
-  margin: 1%;
-}
-.hire-me{
-  width: 100%;
-  display: inline-block;
-  margin: 1%;
-  padding-bottom: 2%;
-}
-.work-text1{
-  width: 85%;
-  display: block;
-  margin-left: 9%;
-}
-.work-container{
-  width: 100%;
-  margin: 0%;
-}
-.shop-pic{
-  width: 70%;
-  display: block;
-  margin: 3% 0 1% 15%;
-}
-.do-list{
-  padding: 5%;
-  text-align: center;
-  background-image: url("http://natalierose.net/wp-content/uploads/2018/02/gold-splatter2.jpg");
-}
-.inner-dolist{
-  width: 95%;
-  margin: 3%;
-}
-.do-list p{
-    text-align: center;
-  }
-#docon1, #docon2, #docon3, #docon4, #docon5, #docon6, #docon7{
-  width: 39%;
-  display: inline-block;
-  float: left;
-}
-#docon1, #docon2{
-  margin-top: 17%;
-}
- #docon3{
-  margin-top: 8%;
-}
-#docon4{
-  margin-top: 6%;
-}
-#docon5{
-  margin-top: 10%;
-}
-#docon6{
-  margin-top: 8%;
-}
-#docon7{
-  margin-top: 12%;
-}
-#dotext1, #dotext2, #dotext3, #dotext4, #dotext5, #dotext6, #dotext7{
-  width: 50%;
-  display: inline-block;
-  float: left;
-  margin: 5%;
-}
-#dotext2, #dotext4, #dotext6{
-  clear: both;
-}
-.special-all{
-  border: none;
-  background: url("http://natalierose.net/wp-content/uploads/2018/02/natrosepaint3-1200.png");
-  background-repeat: no-repeat;
-  padding: 10% 0 10% 0;
-}
-#special1{
-  width: 30%;
-  height: 100%;
-  display: inline-block;
-  float: left;
-  margin: 1% 2% 1% 2%;
-  padding: 0 2%;
-  border: 3px solid #00d01b;
-}
-#special2{
-  width: 30%;
-  height: 100%;
-  display: inline-block;
-  float: left;
-  margin: 1% 2% 1% 1%;
-  padding: 0 2%;
-  border: 3px solid #00d01b;
-}
-#special3{
-  width: 30%;
-  height: 100%;
-  display: inline-block;
-  float: left;
-  margin: 1% 2% 1% 1%;
-  padding: 0 2%;
-  border: 3px solid #00d01b;
-}
-.inner-promo h5{
-  font-size: 4em;
-}
-.btn-webwoe{
-  width: 70%;
-}
+
+
+
+
 
 /* ============ Socials =========== */
 .social-header h1{
   font-size: 4em;
 }
-.social-block1, .social-block2, .social-block3, .social-block4, .social-block5{
+.social-block1, .social-block2, .social-block3, .social-block4, .social-block5, .social-block6{
   width: 45%;
   display: inline-block;
   margin: 2%;
@@ -1350,20 +1278,35 @@ img.port-pic{
 
 }
 /* ============== Brandweb ============ */
+.brandweb-inner{
+  margin: 4%;
+}
 .brandweb-header{
-  width: 75%;
-  margin-left: 13%;
+  width: 85%;
+  margin-left: 8%;
+  margin-bottom: 5%;
+  background-color: white;
+}
+.brandweb-inner{
+  margin: 8%;
 }
 .brandweb-box1, .brandweb-box2, .brandweb-box3, .brandweb-box4{
   padding: 2% 5%;
-  margin: 5% 5% 1% 11%;
-  width: 80%;
+  margin: 2%;
+  width: 96%;
 }
 .btn-brandweb{
   width: 32%;
 }
 
-
+/* ============= FAQ =================*/
+.faq-askme{
+  width: 75%;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
 
 
 }
@@ -1376,70 +1319,137 @@ img.port-pic{
     /*Desktop styles here!*/
 
 /* =========== Front Page =========== */
+.lp-staticslider .staticslider-caption, .seriousslider.seriousslider-theme .seriousslider-caption{
+  left: 42%;
+  right: 7%;
+  top: 41%;
+}
+.optin-section{
+  margin-top: 5%;
+  height: 700px;
+}
 .optin-text{
-  margin-bottom: 3%;
+  width: 65%;
+  height: 54%;
+  margin-top: 17%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.compass{
+  margin-top: 1%;
+  width: 15%;
+}
+#opt-secondline{
+  font-size: 1.2em;
+}
+#opt-thirdline{
+  font-size: 1em;
 }
 #signup-btn{
-  width: 22%;
+  width: 40%;
 }
 .front-work{
-  float: left;
+  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/layered-bkg1.png");
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: top right;
   width: 100%;
-  padding: 3% 20% 3% 20%;
-  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-top: none;
+  padding-left: 0%;
+  padding-bottom: 0%;
+  padding-right: 2%;
+}
+.front-gold-hold{
+  width: 60%;
+  margin-top: 13%;
+  margin-left: 2%;
 }
 .front-work-section{
-  float: left;
   width: 100%;
   clear: both;
-  background-color: #111;
   margin: auto;
   padding: 0 5% 3% 5%;
 }
 .front-work h3{
-  font-size: 5em;
+  font-size: 2em;
+  margin-top: 2%;
+  margin-bottom: 0%;
+}
+.front-work h4{
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.front-boots{
+  float: right;
+  width: 30%;
+  margin-top: -28%;
+  margin-right: 12%;
+}
+.front-about{
+  border-bottom: 1px solid #00d01b;
+  float: left;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.front-about-inner{
+  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/beach4.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.front-about-text{
+  background-color: #000000cf;
+  display: inline-block;
+  margin: 38% 0% 0% 3%;
+  padding: 0 4% 2%;
+  width: 52%;
+  border-radius: 0%;
 }
 .front-about h3{
   font-size: 2em;
 }
-.front-about-text{
-  display: inline-block;
-  float: left;
-  margin: 5%;
-  padding: 0 2% 0 2%;
-  width: 53%;
+.front-about p{
+  color: #fff;
 }
-#front-about-img{
+.front-nat1{
+  width: 33%;
   float: left;
   display: inline-block;
-  max-width: 30%;
-  margin: 5% 0;
+  margin-top: 49%;
 }
 #work-with-me{
   padding-top: 2%;
 }
 
 /* =========== Sign Up ============== */
-.signup-text{
-  width: 60%;
-  display: inline-block;
-  padding: 1% 2% 0 2%;
-  margin: 0%;
+.signup-section1{
+  width: 100%;
+}
+.signup-text1{
+  width: 80%;
+  display: block;
+  padding: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.signup-text1 h2{
+  font-size: 2em;
 }
 .signup-form{
-  width: 35%;
-  display: inline-block;
-  margin: 0%;
-  padding: 0%;
+  width: 58%;
+  display: block;
+  margin: 3%;
+  padding: 2%;
   text-align: left;
-}
-.signup-content{
-  width: 100%;
-  float: left;
-  text-align: left;
+  margin-left: auto;
+  margin-right:auto;
+  clear: both;
 }
 #mc_embed_signup h2{
-  font-size: 4em;
+  font-size: 2em;
+  margin-top: 0%;
 }
 #mc_embed_signup{
   width: 100%;
@@ -1448,16 +1458,21 @@ img.port-pic{
   width: 25%;
 }
 #mc_embed_signup .mc-field-group{
-  padding-left: 12%;
+  padding-left: 26%;
 }
 .signup-thank-you{
-  margin:2%;
+ margin-top: 2%;
+}
+#illshowyou{
+  margin-left: 30%;
 }
 .prohelp-gold{
   width: 90%;
-  margin: 3% 5%;
+  margin: 55% 5% 10% 5%;
 }
-
+.prohelp h1{
+  font-size: 3em;
+}
 /* =========== About ================ */
 .about-intro-box{
   width: 58%;
@@ -1468,16 +1483,6 @@ img.port-pic{
   display: inline-block;
   max-width: 35%;
   margin: 3% 0 0 5%;
-}
-#about-work-with-me{
-  width: 35%;
-  display: inline-block;
-  margin-left: 5%;
-}
-#about-work-with-me p{
-  font-size: 1.5em;
-  color: #00c5fd;
-  text-align: center;
 }
 #work-img1{
   display: inline-block;
@@ -1495,138 +1500,45 @@ img.port-pic{
   padding: 3% 3% 0% 3%;
   margin-left: 20%;
 }
+.about-work-with-me{
+  width: 35%;
+  display: inline-block;
+  margin: 2% 0% 0% 5%;
+}
+.about-work-with-me-inner{
+  padding: 4%;
+}
+.about-work-with-me p{
+  font-size: 1.2em;
+  text-align: center;
+}
 
 /* ============ Work =========== */
-.pic-js-box-border{
-  width: 45%;
-  margin: 0%;
-}
-.port-js{
-  margin-top: 0%;
-}
-.port-intro{
-  width: 100%;
-  height: 450px;
-}
-.desc-hire-holder{
-  width: 49%;
-  display: inline-block;
-  margin: 5% 2% 1% 3%;
-  padding: 0 1% 0 1%;
-}
-.desc-gold{
-  width: 95%;
-}
-.port-desc{
-  width: 98%;
-  margin: 1%;
-}
-.port-desc h3{
-  font-size: 2.4em;
-}
-.work-text1{
-  display: inline-block;
-  width: 50%;
-  margin: 3% 1% 2% 2%;
-}
-.shop-pic{
-  width: 45%;
-  display: inline-block;
-  margin: 9% 0;
-}
-.hire-me{
-  width: 100%;
-  margin: 1% 2% 0 2%;
-  padding-bottom: 2%;
-}
-.hire-me h4{
-  font-size: 2.7em;
-}
-.hire-me span{
-  font-weight: bold;
-  font-size: 1.1em;
-}
-.do-list{
-  width: 100%;
-  text-align: center;
-}
-.inner-dolist{
-  width: 95%;
-  margin: 3%;
-  padding: 2% 1% 2% 7%;
-}
-.do-list h4{
-  font-size: 4.5em;
-  font-weight: bold;
-}
-.do-list p{
-  text-align: center;
-}
 
-#docon1, #docon2, #docon3, #docon4, #docon5, #docon6, #docon7{
-  width: 30%;
-  display: inline-block;
-  float: left;
-}
-#docon1{
-  margin-top: 12%;
-}
-#docon2{
-  margin-top: 12%;
-}
-#docon3{
-  margin-top: 8%;
-}
-#docon4{
-  margin-top: 5%;
-}
-#docon5{
-  margin-top: 7%;
-}
-#docon6{
-  margin-top: 6%;
-}
-#docon7{
-  margin-top: 8%;
-}
-#dotext1, #dotext2, #dotext3, #dotext4, #dotext5, #dotext6, #dotext7{
-  width: 50%;
-  display: inline-block;
-  float: left;
-  margin: 5%;
-}
-#dotext2, #dotext4, #dotext6{
-  clear: both;
-}
-#dotext1 p, #dotext2 p, #dotext3 p, #dotext4 p, #dotext5 p, #dotext6 p, #dotext7 p{
-  text-align: center;
-}
-.special-all{
-  border: none;
-}
-.inner-promo{
-  width: 60%;
-  margin: 5% 0 0 20%;
-}
+
 
 /* ============ Brandweb ========== */
-
+.brandweb-all{
+}
+.brandweb-inner{
+  margin: 7%;
+  padding: 3%;
+}
 .brandweb-box1, .brandweb-box2, .brandweb-box3, .brandweb-box4{
-  width: 70%;
-  margin-left: 16%;
+  width: auto;
 }
 .btn-brandweb{
-  width: 30%;
+  width: 35%;
 }
-.brandweb-header h1, .brandweb-footer h1{
+.brandweb-footer h1{
   font-size: 4em;
 }
 .brandweb-box1 h1, .brandweb-box2 h1, .brandweb-box3 h1, .brandweb-box4 h1{
   font-size: 3em;
 }
 .brandweb-header{
-  width: 60%;
-  margin-left: 21%;
+  width: 80%;
+  margin-left: 10%;
 }
 .brandweb-footer{
   width: 60%;
@@ -1641,10 +1553,39 @@ img.port-pic{
   margin:  5% 10% 10% 10%;
   padding: 3% 10% 10% 10%;
 }
+}
+
+
+/*=============================================*/
+/*=============================================*/
+@media screen and (min-width: 1400px) {
+    /*Large Desktop styles here!*/
+
+/* ======== front page ========= */
+.optin-text{
+  height: 64%;
+  margin-top: 9%;
+}
+.front-boots{
+  margin-top: -5%;
+}
+.front-about-text{
+  margin: 32% 0 3% 3%;
+}
+.front-nat1{
+  width: 23%;
+  margin-top: 39%;
+}
+
+
+
+
+
 
 
 
 }
+
 /*=============================================*/
 /*=============================================*/
 @media screen and (min-width: 1500px) {
@@ -1652,17 +1593,15 @@ img.port-pic{
 
 
 /* ========= Front-Page ====== */
-#optin-pic{
-  margin-left: 14%;
-}
-.front-about-img{
-  max-width: 13%;
-}
+
 
 /* ========= About ===========*/
 
-#about-work-with-me{
+.about-work-with-me{
   margin-left: 2%;
+}
+.about-work-with-me-inner{
+  padding: 6% 12% 0 11%;
 }
 .about-text1{
   width: 50%;
@@ -1672,27 +1611,7 @@ img.port-pic{
 }
 
 /* ======== Work =========== */
-.port-intro{
-  height: 540px;
-}
-.js-pic-holder{
-  width: 75%;
-  margin-left: 13%;
-}
-.desc-hire-holder{
-  width: 75%;
-  margin-left: 13%;
-}
-.do-list{
-  width: 75%;
-  margin: 0% 3% 0 13%;
-  padding: 0 8% 0 8%;
-  text-align: center;
-}
-.special-all{
-  width: 75%;
-  margin-left: 13%;
-}
+
 
 
 

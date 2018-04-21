@@ -19,16 +19,18 @@ get_header(); ?>
 			<?php cryout_before_content_hook(); ?>
 
 		<div class="all-content">
+			<div class="social-content">
 
       <div class="social-header">
+				<div class="social-header-inner">
         <h1>Digital & Print Design</h1>
         <p>When you need to rock it online through your advertising campaigns and social media, you need a design that's true to your brand and turns heads. Make a lasting impression with printables such as business cards and postcards at your next networking event.</p>
         <p>Click below to book design services</p>
       </div>
+		</div>
 
 
       <div class="social-section">
-
         <div class="social-block1">
           <img src="http://natalierose.net/wp-content/uploads/2018/02/Insta3.jpg" alt="social media ad design">
           <h1>Social Media Ad</h1>
@@ -77,6 +79,20 @@ get_header(); ?>
           </div><!--social-book-button-->
         </div>
 
+				<div class="social-block6">
+					<div id="social3-fb-img">
+					<img src="http://natalierose.net/wp-content/uploads/2018/03/heather-mermaid400.gif" alt="GIF design">
+				</div>
+					<h1>GIF Animation</h1>
+					<p>No matter how you say it, GIFs are great!<br> Stand out with a custom GIF animation created just for you!</p>
+					<p>$45</p>
+
+					<div class="social-book-button">
+							<a href="http://natalierose.net/contact/">
+						<button class="btn-socials">BOOK NOW</button></a>
+					</div><!--social-book-button-->
+				</div>
+
         <div class="social-block5">
           <div id="social3-fb-img">
           <img src="http://natalierose.net/wp-content/uploads/2018/02/facebook-yoga1-700.png" alt="facebook cover design">
@@ -92,11 +108,12 @@ get_header(); ?>
         </div>
 
 
+
       </div><!--social-section-->
 
       <div class="something-else">
         <h1>Don't see what you're looking for?</h1>
-        <p>I do custom orders!</p>
+        <p>I do custom orders!<br>Talk to me about creating something special just for you and your business.</p>
 
         <div class="workBox">
           <a href="http://natalierose.net/schedule-a-call/">
@@ -107,6 +124,7 @@ get_header(); ?>
         </div><!--workBox-->
 
       </div>
+		</div><!--social-content-->
 
 
 

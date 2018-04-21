@@ -1,0 +1,25 @@
+<!--
+
+<div class="gif-holder">
+ <div class="improve-holder">
+   <h4>Improve your website</h4>
+   <div class="improve-image">
+     <img src="http://natalierose.net/wp-content/uploads/2018/03/improve-your-website3.png" alt="improve my website">
+   </div>
+</div><!--improve-holder-->
+
+ <div class="profit-holder">
+   <h4>Increase your profits</h4>
+   <div class="profit-image">
+     <img src="http://natalierose.net/wp-content/uploads/2018/03/increase-your-profits1.png" alt="increase my profits">
+   </div>
+</div><!--profit-holder-->
+
+ <div class="freedom-holder">
+   <h4>Gain more freedom!</h4>
+ <div id="freedom-gif">
+   <img src="http://natalierose.net/wp-content/uploads/2018/03/gain-more-freedom.gif" alt="gain more freedom">
+ </div>
+</div><!--freedom-holder-->
+</div><!--gif-holder-->
+-->
