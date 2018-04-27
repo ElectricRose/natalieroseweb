@@ -319,7 +319,12 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 
 /* Special Services Buttons */
 .button-box{
-  margin: 5% 2% 5% 2%;
+  float: none;
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
 }
 .signup-box{
   margin: 5% 2% 5% 2%;
@@ -354,7 +359,7 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
   background-color: #00c5fd;
   color: white;
 }
-.btn-brandweb, .btn-webwoe, .btn-socials{
+.btn-aqua, .btn-webwoe, .btn-socials{
   background-color: #33e1b6;
   color: white;
   display: block;
@@ -362,7 +367,7 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
   margin-left: auto;
   margin-right: auto;
 }
-.btn-brandweb{
+.btn-aqua{
   width: 45%;
 }
 .btn-webwoe{
@@ -371,11 +376,11 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 .btn-socials{
   width: 45%;
 }
-.btn-brandweb:hover, .btn-webwoe:hover{
+.btn-aqua:hover, .btn-webwoe:hover{
   background-color: #00c5fd;
   color: white;
 }
-.brandweb-button{
+.aqua-button{
   margin-top: 5%;
   margin-bottom: 6%;
 }
@@ -504,7 +509,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   margin: 8% 1%;
 }
 .signup-thank-you-inner{
-  background-image: url("http://natalierose.net/wp-content/uploads/2018/02/gold-scratch1.jpg");
+  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/large-goldscratch.jpg");
   padding: 1%;
   margin: 2%;
 }
@@ -527,7 +532,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 .prohelp-gold{
   width: 100%;
   float: left;
-  background-image: url("http://natalierose.net/wp-content/uploads/2018/02/goldbkg1.jpg");
+  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/large-goldscratch.jpg");
 }
 .prohelp-inner{
   width: 96%;
@@ -625,7 +630,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   width: 98%;
   float: left;
   display: block;
-  background-image: url("http://natalierose.net/wp-content/uploads/2018/02/goldbkg1.jpg");
+  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/large-goldscratch.jpg");
 }
 .about-work-with-me-inner{
   background-color: white;
@@ -762,7 +767,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   text-align: center;
   padding-top: 26%;
 }
-.work-section1{
+.work-section1, .work-section2, .work-section3{
   float: left;
   width: 100%;
   background-color: #111;
@@ -773,19 +778,13 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   width: 31%;
   margin: 3% 1%;
 }
-.work-section2{
+.work-package-gold-hold{
   float: left;
-  width: 100%;
-  background-color: #fff;
-}
-.work-section3{
-  float: left;
-  width: 100%;
   background-color: #111;
 }
 .work-package-gold{
   float: left;
-  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/02/gold-scratch1.jpg");
+  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/large-goldscratch.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 2%;
@@ -817,12 +816,54 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   font-weight: bold;
   color: #00d01b;
 }
-.special-services{
+.special-services, .packages{
   background-color: #fff;
 }
-.ss-header{
+.ss-header, .packages-header{
   width: 100%;
 }
+.special-gold{
+  float: left;
+  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/large-goldscratch.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 2%;
+}
+.special1, .special2, .howworks{
+  background-color: #fff;
+  float: left;
+  display: inline-block;
+  margin: 1%;
+  padding: 0 2%;
+}
+.special1 h5, .special2 h5{
+  text-align: center;
+  font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+  letter-spacing: 10px;
+}
+.special1 p, .special2 p{
+  text-align: center;
+  font-weight: bold;
+}
+#special1-con, #special2-con{
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.howworks h1{
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+.howworks p{
+  text-align: center;
+}
+
 
 
 /* ============ Socials ========== */
@@ -834,7 +875,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   width: 90%;
   float: left;
   margin: 5%;
-  background-image: url("http://natalierose.net/wp-content/uploads/2018/02/goldbkg1.jpg");
+  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/large-goldscratch.jpg");
   }
 .social-header-inner{
   background-color: white;
@@ -893,110 +934,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   color: #111111;
   font-size: 1.2em;
 }
-/* ============ Brandweb ============== */
-.brandweb-work-all{
-  float: left;
-  width: 100%;
-  background-image: url("http://natalierose.net/wp-content/uploads/2018/02/goldsplatter1.jpg");
-}
-.brandweb-all{
-  float: left;
-  width: 100%;
-  background-image: url("http://natalierose.net/wp-content/uploads/2018/03/gold-dot-design.jpg");
-}
-.brandweb-inner{
-  float: left;
-  background-color: #000;
-}
-.brandweb-title{
-  width: 98%;
-  margin: auto;
-  text-align: center;
-}
-.brandweb-header{
-  width: 100%;
-  float: left;
-  text-align: center;
-  margin-bottom: 5%;
-  background-color: white;
-}
-.brandweb-header-gold{
-  background-image: url("http://natalierose.net/wp-content/uploads/2018/02/gold-scratch1.jpg");
-  padding: 1%;
-}
-.brandweb-header-text{
-  background-color: white;
-  margin: 0%;
-  padding: 3%;
-}
-.brandweb-header-text p{
-  color: #000;
-}
-#areyouready{
-  font-weight: bold;
-  text-transform: uppercase;
-}
-#brandweb-product-title{
-  width: 98%;
-  margin: auto;
-  text-align: center;
-}
-.brandweb-firstp{
-  text-align: center;
-  font-weight: bold;
-}
-.brandweb-footer h1{
-  font-size: 3em;
-}
-.brandweb-box1 h1, .brandweb-box2 h1, .brandweb-box3 h1, .brandweb-box4 h1{
-  font-size: 2.5em;
-}
-.brandweb-box1 h1, .brandweb-box2 h1, .brandweb-box3 h1, .brandweb-box4 h1, .brandweb-footer h1{
-  text-align: center;
-  color: #111111;
-  font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
-}
- .brandweb-box1 p, .brandweb-box2 p, .brandweb-box3 p, .brandweb-box4 p{
-  color: #000;
-}
-.brandweb-footer p{
-  color: #6833e1;
-  padding: 0% 10% 0% 10%;
-}
-.brandweb-box1 ul, .brandweb-box2 ul, .brandweb-box3 ul, .brandweb-box4 ul{
-  color: #00c5fd;
-}
-.brandweb-box1, .brandweb-box2, .brandweb-box3, .brandweb-box4{
-  border: 5px solid #33e1b6;
-  float: left;
-  display: block;
-  margin: 2%;
-  padding: 2%;
-  width: 95%;
-  background-color: white;
-}
-.timebox{
-  float: left;
-  width: 98%;
-}
-.timebox p{
-  color: #33e1b6;
-  text-align: center;
-  font-weight: bold;
-}
-.brandweb-footer{
-  float: left;
-  width: 100%;
-  text-align: center;
-  margin-top: 5%;
-  border: 5px solid #33e1b6;
-  background-color: white;
-}
-#notinclude{
-  font-weight: bold;
-  color: #6833e1;
-  font-size: 1.1em;
-}
+
 
 /*============== FAQ ================*/
 #howwork-title{
@@ -1108,7 +1046,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   margin: auto;
   padding: 1%;
   margin-top: 5%;
-  background-image: url("http://natalierose.net/wp-content/uploads/2018/02/goldbkg1.jpg");
+  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/large-goldscratch.jpg");
 }
 .front-work-section{
   float: left;
@@ -1260,10 +1198,21 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 
 }
 /* =========== Work =========== */
-
-
-
-
+.work-header h1{
+  padding-top: 14%;
+}
+.work-package-gold-hold{
+  width: 80%;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button-box{
+  width: 34%;
+}
+#special1-con, #special2-con{
+  width: 55%;
+}
 
 /* ============ Socials =========== */
 .social-header h1{
@@ -1277,27 +1226,10 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 .something-else h1{
 
 }
-/* ============== Brandweb ============ */
-.brandweb-inner{
-  margin: 4%;
-}
-.brandweb-header{
-  width: 85%;
-  margin-left: 8%;
-  margin-bottom: 5%;
-  background-color: white;
-}
-.brandweb-inner{
-  margin: 8%;
-}
-.brandweb-box1, .brandweb-box2, .brandweb-box3, .brandweb-box4{
-  padding: 2% 5%;
-  margin: 2%;
-  width: 96%;
-}
-.btn-brandweb{
+.btn-aqua{
   width: 32%;
 }
+
 
 /* ============= FAQ =================*/
 .faq-askme{
@@ -1515,35 +1447,6 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 
 /* ============ Work =========== */
 
-
-
-/* ============ Brandweb ========== */
-.brandweb-all{
-}
-.brandweb-inner{
-  margin: 7%;
-  padding: 3%;
-}
-.brandweb-box1, .brandweb-box2, .brandweb-box3, .brandweb-box4{
-  width: auto;
-}
-.btn-brandweb{
-  width: 35%;
-}
-.brandweb-footer h1{
-  font-size: 4em;
-}
-.brandweb-box1 h1, .brandweb-box2 h1, .brandweb-box3 h1, .brandweb-box4 h1{
-  font-size: 3em;
-}
-.brandweb-header{
-  width: 80%;
-  margin-left: 10%;
-}
-.brandweb-footer{
-  width: 60%;
-  margin-left: 20%;
-}
 
 /* ================ Socials =============*/
 

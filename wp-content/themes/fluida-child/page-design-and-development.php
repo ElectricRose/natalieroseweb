@@ -42,16 +42,17 @@ get_header(); ?>
     <div class="work-section2">
       <div class="whatido">
         <div class="whatido-text1">
-          <h1>What I do</h1>
-          <p>I create websites.</p>
         </div>
       </div><!--whatido-->
     </div><!--work-section2-->
 
     <div class="work-section3">
       <div class="packages">
-        <h1>Packages</h1>
+	        <div class="packages-header">
+	          <img src="http://localhost:8888/natalierose/wp-content/uploads/2018/04/packages1.jpg" alt="specialty services">
+	        </div><!--packages-header-->
 
+		<div class="work-package-gold-hold">
       <div class="work-package-gold">
         <div class="package1">
           <h1>Brand Brilliance</h1>
@@ -93,13 +94,15 @@ get_header(); ?>
           Payment intallment options available.</p>
         </div>
 
-          <div class="brandweb-button">
+          <div class="aqua-button">
               <a href="http://natalierose.net/contact/">
-            <button class="btn-brandweb">BUILD MY BRAND</button></a>
-          </div><!--brandweb-button-->
+            <button class="btn-aqua">BUILD MY BRAND</button></a>
+          </div><!--aqua-button-->
         </div><!--package1-->
       </div><!--work-package-gold-->
+		</div><!--work-package-gold-hold-->
 
+		<div class="work-package-gold-hold">
       <div class="work-package-gold">
         <div class="package2">
           <h1>Wonderful Web Design</h1>
@@ -128,14 +131,15 @@ get_header(); ?>
           ECommerce options for an additional $500+</p>
         </div>
 
-          <div class="brandweb-button">
+          <div class="aqua-button">
               <a href="http://natalierose.net/contact/">
-            <button class="btn-brandweb">I WANT A WEBSITE</button></a>
-          </div><!--brandweb-button-->
+            <button class="btn-aqua">I WANT A WEBSITE</button></a>
+          </div><!--aqua-button-->
         </div><!--package2-->
       </div><!--work-package-gold-->
+		</div><!--work-package-gold-hold-->
 
-
+		<div class="work-package-gold-hold">
       <div class="work-package-gold">
         <div class="package3">
           <h1>Dynamic Development</h1>
@@ -160,13 +164,15 @@ get_header(); ?>
           Both the timeline and investments are dependant on website size and complexity.</p>
         </div>
 
-          <div class="brandweb-button">
+          <div class="aqua-button">
               <a href="http://natalierose.net/contact/">
-            <button class="btn-brandweb">CODE MY WEBSITE </button></a>
-          </div><!--brandweb-button-->
+            <button class="btn-aqua">CODE MY WEBSITE </button></a>
+          </div><!--aqua-button-->
         </div><!--package3-->
       </div><!--work-package-gold-->
+		</div><!--work-package-gold-hold-->
 
+		<div class="work-package-gold-hold">
       <div class="work-package-gold">
         <div class="package4">
           <h1>The Whole Enchilada</h1>
@@ -193,12 +199,13 @@ get_header(); ?>
               Both the timeline and investments are dependant on website size and complexity.</p>
             </div>
 
-            <div class="brandweb-button">
+            <div class="aqua-button">
                 <a href="http://natalierose.net/contact/">
-              <button class="btn-brandweb">I WANT IT ALL</button></a>
-            </div><!--brandweb-button-->
+              <button class="btn-aqua">I WANT IT ALL</button></a>
+            </div><!--aqua-button-->
         </div><!--package4-->
       </div><!--work-package-gold-->
+		</div><!--work-package-gold-hold-->
 
       </div><!--packages-->
     </div><!--work-section3-->
@@ -209,20 +216,26 @@ get_header(); ?>
           <img src="http://localhost:8888/natalierose/wp-content/uploads/2018/04/special-services1.jpg" alt="specialty services">
         </div><!--ss-header-->
 
-        <div id="special1">
-					<h5>DIY Site Finishing</h5>
+		<div class="work-package-gold-hold">
+			<div class="special-gold">
+        <div class="special1">
+					<h5>DIY + Finishing</h5>
 						<p>Are you trying to create a website on a tight budget?<br> I understand the frustration!</p>
-						<p>That's why I offer DIY finishing services.<br>You do most of the work and get as close to the design you want as possible, and I'll finish it off for you with custom tweaks, font and colour changes, and special requests.</p>
+						<p>That's why I offer DIY + finishing services.<br>You do most of the work and get as close to the design you want as possible, and I'll finish it off for you with custom tweaks, font and colour changes, and special requests.</p>
 						<div id="special1-con"><img src="" alt="">
 						</div><!--special1-con-->
 
 						<div class="button-box">
 							<a href="http://natalierose.net/socials/">
-						<button class="btn slay">I NEED IT FINISHED!</button></a>
+						<button class="btn slay">I NEED IT DONE!</button></a>
 					</div><!--button-box-->
 					</div><!--special1-->
+				</div><!--special-gold-->
+			</div><!--work-package-gold-hold-->
 
-					<div id="special2">
+			<div class="work-package-gold-hold">
+				<div class="special-gold">
+					<div class="special2">
 						<h5>Site Transfers</h5>
 							<p>You want to move on to better things.<br> Your current platform is dragging you down.<br>You wouldn't be the first.<br>
 							Many businesses start off with cheap, pre-made, or drag and drop websites.<br>If you are tired of limitations & extra add-on expenses, it's time to move on to something better.<br>Transfers can be complicated, but no need to worry. I'm here for ya! I'll take care of the entire process so you don't have to stress.<br>Ditch that dumpy old host, you're ready for something fabulous!
@@ -235,10 +248,26 @@ get_header(); ?>
 						<button class="btn slay">MOVING ON UP!</button></a>
 					</div><!--button-box-->
 				</div><!--special2-->
-
-
+			</div><!--special-gold-->
+		</div><!--work-package-gold-hold-->
       </div><!--special-services-->
     </div><!--work-section4-->
+
+	<div class="work-section5">
+		<div class="work-package-gold-hold">
+		<div class="special-gold">
+			<div class="howworks">
+			<h1>How does it all work?</h1>
+			<p><strong>Looking for more info?</strong><br>Find out how the process works and find the answers to the most frequently asked questions here!</p>
+
+			<div class="aqua-button">
+					<a href="http://natalierose.net/faq/">
+				<button class="btn-aqua">FIND OUT MORE</button></a>
+			</div><!--aqua-button-->
+		</div><!--howworks-->
+	</div><!--special-gold-->
+</div><!--work-package-gold-hold-->
+</div><!--work-section5-->
 
 
   </div><!--work-all-->
