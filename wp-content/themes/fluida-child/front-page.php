@@ -51,34 +51,58 @@ function fluida_lp_layoutclass () {
     cryout_after_content_hook();
 	?>
 
-  <div class="front-work">
-		<div class="front-rainbow">
-		<div class="front-work-section">
-      <h3>Future growth by design</h3>
-      <p><span id="">Let me guess, you are here because you need some help to grow your business.</span><br><span id="">You have the passion and the skills.<br> You have the drive and the ambition.<br> You have amazing gifts that you want to share with the people who need them.<br> But what you lack is the steady stream of customers begging for your help.</span><br>Am I right?<br> Maybe you have tried on your own for a while now, or maybe you are just getting started. You are overwhelmed and frustrated and your website or lack-there-of isn’t working for you.<br> You need a change, something different, and just building a website isn’t going to solve all of your problems.<br> Sure you can throw your money at the problem, and hope it works out.<br><span id=""> Or you can invest in someone who wants to see you succeed.</span><br>You need a plan, an amazing website, and a brand that captures your customer’s imagination. You need someone who can see who you are and what you have to offer the world. Someone who can unearth the essence of your business and deliver it in a meaningful and captivating way.
-			<br> You need Natalie Rose.
-			<br>When you are ready to dig deep, invest in yourself and your business, and take it to the next level I’m here to help.<br>
-			I can help you by designing and providing you with a signature style and cohesive brand that speaks to the true essence of your business. We can work together to develop a strategy to promote your business and capture leads through branded graphics and advertising. And I can build you a website that functions flawlessly and helps to turn those leads into paying customers.<br> The future is yours. Are you ready to grab it?</p>
-        <div id="work-more">
-					<div class="frontworkBox">
-						<a href="http://natalierose.net/work/">Learn More
-							<svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
-								<rect x='0' y='0' fill='none' width='130' height='65'/>
-							</svg></a>
+	<div class="optin-section">
+			<div class="optin-text">
+				<p><span id="opt-secondline">Does your website have you feeling a little..   lost?<p>
+				<span id="opt-thirdline">Let me point you in the right direction!</p>
+					<div class="compass">
+						<img src="http://localhost:8888/natalierose/wp-content/uploads/2018/04/compass1.png" alt="compass">
 					</div>
-        </div>
-			</div>
+				<p>If your website feels like a stick in the mud, grab my guide and find out how to fix it!</p></span>
+			<div class="signup-box">
+				<a href="http://natalierose.net/sign-up/">
+			<button id="signup-btn">GRAB THE FREE GUIDE!</button></a>
+		</div><!--signup-box-->
+	</div><!--optin-text-->
+	</div><!--optin-section-->
+
+  <div class="front-work">
+
+		<div class="front-gold-hold">
+		<div class="front-gold">
+		<div class="front-work-section">
+      <h3>Running a business is an adventure!</h3>
+			<h4>Entrepreneurship can be a wild ride. </h4>
+      <p>It takes nerve to step into the wild and chase your dreams.<br>It takes hard work, talent, and unique skills to build a successful business from the ground up.<br> But you know this, and that's why you're here. You've taken your lumps with grace and have proven yourself up to the challenge!<br>You've got this in the bag!<br>The road to success can be a long journey. Sometimes you get lost along the way. Sometimes that steady stream of income you envisioned barely amounts to a trickle.<br>Let's change that!<br>Facing the trail alone can get lonely. What you really need is a solid plan, the right equipment, and someone you can rely on to help share the load.<br>Adventures are always better with a friend!<br>That's why I'm here to help!<br>Let's get your online presence on the right path with a custom website that will knock your socks off, and the tools to you need to navigate through the social media jungle!<br>You were born for this adventure! Are you ready?
+			<br> Lace up your boots and let's get started!</p>
+			<div id="work-more">
+				<div class="frontworkBox">
+					<a href="http://natalierose.net/work/">Learn More
+						<svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
+							<rect x='0' y='0' fill='none' width='130' height='65'/>
+						</svg></a>
+				</div><!--frontworkBox-->
+			</div><!--work-more-->
+		</div><!--front-work-section-->
+	</div><!--front-gold-->
+</div><!--front-gold-hold-->
+
+		<div class="front-boots">
+			<img src="http://localhost:8888/natalierose/wp-content/uploads/2018/04/boots2.png" alt="man lacing up hiking boots">
+		</div><!--front-boots-->
   </div>
 </div>
 
   <div class="front-about">
+		<div class="front-about-inner">
       <div class="front-about-text">
-        <h3>Reach a wider audience online</h3>
-          <p>I build solid brands & craft engaging websites.<br>I design & develop for the freedom junkies, the holistic healers, health & wellness providers, and the creative entrepreneurs. I also love to work with businesses and organizations focused on nature, outdoor adventure, and eco-tourism.<br>If you want to grow your business online and attract more customers, I can help you to stand out in your local community or reach potential customers from all over the world. From Ecommerce to brick and mortar businesses, I've got web solutions for you! You don't have to struggle alone, I'm here to take this journey with you.<p>
-			</div>
-			<div id="front-about-img">
-	      <img src="http://natalierose.net/wp-content/uploads/2018/01/profile-circle3.png">
-	    </div>
+        <h3>Hello, I'm Natalie Rose.</h3>
+          <p>I design and build solid brands & engaging websites for soulful small businesses and eco-centered entrepreneurs. If you need a polished and professional website, cleverly designed to attract more customers or clients, I'm your girl!</p><br>
+
+					<p>As a business owner you have a lot on your plate.<br> I see you hustlin' over there!<br>Don't let a bad website bring you down and waste your time and efforts. Your website should be built with both grit and grace, reflect who you are, and help you crush your goals. A great website should do a lot of the work for you!<br>
+					Let me help you lighten the load, by offering customized web solutions individually tailored to your unique business and needs.
+					<br>Whether you're a startup with a shoestring budget, or a master of the game ready for an upgrade, I'll build something special just for you!</p>
+
 					<div id="about-more">
 						<div class="aboutBox">
 							<a href="http://natalierose.net/about/"> About Me
@@ -87,10 +111,17 @@ function fluida_lp_layoutclass () {
 								</svg></a>
 						</div>
         </div><!--about-more-->
+			</div>
+			<div class="front-nat1">
+				<img src="http://localhost:8888/natalierose/wp-content/uploads/2018/04/natalie_rose1-1.jpg" alt="natalie rose web design">
+			</div>
+
+			</div><!--front-about-inner-->
   	</div><!--front-about-->
 
 	<div class="front-contact">
-		<h5>Interested? Want to know more?</h5>
+		<h4>Are you ready for something better?</h4>
+		<h5>Let's chat about your business.</h5>
 		<p>I'm available:<br>
 			Mon - Fri<br>
 			9am - 5pm<br>
@@ -98,7 +129,7 @@ function fluida_lp_layoutclass () {
 			</p>
 		<div id="work-with-me">
 			<div class="basicBox">
-				<a href="http://natalierose.net/contact/">
+				<a href="http://natalierose.net/schedule-a-call/">
 					Let's Chat!
 				  <svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
 				    <rect x='0' y='0' fill='none' width='130' height='65'/>

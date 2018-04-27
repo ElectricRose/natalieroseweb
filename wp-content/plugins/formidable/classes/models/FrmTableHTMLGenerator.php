@@ -158,7 +158,7 @@ class FrmTableHTMLGenerator {
 	 *
 	 * @return boolean
 	 */
-	private function is_color_setting ( $setting_key ) {
+	private function is_color_setting( $setting_key ) {
 		return strpos( $setting_key, 'color' ) !== false;
 	}
 
@@ -232,7 +232,7 @@ class FrmTableHTMLGenerator {
 	 * @return string
 	 */
 	public function generate_table_header() {
-		return '<table cellspacing="0"' . $this->table_style . '><tbody>' . "\r\n";
+		return '<table cellspacing="0" ' . $this->table_style . '><tbody>' . "\r\n";
 	}
 
 	/**
