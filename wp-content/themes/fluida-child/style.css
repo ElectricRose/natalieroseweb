@@ -582,14 +582,19 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   margin: 3%;
 }
 .about-intro h2{
-  font-size: 3.6em;
+  font-size: 2em;
   text-align: center;
   font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 10px;
 }
 .about-intro h3{
-  font-size: 1.8em;
+  font-size: 1.2em;
+  font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
   text-align: center;
-  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
 }
 #about-break{
   margin: 5%;
@@ -625,23 +630,6 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 }
 #about-img img{
   border-radius: 25px;
-}
-.about-work-with-me{
-  width: 98%;
-  float: left;
-  display: block;
-  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/large-goldscratch.jpg");
-}
-.about-work-with-me-inner{
-  background-color: white;
-  float: left;
-  margin: 1%;
-}
-.about-work-with-me-inner p{
-  text-align: center;
-  font-size: 1.5em;
-  color: #111111;
-  padding: 2%;
 }
 #work-img1{
   display: none;
@@ -778,7 +766,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   width: 31%;
   margin: 3% 1%;
 }
-.work-package-gold-hold{
+.work-package-gold-hold, .work-package-gold-hold2{
   float: left;
   background-color: #111;
 }
@@ -848,7 +836,14 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   text-align: center;
   font-weight: bold;
 }
-#special1-con, #special2-con{
+#special1-con{
+  width: 100%;
+  padding: 3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#special2-con{
   width: 75%;
   display: block;
   margin-left: auto;
@@ -863,7 +858,6 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 .howworks p{
   text-align: center;
 }
-
 
 
 /* ============ Socials ========== */
@@ -937,15 +931,20 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 
 
 /*============== FAQ ================*/
-#howwork-title{
-  width: 98%;
+.howwork-title h1{
   text-align: center;
-  margin: auto;
+  font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: bold;
+  color: #fff;
+  padding: 5% 0 8% 0;
 }
 .faq-outter{
   width: 100%;
   float: left;
-  background-image: url("http://natalierose.net/wp-content/uploads/2018/03/blue-splatter1.jpg");
+  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/fern-background1.jpg");
 }
 .faq-howwork, .faq-questions{
   border: 5px solid #33e1b6;
@@ -954,10 +953,12 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   background-color: white;
 }
 .faq-howwork h1, .faq-questions h1{
-  color: #111111;
-  font-size: 4em;
+  color: #111;
+  font-size: 2em;
   text-align: center;
   font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
+  letter-spacing: 10px;
+  text-transform: uppercase;
 }
 .faq-howwork h2, .faq-questions h2{
   color: #00c5fd;
@@ -1150,26 +1151,13 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   padding: 3%;
 }
 .about-intro h2{
-  font-size: 5em;
+  font-size: 3em;
 }
 #about-img{
   float: left;
   display: block;
   max-width: 50%;
   margin-left: 25%;
-}
-.about-work-with-me{
-  width: 67%;
-  display: block;
-  margin-left: 16%;
-  margin-bottom: 5%;
-}
-.about-work-with-me-inner{
-  margin: 1%;
-}
-.about-work-with-me-inner p{
-  font-size: 1.5em;
-  text-align: center;
 }
 .about-desc{
   float: left;
@@ -1207,12 +1195,23 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   margin-left: auto;
   margin-right: auto;
 }
+.work-package-gold-hold2{
+  display: block;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
 .button-box{
   width: 34%;
 }
-#special1-con, #special2-con{
+#special1-con{
+  width: 75%;
+}
+#special2-con{
   width: 55%;
 }
+
 
 /* ============ Socials =========== */
 .social-header h1{
@@ -1232,6 +1231,12 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 
 
 /* ============= FAQ =================*/
+.howwork-title h1{
+  font-size: 3em;
+}
+.faq-howwork{
+  margin: 4%;
+}
 .faq-askme{
   width: 75%;
   float: none;
@@ -1432,22 +1437,36 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   padding: 3% 3% 0% 3%;
   margin-left: 20%;
 }
-.about-work-with-me{
-  width: 35%;
-  display: inline-block;
-  margin: 2% 0% 0% 5%;
-}
-.about-work-with-me-inner{
-  padding: 4%;
-}
-.about-work-with-me p{
-  font-size: 1.2em;
-  text-align: center;
-}
 
 /* ============ Work =========== */
-
-
+.work-header h1{
+  padding-top: 8%;
+  font-size: 2.5em;
+}
+.work-section1{
+  padding-top: 2%;
+}
+.packages{
+  background-color: #111;
+}
+.work-package-gold-hold{
+  width: 47%;
+  display: inline-block;
+  clear: both;
+  margin-left: 2%;
+}
+.work-package-gold-hold2{
+  width: 75%;
+}
+.special-services{
+  background-color: #111;
+}
+.button-box{
+  width: 43%;
+}
+.btn-aqua{
+  width: 50%;
+}
 /* ================ Socials =============*/
 
 /* ============== FAQ ================*/
@@ -1480,8 +1499,19 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   margin-top: 39%;
 }
 
-
-
+/* ======== Work ====== */
+.work-header h1{
+  padding-top: 6%;
+}
+.packages-header, .ss-header{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.work-package-gold-hold2{
+  width: 52%;
+}
 
 
 
@@ -1500,12 +1530,6 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 
 /* ========= About ===========*/
 
-.about-work-with-me{
-  margin-left: 2%;
-}
-.about-work-with-me-inner{
-  padding: 6% 12% 0 11%;
-}
 .about-text1{
   width: 50%;
 }
@@ -1514,8 +1538,12 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 }
 
 /* ======== Work =========== */
-
-
+.packages-header, .ss-header{
+  width: 68%;
+}
+.work-package-gold-hold2{
+  width: 42%;
+}
 
 
 

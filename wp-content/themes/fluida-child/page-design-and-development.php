@@ -222,7 +222,7 @@ get_header(); ?>
 					<h5>DIY + Finishing</h5>
 						<p>Are you trying to create a website on a tight budget?<br> I understand the frustration!</p>
 						<p>That's why I offer DIY + finishing services.<br>You do most of the work and get as close to the design you want as possible, and I'll finish it off for you with custom tweaks, font and colour changes, and special requests.</p>
-						<div id="special1-con"><img src="" alt="">
+						<div id="special1-con"><img src="http://localhost:8888/natalierose/wp-content/uploads/2018/04/Diyplus1.png" alt="DIY + Finishing">
 						</div><!--special1-con-->
 
 						<div class="button-box">
@@ -254,7 +254,7 @@ get_header(); ?>
     </div><!--work-section4-->
 
 	<div class="work-section5">
-		<div class="work-package-gold-hold">
+		<div class="work-package-gold-hold2">
 		<div class="special-gold">
 			<div class="howworks">
 			<h1>How does it all work?</h1>
@@ -266,7 +266,7 @@ get_header(); ?>
 			</div><!--aqua-button-->
 		</div><!--howworks-->
 	</div><!--special-gold-->
-</div><!--work-package-gold-hold-->
+</div><!--work-package-gold-hold2-->
 </div><!--work-section5-->
 
 

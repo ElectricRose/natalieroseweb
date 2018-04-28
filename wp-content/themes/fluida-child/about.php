@@ -40,21 +40,6 @@
           <img src="http://natalierose.net/wp-content/uploads/2018/01/natalieRoseCircle1-450.png" alt="Natalie Rose - Web designer & developer">
         </div>
 
-        <div class="about-work-with-me">
-          <div class="about-work-with-me-inner">
-
-          <p><strong>I'm available to answer all your questions. </strong><br> Schedule a FREE 30 min consultation now!</p>
-
-          <div class="basicBox">
-            <a href="http://natalierose.net/schedule-a-call/">
-              Let's Chat!
-              <svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
-                <rect x='0' y='0' fill='none' width='130' height='65'/>
-              </svg></a>
-          </div>
-        </div>
-      </div>
-
         <div class="about-desc">
         <div class="about-text1">
           <h3>My Mission</h3>
