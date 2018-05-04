@@ -14,7 +14,6 @@ Text Domain: fluida-child
 Fluida WordPress Theme - Copyright 2015, Cryout Creations - http://www.cryoutcreations.eu
 This theme, like WordPress, is licensed under the GPL.
 */
-@import url("../fluida-theme/style.css");
 @font-face {
     font-family: 'hyperegular';
     src: url('hype-webfont.eot');
@@ -178,11 +177,12 @@ span.current{
   margin-left: auto;
   margin-right: auto;
 }
-.front-about{
+.front-about1{
     border-bottom: 1px solid #00d01b;
     float: left;
     margin-top: 10%;
     margin-bottom: 10%;
+    background-image: none !important;
 }
 .front-about-inner{
   float: left;
@@ -193,7 +193,7 @@ span.current{
   background-color: white;
   padding: 4%;
 }
-.front-about p{
+.front-about1 p{
   color: #2f2f2f;
   text-align: center;
 }
@@ -201,7 +201,7 @@ span.current{
   float: left;
   width: 100%;
 }
-.front-about h3{
+.front-about1 h3{
  color: #00c5fd;
  text-align: center;
  font-size: 1.8em;
@@ -221,6 +221,7 @@ span.current{
   font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
 }
 .front-contact h5{
+  font-family: "hyperegular", 'Open Sans Condensed', sans-serif !important;
   text-align: center;
   font-size: 1.6em;
   color: #33e1b6;
@@ -520,11 +521,6 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   font-size: 1.1em;
   text-align: center;
   margin-top: 2%;
-}
-.prohelp{
-  width: 100%;
-  border-top: 1px solid #00d01b;
-  background-image: url("http://natalierose.net/wp-content/uploads/2018/03/gold-dot-design.jpg");
 }
 .prohelp-gold{
   width: 100%;
@@ -871,6 +867,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 
 
 /* ============ Socials ========== */
+/*
 .social-content{
   float: left;
   background-image: url("http://natalierose.net/wp-content/uploads/2018/03/gold-dot-design.jpg");
@@ -939,7 +936,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   font-size: 1.2em;
 }
 
-
+*/
 /*============== FAQ ================*/
 .howwork-title h1{
   text-align: center;
@@ -1069,10 +1066,9 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 .front-boots{
   width: 27%;
 }
-.front-about{
+.front-about1{
   margin: 0%;
   background-color: #fff;
-  background-image: none;
 }
 .front-nat1{
   width: 42%;
@@ -1236,6 +1232,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 
 
 /* ============ Socials =========== */
+/*
 .social-header h1{
   font-size: 4em;
 }
@@ -1251,7 +1248,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   width: 32%;
 }
 
-
+*/
 /* ============= FAQ =================*/
 .howwork-title h1{
   font-size: 3em;
@@ -1346,7 +1343,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   margin-top: -28%;
   margin-right: 12%;
 }
-.front-about{
+.front-about1{
   border-bottom: 1px solid #00d01b;
   float: left;
   margin-top: 0%;
@@ -1366,10 +1363,10 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   width: 52%;
   border-radius: 0%;
 }
-.front-about h3{
+.front-about1 h3{
   font-size: 2em;
 }
-.front-about p{
+.front-about1 p{
   color: #fff;
 }
 .front-nat1{

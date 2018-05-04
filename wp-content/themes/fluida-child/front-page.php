@@ -92,7 +92,7 @@ function fluida_lp_layoutclass () {
   </div>
 </div>
 
-  <div class="front-about">
+  <div class="front-about1">
 		<div class="front-about-inner">
       <div class="front-about-text">
         <h3>Hello, I'm Natalie Rose.</h3>
@@ -116,7 +116,7 @@ function fluida_lp_layoutclass () {
 			</div>
 
 			</div><!--front-about-inner-->
-  	</div><!--front-about-->
+  	</div><!--front-about1-->
 
 	<div class="front-contact">
 		<h4>Are you ready for something better?</h4>

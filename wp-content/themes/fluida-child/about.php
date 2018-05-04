@@ -22,7 +22,8 @@
           <h2>Natalie Rose</h2>
           <h3>Web Designer & Developer</h3>
               <div id="about-break">
-                <img src="/wp-content/uploads/2017/06/break2.png" alt="Swirly Line Break" class="center">
+                <img src="http://natalierose.net/wp-content/uploads/2018/05/leaf-border.png
+                " alt="Leafy Line Break" class="center">
               </div>
             <p><span id="work-bold">It's time to be noticed!</span><br>
               If you are struggling to attract the right customers, are stressed for time, or need a better website I'm here to help. In a world of fierce competition, first impressions are everything. As a designer, I’m here to work with you to create a brand and style that truly reflects your business, sends the right message, and attracts your ideal customers without breaking a sweat.<br>

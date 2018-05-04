@@ -49,7 +49,7 @@ get_header(); ?>
     <div class="work-section3">
       <div class="packages">
 	        <div class="packages-header">
-	          <img src="http://natalierose.net/wp-content/uploads/2018/05/packages1.jpg" alt="specialty services">
+	          <img src="http://natalierose.net/wp-content/uploads/2018/05/packages1.jpg" alt="Packages">
 	        </div><!--packages-header-->
 
 		<div class="work-package-gold-hold">
