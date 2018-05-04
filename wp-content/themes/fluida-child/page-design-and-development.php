@@ -27,15 +27,15 @@ get_header(); ?>
     <div class="work-section1">
 
       <div class="work-square1">
-        <img src="http://localhost:8888/natalierose/wp-content/uploads/2018/04/work-boxes8.jpg" alt="">
+        <img src="http://natalierose.net/wp-content/uploads/2018/05/work-boxes8.jpg" alt="Design">
       </div>
 
       <div class="work-square2">
-        <img src="http://localhost:8888/natalierose/wp-content/uploads/2018/04/work-boxes4.jpg" alt="">
+        <img src="http://natalierose.net/wp-content/uploads/2018/05/work-boxes4.jpg" alt="Development">
       </div>
 
       <div class="work-square3">
-        <img src="http://localhost:8888/natalierose/wp-content/uploads/2018/04/work-boxes5-1.jpg" alt="">
+        <img src="http://natalierose.net/wp-content/uploads/2018/05/work-boxes5-3.jpg" alt="Solutions">
       </div>
     </div><!--work-section1-->
 
@@ -49,7 +49,7 @@ get_header(); ?>
     <div class="work-section3">
       <div class="packages">
 	        <div class="packages-header">
-	          <img src="http://localhost:8888/natalierose/wp-content/uploads/2018/04/packages1.jpg" alt="specialty services">
+	          <img src="http://natalierose.net/wp-content/uploads/2018/05/packages1.jpg" alt="Packages">
 	        </div><!--packages-header-->
 
 		<div class="work-package-gold-hold">
@@ -213,7 +213,7 @@ get_header(); ?>
     <div class="work-section4">
       <div class="special-services">
         <div class="ss-header">
-          <img src="http://localhost:8888/natalierose/wp-content/uploads/2018/04/special-services1.jpg" alt="specialty services">
+          <img src="http://natalierose.net/wp-content/uploads/2018/05/special-services1.jpg" alt="specialty services">
         </div><!--ss-header-->
 
 		<div class="work-package-gold-hold">
@@ -222,12 +222,12 @@ get_header(); ?>
 					<h5>DIY + Finishing</h5>
 						<p>Are you trying to create a website on a tight budget?<br> I understand the frustration!</p>
 						<p>That's why I offer DIY + finishing services.<br>You do most of the work and get as close to the design you want as possible, and I'll finish it off for you with custom tweaks, font and colour changes, and special requests.</p>
-						<div id="special1-con"><img src="" alt="">
+						<div id="special1-con"><img src="http://natalierose.net/wp-content/uploads/2018/05/Diyplus1.png" alt="DIY + Finishing">
 						</div><!--special1-con-->
 
 						<div class="button-box">
 							<a href="http://natalierose.net/socials/">
-						<button class="btn slay">I NEED IT DONE!</button></a>
+						<button class="btn-slay">I NEED IT DONE!</button></a>
 					</div><!--button-box-->
 					</div><!--special1-->
 				</div><!--special-gold-->
@@ -240,12 +240,12 @@ get_header(); ?>
 							<p>You want to move on to better things.<br> Your current platform is dragging you down.<br>You wouldn't be the first.<br>
 							Many businesses start off with cheap, pre-made, or drag and drop websites.<br>If you are tired of limitations & extra add-on expenses, it's time to move on to something better.<br>Transfers can be complicated, but no need to worry. I'm here for ya! I'll take care of the entire process so you don't have to stress.<br>Ditch that dumpy old host, you're ready for something fabulous!
 						</p>
-						<div id="special2-con"><img src="http://natalierose.net/wp-content/uploads/2018/02/webTransfers.png" alt="desktop computer with website transfers on the screen">
+						<div id="special2-con"><img src="http://natalierose.net/wp-content/uploads/2018/05/webTransfers.png" alt="desktop computer with website transfers on the screen">
 						</div><!--special3-con-->
 
 						<div class="button-box">
 							<a href="http://natalierose.net/contact/">
-						<button class="btn slay">MOVING ON UP!</button></a>
+						<button class="btn-slay">MOVING ON UP!</button></a>
 					</div><!--button-box-->
 				</div><!--special2-->
 			</div><!--special-gold-->
@@ -254,7 +254,7 @@ get_header(); ?>
     </div><!--work-section4-->
 
 	<div class="work-section5">
-		<div class="work-package-gold-hold">
+		<div class="work-package-gold-hold2">
 		<div class="special-gold">
 			<div class="howworks">
 			<h1>How does it all work?</h1>
@@ -266,7 +266,7 @@ get_header(); ?>
 			</div><!--aqua-button-->
 		</div><!--howworks-->
 	</div><!--special-gold-->
-</div><!--work-package-gold-hold-->
+</div><!--work-package-gold-hold2-->
 </div><!--work-section5-->
 
 

@@ -14,7 +14,6 @@ Text Domain: fluida-child
 Fluida WordPress Theme - Copyright 2015, Cryout Creations - http://www.cryoutcreations.eu
 This theme, like WordPress, is licensed under the GPL.
 */
-@import url("../fluida-theme/style.css");
 @font-face {
     font-family: 'hyperegular';
     src: url('hype-webfont.eot');
@@ -106,7 +105,7 @@ span.current{
 .optin-section{
   float: left;
   color:#111;
-  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/drkforest5.jpg");
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/05/drkforest5.jpg");
   background-repeat: no-repeat;
   height: 500px;
   width: 100%;
@@ -179,22 +178,24 @@ span.current{
   margin-left: auto;
   margin-right: auto;
 }
-.front-about{
+.front-about1{
     border-bottom: 1px solid #00d01b;
     float: left;
     margin-top: 10%;
     margin-bottom: 10%;
+    background-image: none !important;
 }
 .front-about-inner{
   float: left;
   margin: 2%;
 }
 .front-about-text{
+  text-align: center !important;
   float: left;
   background-color: white;
   padding: 4%;
 }
-.front-about p{
+.front-about-text p{
   color: #2f2f2f;
   text-align: center;
 }
@@ -202,7 +203,7 @@ span.current{
   float: left;
   width: 100%;
 }
-.front-about h3{
+.front-about-text h3{
  color: #00c5fd;
  text-align: center;
  font-size: 1.8em;
@@ -222,6 +223,7 @@ span.current{
   font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
 }
 .front-contact h5{
+  font-family: "hyperegular", 'Open Sans Condensed', sans-serif !important;
   text-align: center;
   font-size: 1.6em;
   color: #33e1b6;
@@ -320,7 +322,6 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 
 /* Special Services Buttons */
 .button-box{
-  float: none;
   display: block;
   width: 50%;
   margin-left: auto;
@@ -330,19 +331,17 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after{
 .signup-box{
   margin: 5% 2% 5% 2%;
 }
-.btn {
- border: 2px solid black;
- background-color: white;
- color: black;
- padding: 14px 28px;
- font-size: 16px;
- cursor: pointer;
-}
-.slay{
+.btn-slay{
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
   border-color: #00d01b;
   color: #111;
 }
-.slay:hover{
+.btn-slay:hover{
   background-color: #00d01b;
   color: white;
 }
@@ -476,6 +475,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   margin-left: auto;
   margin-right: auto;
   display: block;
+  background-color: #fff !important;
  }
  #mc_embed_signup h2{
    color: #6833e1;
@@ -510,7 +510,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   margin: 8% 1%;
 }
 .signup-thank-you-inner{
-  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/large-goldscratch.jpg");
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/05/large-goldscratch.jpg");
   padding: 1%;
   margin: 2%;
 }
@@ -525,15 +525,10 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   text-align: center;
   margin-top: 2%;
 }
-.prohelp{
-  width: 100%;
-  border-top: 1px solid #00d01b;
-  background-image: url("http://natalierose.net/wp-content/uploads/2018/03/gold-dot-design.jpg");
-}
 .prohelp-gold{
   width: 100%;
   float: left;
-  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/large-goldscratch.jpg");
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/05/large-goldscratch.jpg");
 }
 .prohelp-inner{
   width: 96%;
@@ -564,10 +559,14 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   float: left;
   width: 100%;
 }
+.about-section1{
+  float: left;
+  width: 100%;
+}
 .about-intro-box{
   width: 100%;
   height: auto;
-  background-image: url("http://natalierose.net/wp-content/uploads/2018/03/gold-dot-design.jpg");
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/05/large-goldscratch.jpg");
   float: left;
   padding: 1%;
 }
@@ -583,14 +582,23 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   margin: 3%;
 }
 .about-intro h2{
-  font-size: 3.6em;
+  font-size: 2em;
   text-align: center;
   font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 10px;
 }
 .about-intro h3{
-  font-size: 1.8em;
+  font-size: 1.2em;
+  font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
   text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+#work-bold{
   font-weight: bold;
+  text-transform: uppercase;
 }
 #about-break{
   margin: 5%;
@@ -612,6 +620,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 #about-solutions{
   font-weight: bold;
   font-style: italic;
+  text-transform: uppercase;
 }
 #about-img img.center{
   display: block;
@@ -624,41 +633,25 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   max-width: 100%;
   margin: 5%;
 }
-#about-img img{
-  border-radius: 25px;
-}
-.about-work-with-me{
-  width: 98%;
+.about-section2{
+  width: 100%;
   float: left;
-  display: block;
-  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/large-goldscratch.jpg");
-}
-.about-work-with-me-inner{
-  background-color: white;
-  float: left;
-  margin: 1%;
-}
-.about-work-with-me-inner p{
-  text-align: center;
-  font-size: 1.5em;
-  color: #111111;
-  padding: 2%;
-}
-#work-img1{
-  display: none;
-  float: left;
+  margin: 0%;
 }
 .about-desc{
   float: left;
   margin: 5%;
-  border-top: 1px solid #00d01b;
-  border-bottom: 1px solid #00d01b;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 .about-text1 h3{
   font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
-  font-size: 3.5em;
+  font-size: 3em;
   text-align: center;
-  color: #00c5fd;
+  letter-spacing: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .about-text1 h4{
   font-size: 1.8em;
@@ -692,11 +685,11 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 #can-help a{
   color: #00c5fd !important;
 }
-.about-text1, .about-text2, .about-text3{
+.about-text2, .about-text3{
   float: left;
 }
 .about-text1 p, .about-text2 p{
-  color: #00d01b;
+  color: #fff;
   text-align: center;
 }
 .about-text3 p{
@@ -711,13 +704,11 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   margin-left: auto;
   margin-right: auto;
 }
-.about-container2{
-  border-bottom: 1px solid #00d01b;
+.about-section3{
   float: left;
   width: 100%;
-  margin: 8% 0 1% 0;
 }
-.about-gold{
+.about-border{
   float: left;
   width: 100%;
 }
@@ -728,14 +719,19 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 }
 .about-text3 h4{
   font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
-  font-size: 4.2em;
+  font-size: 3.2em;
   text-align: center;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
   color: #000;
 }
 .about-text3 h5{
+  font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
   color: #00c5fd;
   font-weight: bold;
   text-align: center;
+  text-transform: uppercase;
 }
 .about-text3 h6{
   font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
@@ -752,7 +748,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 .work-header{
   width: 100%;
   float: left;
-  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/forest-header1.jpg");
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/05/forest-header1.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -777,15 +773,15 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   display: inline-block;
   float: left;
   width: 31%;
-  margin: 3% 1%;
+  margin: 7% 1% 1% 1%;
 }
-.work-package-gold-hold{
+.work-package-gold-hold, .work-package-gold-hold2{
   float: left;
   background-color: #111;
 }
 .work-package-gold{
   float: left;
-  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/large-goldscratch.jpg");
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/05/large-goldscratch.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 2%;
@@ -825,7 +821,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 }
 .special-gold{
   float: left;
-  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/large-goldscratch.jpg");
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/05/large-goldscratch.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 2%;
@@ -849,7 +845,14 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   text-align: center;
   font-weight: bold;
 }
-#special1-con, #special2-con{
+#special1-con{
+  width: 100%;
+  padding: 3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#special2-con{
   width: 75%;
   display: block;
   margin-left: auto;
@@ -866,8 +869,8 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 }
 
 
-
 /* ============ Socials ========== */
+/*
 .social-content{
   float: left;
   background-image: url("http://natalierose.net/wp-content/uploads/2018/03/gold-dot-design.jpg");
@@ -876,7 +879,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   width: 90%;
   float: left;
   margin: 5%;
-  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/large-goldscratch.jpg");
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/05/large-goldscratch.jpg");
   }
 .social-header-inner{
   background-color: white;
@@ -936,17 +939,22 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   font-size: 1.2em;
 }
 
-
+*/
 /*============== FAQ ================*/
-#howwork-title{
-  width: 98%;
+.howwork-title h1{
   text-align: center;
-  margin: auto;
+  font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: bold;
+  color: #fff;
+  padding: 5% 0 8% 0;
 }
 .faq-outter{
   width: 100%;
   float: left;
-  background-image: url("http://natalierose.net/wp-content/uploads/2018/03/blue-splatter1.jpg");
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/05/fern-background1.jpg");
 }
 .faq-howwork, .faq-questions{
   border: 5px solid #33e1b6;
@@ -955,10 +963,12 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   background-color: white;
 }
 .faq-howwork h1, .faq-questions h1{
-  color: #111111;
-  font-size: 4em;
+  color: #111;
+  font-size: 2em;
   text-align: center;
   font-family: "hyperegular", 'Open Sans Condensed', sans-serif;
+  letter-spacing: 10px;
+  text-transform: uppercase;
 }
 .faq-howwork h2, .faq-questions h2{
   color: #00c5fd;
@@ -1047,7 +1057,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   margin: auto;
   padding: 1%;
   margin-top: 5%;
-  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/large-goldscratch.jpg");
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/05/large-goldscratch.jpg");
 }
 .front-work-section{
   float: left;
@@ -1059,9 +1069,8 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 .front-boots{
   width: 27%;
 }
-.front-about{
-  margin: 0%;
-  background-color: #ffffff;
+.front-about1{
+  background-color: #fff;
 }
 .front-nat1{
   width: 42%;
@@ -1071,7 +1080,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   padding: 0%;
 }
 .front-about-inner{
-  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/beach4.jpg");
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/05/beach4.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -1088,7 +1097,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 }
 /* ========== Sign up ============== */
 .signup-section1{
-  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/lost2-2.jpg");
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/05/lost2-2.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   float: left;
@@ -1127,7 +1136,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   font-size: 2em;
 }
 .prohelp{
-  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/dive4.jpg");
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/05/dive4.jpg");
   float: left;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1148,10 +1157,10 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 }
 /* =========== About ================ */
 .about-intro-box{
-  padding: 3%;
+  padding: 0%;
 }
 .about-intro h2{
-  font-size: 5em;
+  font-size: 3em;
 }
 #about-img{
   float: left;
@@ -1159,48 +1168,46 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   max-width: 50%;
   margin-left: 25%;
 }
-.about-work-with-me{
-  width: 67%;
-  display: block;
-  margin-left: 16%;
-  margin-bottom: 5%;
-}
-.about-work-with-me-inner{
-  margin: 1%;
-}
-.about-work-with-me-inner p{
-  font-size: 1.5em;
-  text-align: center;
-}
 .about-desc{
   float: left;
-  background-image: url( "http://localhost:8888/natalierose/wp-content/uploads/2018/04/travel1.jpg");
+  background-image: url( "http://natalierose.net/wp-content/uploads/2018/05/leaf-background.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
   margin: 0%;
 }
 .about-text1{
   width: 85%;
-  margin: 5% 0 5% 8%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
   background-color: #000000;
   opacity: 0.9;
   filter: alpha(opacity=90);
   border-radius: 36px;
   padding: 4% 4% 0 4%;
 }
-.about-gold{
+.about-border{
   width: 100%;
-  background-image: url("http://natalierose.net/wp-content/uploads/2018/02/goldsplatter1.jpg");
-  padding: 5% 5% 5% 15%;
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/05/fern-background1.jpg");
 }
 .about-text3{
   width: 80%;
-  padding: 3%;
-  margin: 5% 5% 5% 5%;
-
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
 /* =========== Work =========== */
 .work-header h1{
   padding-top: 14%;
+}
+.work-square1, .work-square2, .work-square3{
+  margin-top: 6%;
 }
 .work-package-gold-hold{
   width: 80%;
@@ -1208,14 +1215,26 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   margin-left: auto;
   margin-right: auto;
 }
+.work-package-gold-hold2{
+  display: block;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
 .button-box{
   width: 34%;
 }
-#special1-con, #special2-con{
-  width: 55%;
+#special1-con{
+  width: 75%;
+}
+#special2-con{
+  width: 53%;
 }
 
+
 /* ============ Socials =========== */
+/*
 .social-header h1{
   font-size: 4em;
 }
@@ -1231,8 +1250,14 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   width: 32%;
 }
 
-
+*/
 /* ============= FAQ =================*/
+.howwork-title h1{
+  font-size: 3em;
+}
+.faq-howwork{
+  margin: 4%;
+}
 .faq-askme{
   width: 75%;
   float: none;
@@ -1282,7 +1307,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   width: 40%;
 }
 .front-work{
-  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/layered-bkg1.png");
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/05/layered-bkg1.png");
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: top right;
@@ -1320,14 +1345,14 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   margin-top: -28%;
   margin-right: 12%;
 }
-.front-about{
+.front-about1{
   border-bottom: 1px solid #00d01b;
   float: left;
   margin-top: 0%;
   margin-bottom: 0%;
 }
 .front-about-inner{
-  background-image: url("http://localhost:8888/natalierose/wp-content/uploads/2018/04/beach4.jpg");
+  background-image: url("http://natalierose.net/wp-content/uploads/2018/05/beach4.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -1336,14 +1361,14 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   background-color: #000000cf;
   display: inline-block;
   margin: 38% 0% 0% 3%;
-  padding: 0 4% 2%;
+  padding: 0% 4% 2%;
   width: 52%;
-  border-radius: 0%;
+  border-radius: 0% !important;
 }
-.front-about h3{
+.front-about-text h3{
   font-size: 2em;
 }
-.front-about p{
+.front-about-text p{
   color: #fff;
 }
 .front-nat1{
@@ -1414,48 +1439,63 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   font-size: 3em;
 }
 /* =========== About ================ */
-.about-intro-box{
-  width: 58%;
-  margin-bottom: 7%;
+.about-section1{
+background-image: url("http://natalierose.net/wp-content/uploads/2018/05/beach8.jpg");
+background-repeat: no-repeat;
+background-position: top center;
+background-size: contain;
+margin-bottom: 1%;
 }
 #about-img{
   float: left;
   display: inline-block;
-  max-width: 35%;
-  margin: 3% 0 0 5%;
+  max-width: 28%;
+  margin: 5% 0 0 5%;
 }
-#work-img1{
-  display: inline-block;
-  width: 41%;
-  margin: 15% 1% 0 1%;
-  padding-top: 6%;
+.about-intro-box{
+  width: 51%;
+  margin: 4% 1% 5% 4%;
 }
-#work-img1 img{
-  border-radius: 25px;
+.about-section2{
+  margin-bottom: 5%;
 }
 .about-text1{
   width: 60%;
-  float: left;
-  display: inline-block;
-  padding: 3% 3% 0% 3%;
-  margin-left: 20%;
-}
-.about-work-with-me{
-  width: 35%;
-  display: inline-block;
-  margin: 2% 0% 0% 5%;
-}
-.about-work-with-me-inner{
-  padding: 4%;
-}
-.about-work-with-me p{
-  font-size: 1.2em;
-  text-align: center;
 }
 
 /* ============ Work =========== */
-
-
+.work-header h1{
+  padding-top: 8%;
+  font-size: 2.5em;
+}
+.work-square1, .work-square2, .work-square3{
+  margin-top: 4%;
+}
+.work-section1{
+  padding-top: 2%;
+}
+.packages{
+  background-color: #111;
+}
+.work-package-gold-hold{
+  width: 47%;
+  display: inline-block;
+  clear: both;
+  margin-left: 2%;
+  vertical-align: top;
+}
+.work-package-gold-hold2{
+  width: 75%;
+}
+.special-services{
+  background-color: #111;
+}
+.button-box{
+  width: 43%;
+}
+.btn-aqua{
+  width: 50%;
+}
 /* ================ Socials =============*/
 
 /* ============== FAQ ================*/
@@ -1474,7 +1514,7 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 
 /* ======== front page ========= */
 .optin-text{
-  height: 64%;
+  height: 72%;
   margin-top: 9%;
 }
 .front-boots{
@@ -1488,10 +1528,38 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
   margin-top: 39%;
 }
 
+/* ======== About ====== */
+.about-section1{
+  background-size: cover;
+  margin-bottom: 5%;
+}
+#about-img{
+  margin: 5% 0 0 3%;
+  width: 25%;
+}
 
-
-
-
+/* ======== Work ====== */
+.work-header h1{
+  padding-top: 6%;
+}
+.work-square1, .work-square2, .work-square3{
+  margin-top: 2%;
+}
+.packages-header, .ss-header{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.work-package-gold-hold2{
+  width: 52%;
+}
+#special2-con{
+  width: 45%;
+}
+.button-box{
+  width: 31%;
+}
 
 
 
@@ -1504,27 +1572,41 @@ article.hentry, #primary, .searchform, .main > div:not(#content-masonry), .main 
 
 
 /* ========= Front-Page ====== */
-
-
+.optin-section{
+  width: 100%;
+  background-position: top center;
+}
+.front-nat1{
+  width: 13%;
+  margin-top: 34%;
+}
 /* ========= About ===========*/
 
-.about-work-with-me{
-  margin-left: 2%;
-}
-.about-work-with-me-inner{
-  padding: 6% 12% 0 11%;
-}
 .about-text1{
   width: 50%;
 }
 .about-text2{
   margin: 12% 1% 2% 2%;
 }
+.about-text3{
+  width: 60%;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
 
 /* ======== Work =========== */
-
-
-
+.packages-header, .ss-header{
+  width: 68%;
+}
+.work-package-gold-hold2{
+  width: 42%;
+}
+#special2-con{
+  width: 39%;
+}
+.button-box{
+  width: 26%;
+}
 
 
 
