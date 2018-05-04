@@ -56,7 +56,7 @@ function fluida_lp_layoutclass () {
 				<p><span id="opt-secondline">Does your website have you feeling a little..   lost?<p>
 				<span id="opt-thirdline">Let me point you in the right direction!</p>
 					<div class="compass">
-						<img src="http://localhost:8888/natalierose/wp-content/uploads/2018/04/compass1.png" alt="compass">
+						<img src="http://natalierose.net/wp-content/uploads/2018/05/compass1.png" alt="compass">
 					</div>
 				<p>If your website feels like a stick in the mud, grab my guide and find out how to fix it!</p></span>
 			<div class="signup-box">
@@ -72,7 +72,6 @@ function fluida_lp_layoutclass () {
 		<div class="front-gold">
 		<div class="front-work-section">
       <h3>Running a business is an adventure!</h3>
-			<h4>Entrepreneurship can be a wild ride. </h4>
       <p>It takes nerve to step into the wild and chase your dreams.<br>It takes hard work, talent, and unique skills to build a successful business from the ground up.<br> But you know this, and that's why you're here. You've taken your lumps with grace and have proven yourself up to the challenge!<br>You've got this in the bag!<br>The road to success can be a long journey. Sometimes you get lost along the way. Sometimes that steady stream of income you envisioned barely amounts to a trickle.<br>Let's change that!<br>Facing the trail alone can get lonely. What you really need is a solid plan, the right equipment, and someone you can rely on to help share the load.<br>Adventures are always better with a friend!<br>That's why I'm here to help!<br>Let's get your online presence on the right path with a custom website that will knock your socks off, and the tools to you need to navigate through the social media jungle!<br>You were born for this adventure! Are you ready?
 			<br> Lace up your boots and let's get started!</p>
 			<div id="work-more">
@@ -88,7 +87,7 @@ function fluida_lp_layoutclass () {
 </div><!--front-gold-hold-->
 
 		<div class="front-boots">
-			<img src="http://localhost:8888/natalierose/wp-content/uploads/2018/04/boots2.png" alt="man lacing up hiking boots">
+			<img src="http://natalierose.net/wp-content/uploads/2018/05/boots2.png" alt="man lacing up hiking boots">
 		</div><!--front-boots-->
   </div>
 </div>
@@ -113,7 +112,7 @@ function fluida_lp_layoutclass () {
         </div><!--about-more-->
 			</div>
 			<div class="front-nat1">
-				<img src="http://localhost:8888/natalierose/wp-content/uploads/2018/04/natalie_rose1-1.jpg" alt="natalie rose web design">
+				<img src="http://natalierose.net/wp-content/uploads/2018/05/natalie_rose2.jpg" alt="natalie rose web design">
 			</div>
 
 			</div><!--front-about-inner-->
