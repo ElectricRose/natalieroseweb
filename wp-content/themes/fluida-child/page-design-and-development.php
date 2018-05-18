@@ -226,7 +226,7 @@ get_header(); ?>
 						</div><!--special1-con-->
 
 						<div class="button-box">
-							<a href="http://natalierose.net/socials/">
+							<a href="http://natalierose.net/contact/">
 						<button class="btn-slay">I NEED IT DONE!</button></a>
 					</div><!--button-box-->
 					</div><!--special1-->

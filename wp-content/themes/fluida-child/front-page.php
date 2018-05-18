@@ -72,11 +72,11 @@ function fluida_lp_layoutclass () {
 		<div class="front-gold">
 		<div class="front-work-section">
       <h3>Running a business is an adventure!</h3>
-      <p><strong>It takes nerve to step into the wild and chase your dreams.</strong><br>It takes hard work, talent, and unique skills to build a successful business from the ground up.<br> But you know this, and that's why you're here. You've taken your lumps with grace and have proven yourself up to the challenge!<br><strong>You've got this in the bag!</strong><br>The road to success can be a long journey. Sometimes you get lost along the way. Sometimes that steady stream of income you envisioned barely amounts to a trickle.<br><strong>Let's change that!</strong><br>Facing the trail alone can get lonely. What you really need is a solid plan, the right equipment, and someone you can rely on to help share the load.<br>Adventures are always better with a friend!<br><strong>That's why I'm here to help!</strong><br>Let's get your online presence on the right path with a custom website that will knock your socks off, and the tools to you need to navigate through the social media jungle!<br> You were born for this adventure! Are you ready?
+      <p><strong>It takes nerve to step into the wild and chase your dreams.</strong><br>It takes hard work, talent, and unique skills to build a successful business from the ground up.<br> But you know this, and that's why you're here. You've taken your lumps with grace and have proven yourself up to the challenge!<br><strong>The road to success can be a long journey.</strong><br> Sometimes you get lost along the way. Sometimes that steady stream of income you envisioned barely amounts to a trickle.<br><strong>Let's change that!</strong><br>Facing the trail alone can get lonely. What you really need is a solid plan, the right equipment, and someone you can rely on to help share the load.<br><strong>Adventures are always better with a friend!</strong><br>That's why I'm here to help!<br>Let's get your online presence on the right path with a custom website that will knock your socks off, and the tools to you need to navigate through the social media jungle!<br> You were born for this adventure! Are you ready?
 			<br><strong>Lace up your boots and let's get started!</strong></p>
 			<div id="work-more">
 				<div class="frontworkBox">
-					<a href="http://natalierose.net/work/">Learn More
+					<a href="http://natalierose.net/design-and-development/">Learn More
 						<svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
 							<rect x='0' y='0' fill='none' width='130' height='65'/>
 						</svg></a>
