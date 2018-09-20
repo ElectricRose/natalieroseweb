@@ -20,12 +20,7 @@ get_header(); ?>
 
   <div class="work-all">
 
-    <div class="work-header">
-      <h1>Natalie Rose</h1>
-    </div><!--work-header-->
-
     <div class="work-section1">
-
       <div class="work-square1">
         <img src="http://natalierose.net/wp-content/uploads/2018/05/work-boxes8.jpg" alt="Design">
       </div>
@@ -219,7 +214,7 @@ get_header(); ?>
 		<div class="work-package-gold-hold">
 			<div class="special-gold">
         <div class="special1">
-					<h5>DIY + Finishing</h5>
+					<h5>DIY <span id="plus">+</span> Finishing</h5>
 						<p>Are you trying to create a website on a tight budget?<br> I understand the frustration!</p>
 						<p>That's why I offer DIY + finishing services.<br>You do most of the work and get as close to the design you want as possible, and I'll finish it off for you with custom tweaks, font and colour changes, and special requests.</p>
 						<div id="special1-con"><img src="http://natalierose.net/wp-content/uploads/2018/05/Diyplus1.png" alt="DIY + Finishing">
@@ -237,7 +232,7 @@ get_header(); ?>
 				<div class="special-gold">
 					<div class="special2">
 						<h5>Site Transfers</h5>
-							<p>You want to move on to better things.<br> Your current platform is dragging you down.<br>You wouldn't be the first.<br>
+							<p>You want to move on to better things.<br> Your current platform is dragging you down.<br>You aren't alone, honey!<br>
 							Many businesses start off with cheap, pre-made, or drag and drop websites.<br>If you are tired of limitations & extra add-on expenses, it's time to move on to something better.<br>Transfers can be complicated, but no need to worry. I'm here for ya! I'll take care of the entire process so you don't have to stress.<br>Ditch that dumpy old host, you're ready for something fabulous!
 						</p>
 						<div id="special2-con"><img src="http://natalierose.net/wp-content/uploads/2018/05/webTransfers.png" alt="desktop computer with website transfers on the screen">

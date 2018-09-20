@@ -54,11 +54,10 @@ function fluida_lp_layoutclass () {
 	<div class="optin-section">
 			<div class="optin-text">
 				<p><span id="opt-secondline">Does your website have you feeling a little..   lost?<p>
-				<span id="opt-thirdline">Let me point you in the right direction!</p>
+				<span id="opt-thirdline">Let me point you in the right direction!</p></span>
 					<div class="compass">
 						<img src="http://natalierose.net/wp-content/uploads/2018/05/compass1.png" alt="compass">
 					</div>
-				<p>If your website feels like a stick in the mud, grab my guide and find out how to fix it!</p></span>
 			<div class="signup-box">
 				<a href="http://natalierose.net/sign-up/">
 			<button id="signup-btn">GRAB THE FREE GUIDE!</button></a>
@@ -71,9 +70,9 @@ function fluida_lp_layoutclass () {
 		<div class="front-gold-hold">
 		<div class="front-gold">
 		<div class="front-work-section">
-      <h3>Running a business is an adventure!</h3>
-      <p><strong>It takes nerve to step into the wild and chase your dreams.</strong><br>It takes hard work, talent, and unique skills to build a successful business from the ground up.<br> But you know this, and that's why you're here. You've taken your lumps with grace and have proven yourself up to the challenge!<br><strong>The road to success can be a long journey.</strong><br> Sometimes you get lost along the way. Sometimes that steady stream of income you envisioned barely amounts to a trickle.<br><strong>Let's change that!</strong><br>Facing the trail alone can get lonely. What you really need is a solid plan, the right equipment, and someone you can rely on to help share the load.<br><strong>Adventures are always better with a friend!</strong><br>That's why I'm here to help!<br>Let's get your online presence on the right path with a custom website that will knock your socks off, and the tools to you need to navigate through the social media jungle!<br> You were born for this adventure! Are you ready?
-			<br><strong>Lace up your boots and let's get started!</strong></p>
+      <h3>Your journey starts here.</h3>
+      <p><strong>Because it’s hard to go it alone out there in the wilderness of online business,<br> I’m here to help!</strong><br><br><strong>I’m Natalie Rose, Designer of Success.</strong><br> Through custom-built websites we will show your customers that YOU are the one they are looking for.<br> Publish a custom, high-end website and begin building that foundation of trust that all businesses MUST have to succeed. <br><br><strong>Business is an adventure, and adventures are more fun with a friend who can help you carry the load.</strong><br>Let me help you create your success story so that your adventures can continue for a lifetime!
+			<br><br><strong>Lace ‘em up and let's get on the trail!</strong></p>
 			<div id="work-more">
 				<div class="frontworkBox">
 					<a href="http://natalierose.net/design-and-development/">Learn More
@@ -96,10 +95,10 @@ function fluida_lp_layoutclass () {
 		<div class="front-about-inner">
       <div class="front-about-text">
         <h3>Hello, I'm Natalie Rose.</h3>
-          <p>I design and build solid brands & engaging websites for soulful small businesses and eco-centered entrepreneurs. If you need a polished and professional website, cleverly designed to attract more customers or clients, I'm your girl!</p><br>
+          <p><strong>A great website should do a lot of the work for you!</strong></p><p>I design and build solid brands & engaging websites for small businesses and entrepreneurs. If you need a polished and professional website, cleverly designed to attract more customers or clients, I'm your girl!</p><br>
 
-					<p>As a business owner you have a lot on your plate.<br> I see you hustlin' over there!<br>Don't let a bad website bring you down and waste your time and efforts. Your website should be built with both grit and grace, reflect who you are, and help you crush your goals. A great website should do a lot of the work for you!<br>
-					Let me help you lighten the load, by offering customized web solutions individually tailored to your unique business and needs.
+					<p><strong>As a business owner you have a lot on your plate.</strong><br> I see you hustlin' over there!<br><br><strong>Don't let a bad website bring you down and waste your time and efforts.</strong><br> Your website should be built with both grit and grace, reflect who you are, and help you crush your goals.<br>
+					Let me help you lighten the load with customized web solutions individually tailored to your unique business and needs.
 					<br>Whether you're a startup with a shoestring budget, or a master of the game ready for an upgrade, I'll build something special just for you!</p>
 
 					<div id="about-more">
@@ -117,6 +116,17 @@ function fluida_lp_layoutclass () {
 
 			</div><!--front-about-inner-->
   	</div><!--front-about1-->
+
+		<div class="front-testimonials">
+			<div class="front-test-goldhold">
+				<div class="front-test-box">
+			<h1>What others are saying</h1>
+				<div class="testi-block">
+				<?php echo do_shortcode('[sp_testimonial id="137"]'); ?>
+			</div><!--testi-block-->
+		</div><!--front-test-goldhold-->
+	</div><!--front-test-box-->
+		</div><!--front-testimonials-->
 
 	<div class="front-contact">
 		<h4>Are you ready for something better?</h4>

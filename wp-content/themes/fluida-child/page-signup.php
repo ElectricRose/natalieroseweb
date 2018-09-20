@@ -19,27 +19,32 @@ get_header(); ?>
 			<?php cryout_before_content_hook(); ?>
 
 					<div class="signup-section1">
-						<div class="signup-header">
-							<h2>Does your website have you feeling a little... lost?</h2>
-						</div>
 					 <div class="signup-text1">
-						 <h1>Hey, we've all been there.</h1>
-						 <h2>Sometimes even with the best intentions, things just don't turn out how we planned.</h2>
-						 <p>Luckily, I have a guide to help you get your website back on track! Find out how to improve your website to get better results.</p><br>
+							<h2>Has creating a website left you feeling lost and confused?</h2>
+						 <h1>Let me point you in the right direction!</h1>
+
+						 <div class="signup-compass">
+	 						<img src="http://natalierose.net/wp-content/uploads/2018/05/compass1.png" alt="compass">
+	 					</div>
+
+						 <h2>Creating a website doesn't have to be hard.</h2>
+						 <p>I've created a guide to help you stay on the right path, whether you are hiring a professional or trying the DIY thing.</p><br>
 
 						 <div id="illshowyou">
-							 <p><strong>In this guide I'll cover</strong></p>
-							 <ul>
-								 <li>The most important elements and information must haves.</li>
-								 <li>What to say and where to say it.</li>
-								 <li>Basic branding, design, & layout best practices.</li>
-								 <li>Simple SEO tips and tricks for improved searchability.</li>
-								 <li>Common mistakes and things to avoid.</li>
-								 <li>..and more!</li>
+							<p><strong>In this in-depth guide I'll cover..</strong></p>
+		           <ul>
+		             <li>Where to start</li>
+		             <li>How to choose the best platform for your business</li>
+		             <li>How to choose a domain name and hosting provider</li>
+		             <li>Planning and prep work</li>
+		             <li>Design tips and tricks</li>
+		             <li>SEO basics</li>
+		             <li>Things to avoid and site speed considerations</li>
+		             <li>..and so much more!!</li>
 							 </ul>
 						 </div>
 
-						 <p><span id="onlyVIP">Download the FREE guide and get yourself unstuck!</span></p>
+						 <p><span id="onlyVIP">Take your business to the next level by learning how to do it right the first time!</span></p>
 						 <p id="signup-now">Throw your digits down below and I'll send the link to your email right away!</p>
 
 					 <div class="signup-form">
@@ -83,19 +88,16 @@ get_header(); ?>
 					 </div>
 
 					</div><!--signup-content-->
-				 </div><!--signup-section1-->
-
-
-
-
 		<div class="signup-thank-you">
 			<div class="signup-thank-you-inner">
 				<div class="signup-thank-you-text">
 			<p>A link has just been sent speeding to your inbox!<br>If you don't see it right away, please be sure to check your spam or junk folders.</p>
+		</div><!--signup-section1-->
 		</div>
 		</div>
 		</div>
 
+<!--
 		<div class="prohelp">
 			<div class="prohelp-gold">
 			<div class="prohelp-inner">
@@ -120,11 +122,7 @@ get_header(); ?>
 			<button id="signup-btn">REVIEW MY WEBSITE</button></a>
 
 			<p><br><strong>P.S. VIPs are eligible for an exclusive discount!</strong></p>
-
-		</div><!--button-box-->
-		</div><!--prohelp-inner-->
-	</div><!--prohelp-gold-->
-	</div><!--prohelp-->
+-->
 
 
 

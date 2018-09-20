@@ -8,8 +8,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Allows plugins to use their own update API.
  *
- * @author Pippin Williamson
- * @version 1.6.5
+ * @author Easy Digital Downloads
+ * @version 1.6.15
  */
 class FrmEDD_SL_Plugin_Updater {
 
@@ -41,10 +41,19 @@ class FrmEDD_SL_Plugin_Updater {
 		$this->slug        = basename( $_plugin_file, '.php' );
 		$this->version     = $_api_data['version'];
 		$this->wp_override = isset( $_api_data['wp_override'] ) ? (bool) $_api_data['wp_override'] : false;
-		$this->beta        = ! empty( $this->api_data['beta'] );
+		$this->beta        = ! empty( $this->api_data['beta'] ) ? true : false;
 		$this->cache_key   = md5( serialize( $this->slug . $this->version . $this->api_data['license'] . $this->beta ) );
 
 		$frm_edd_plugin_data[ $this->slug ] = $this->api_data;
+
+		/**
+		 * Fires after the $frm_edd_plugin_data is setup.
+		 *
+		 * @since x.x.x
+		 *
+		 * @param array $frm_edd_plugin_data Array of EDD SL plugin data.
+		 */
+		do_action( 'post_edd_sl_plugin_updater_setup', $frm_edd_plugin_data );
 
 		// Set up hooks.
 		$this->init();
@@ -112,7 +121,7 @@ class FrmEDD_SL_Plugin_Updater {
 
 			}
 
-			$_transient_data->last_checked           = current_time( 'timestamp' );
+			$_transient_data->last_checked           = time();
 			$_transient_data->checked[ $this->name ] = $this->version;
 
 		}
@@ -204,11 +213,13 @@ class FrmEDD_SL_Plugin_Updater {
 	 * @return object $array
 	 */
 	public function http_request_args( $args, $url ) {
-		// If it is an https request and we are performing a package download, disable ssl verification
+
+		$verify_ssl = $this->verify_ssl();
 		if ( strpos( $url, 'https://' ) !== false && strpos( $url, 'edd_action=package_download' ) ) {
-			$args['sslverify'] = true;
+			$args['sslverify'] = $verify_ssl;
 		}
 		return $args;
+
 	}
 
 	/**
@@ -248,9 +259,10 @@ class FrmEDD_SL_Plugin_Updater {
 			'beta'       => ! empty( $data['beta'] ),
 		);
 
-		$request = wp_remote_post( $this->api_url, array(
+		$verify_ssl = $this->verify_ssl();
+		$request    = wp_remote_post( $this->api_url, array(
 			'timeout'   => 15,
-			'sslverify' => true,
+			'sslverify' => $verify_ssl,
 			'body'      => $api_params,
 		) );
 
@@ -285,22 +297,23 @@ class FrmEDD_SL_Plugin_Updater {
 
 		global $frm_edd_plugin_data;
 
-		if ( empty( $_REQUEST['edd_sl_action'] ) || 'view_plugin_changelog' !== $_REQUEST['edd_sl_action'] ) {
+		if ( empty( $_REQUEST['edd_sl_action'] ) || 'view_plugin_changelog' !== $_REQUEST['edd_sl_action'] ) { // WPCS: CSRF ok.
 			return;
 		}
 
-		if ( empty( $_REQUEST['plugin'] ) || empty( $_REQUEST['slug'] ) ) {
+		if ( empty( $_REQUEST['plugin'] ) || empty( $_REQUEST['slug'] ) ) { // WPCS: CSRF ok.
 			return;
 		}
 
 		if ( ! current_user_can( 'update_plugins' ) ) {
-			wp_die( __( 'You do not have permission to install plugin updates', 'formidable' ), __( 'Error', 'formidable' ), array( 'response' => 403 ) );
+			wp_die( esc_html__( 'You do not have permission to install plugin updates', 'formidable' ), esc_html__( 'Error', 'formidable' ), array( 'response' => 403 ) );
 		}
 
-		$data         = $frm_edd_plugin_data[ $_REQUEST['slug'] ];
-		$beta         = ! empty( $data['beta'] );
-		$cache_key    = md5( 'edd_plugin_' . sanitize_key( $_REQUEST['plugin'] ) . '_' . $beta . '_version_info' );
-		$version_info = get_transient( $cache_key );
+		$slug         = sanitize_text_field( $_REQUEST['slug'] ); // WPCS: CSRF ok.
+		$data         = $frm_edd_plugin_data[ $slug ];
+		$beta         = ! empty( $data['beta'] ) ? true : false;
+		$cache_key    = md5( 'edd_plugin_' . sanitize_key( $_REQUEST['plugin'] ) . '_' . $beta . '_version_info' ); // WPCS: CSRF ok.
+		$version_info = $this->get_cached_version_info( $cache_key );
 
 		if ( false === $version_info ) {
 
@@ -308,15 +321,16 @@ class FrmEDD_SL_Plugin_Updater {
 				'edd_action' => 'get_version',
 				'item_name'  => isset( $data['item_name'] ) ? $data['item_name'] : false,
 				'item_id'    => isset( $data['item_id'] ) ? $data['item_id'] : false,
-				'slug'       => sanitize_text_field( $_REQUEST['slug'] ),
+				'slug'       => $slug,
 				'author'     => $data['author'],
 				'url'        => home_url(),
 				'beta'       => $beta,
 			);
 
-			$request = wp_remote_post( $this->api_url, array(
+			$verify_ssl = $this->verify_ssl();
+			$request    = wp_remote_post( $this->api_url, array(
 				'timeout'   => 15,
-				'sslverify' => true,
+				'sslverify' => $verify_ssl,
 				'body'      => $api_params,
 			) );
 
@@ -341,7 +355,7 @@ class FrmEDD_SL_Plugin_Updater {
 		}
 
 		if ( ! empty( $version_info ) && isset( $version_info->sections['changelog'] ) ) {
-			echo '<div style="background:#fff;padding:10px;">' . $version_info->sections['changelog'] . '</div>';
+			echo '<div style="background:#fff;padding:10px;">' . FrmAppHelper::kses( $version_info->sections['changelog'], 'all' ) . '</div>'; // WPCS: XSS ok.
 		}
 
 		exit;
@@ -364,7 +378,18 @@ class FrmEDD_SL_Plugin_Updater {
 			'value'   => json_encode( $value ),
 		);
 
-		update_option( $cache_key, $data );
+		update_option( $cache_key, $data, 'no' );
 
 	}
+
+	/**
+	 * Returns if the SSL of the store should be verified.
+	 *
+	 * @since  1.6.13
+	 * @return bool
+	 */
+	private function verify_ssl() {
+		return (bool) apply_filters( 'edd_sl_api_request_verify_ssl', true, $this );
+	}
+
 }

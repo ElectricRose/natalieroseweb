@@ -33,6 +33,7 @@ class FrmFieldsController {
 			}
 			$field->field_options = json_decode( json_encode( $field->field_options ), true );
 			$field->options = json_decode( json_encode( $field->options ), true );
+			$field->default_value = json_decode( json_encode( $field->default_value ), true );
 
 			ob_start();
 			self::load_single_field( $field, $values );
@@ -71,11 +72,6 @@ class FrmFieldsController {
      * @return array|bool
      */
 	public static function include_new_field( $field_type, $form_id ) {
-		$values = array();
-		if ( FrmAppHelper::pro_is_installed() ) {
-			$values['post_type'] = FrmProFormsHelper::post_type( $form_id );
-		}
-
 		$field_values = FrmFieldsHelper::setup_new_vars( $field_type, $form_id );
         $field_values = apply_filters( 'frm_before_field_created', $field_values );
 
@@ -86,11 +82,26 @@ class FrmFieldsController {
         }
 
 		$field = self::get_field_array_from_id( $field_id );
+
+		$values = array();
+		if ( FrmAppHelper::pro_is_installed() ) {
+			$values['post_type'] = FrmProFormsHelper::post_type( $form_id );
+
+			$parent_form_id = FrmDb::get_var( 'frm_forms', array( 'id' => $form_id ), 'parent_form_id' );
+			if ( $parent_form_id ) {
+				$field['parent_form_id'] = $parent_form_id;
+			}
+		}
+
 		self::load_single_field( $field, $values, $form_id );
 
         return $field;
     }
 
+	/**
+	 * @deprecated 3.0
+	 * @codeCoverageIgnore
+	 */
 	public static function edit_name( $field = 'name', $id = '' ) {
 		_deprecated_function( __FUNCTION__, '3.0' );
 
@@ -117,7 +128,7 @@ class FrmFieldsController {
 
 		do_action( 'frm_after_update_field_' . $field, compact( 'id', 'value' ) );
 
-		echo stripslashes( wp_kses_post( $value ) );
+		echo stripslashes( wp_kses_post( $value ) ); // WPCS: XSS ok.
         wp_die();
     }
 
@@ -175,6 +186,9 @@ class FrmFieldsController {
 	/**
 	 * Load a single field in the form builder along with all needed variables
 	 *
+	 * @deprecated 3.0
+	 * @codeCoverageIgnore
+	 *
 	 * @param int $field_id
 	 * @param array $values
 	 * @param int $form_id
@@ -210,6 +224,9 @@ class FrmFieldsController {
 	 * @param int $form_id
 	 */
 	public static function load_single_field( $field_object, $values, $form_id = 0 ) {
+		global $frm_vars;
+		$frm_vars['is_admin'] = true;
+
 		if ( is_numeric( $field_object ) ) {
 			$field_object = FrmField::getOne( $field_object );
 		} elseif ( is_array( $field_object ) ) {
@@ -234,6 +251,7 @@ class FrmFieldsController {
 			$disabled_fields = FrmAppHelper::pro_is_installed() ? array() : $pro_field_selection;
 
 			if ( ! isset( $field ) && is_object( $field_object ) ) {
+				$field_object->parent_form_id = isset( $values['id'] ) ? $values['id'] : $field_object->form_id;
 				$field = FrmFieldsHelper::setup_edit_vars( $field_object );
 			}
 
@@ -296,10 +314,18 @@ class FrmFieldsController {
 		wp_die();
     }
 
+	/**
+	 * @deprecated 2.3
+	 * @codeCoverageIgnore
+	 */
     public static function edit_option() {
 		_deprecated_function( __FUNCTION__, '2.3' );
     }
 
+	/**
+	 * @deprecated 2.3
+	 * @codeCoverageIgnore
+	 */
     public static function delete_option() {
 		_deprecated_function( __FUNCTION__, '2.3' );
     }
@@ -486,7 +512,7 @@ class FrmFieldsController {
 		$add_html = ' ' . implode( ' ', $add_html ) . '  ';
 
         if ( $echo ) {
-            echo $add_html;
+            echo $add_html; // WPCS: XSS ok.
         }
 
         return $add_html;
@@ -511,7 +537,7 @@ class FrmFieldsController {
             return;
         }
 
-        if ( FrmAppHelper::is_admin_page('formidable' ) ) {
+		if ( FrmAppHelper::is_admin_page( 'formidable' ) ) {
             return;
         }
 
