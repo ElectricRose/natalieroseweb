@@ -19,15 +19,15 @@
       <div class="about-intro-box">
       <div class="about-inner-box">
         <div class="about-intro">
-          <h2>Natalie Rose</h2>
-          <h3>Web Designer & Developer</h3>
+          <h2>Call in your ideal clients</h2>
+          <h3>With a website designed specifically for them.. and you!</h3>
               <div id="about-break">
                 <img src="http://natalierose.net/wp-content/uploads/2018/05/leaf-border.png
                 " alt="Leafy Line Break" class="center">
               </div>
-            <p><span id="work-bold">It's time to be noticed!</span><br>
-              If you are struggling to attract the right customers, are stressed for time, or need a better website I'm here to help. In a world of fierce competition, first impressions are everything. As a designer, I’m here to work with you to create a brand and style that truly reflects your business, sends the right message, and attracts your ideal customers without breaking a sweat.<br>
-              <p><span id="work-bold">Attract your ideal clients with a targeted website.</span><br> If your website is old & outdated, has glitches and functionality issues, or just plain sucks, I can fix it so it runs smoothly. From high-level upgrades to DIY finishing on a shoestring budget, I'm here to help you create something unique and fabulous!
+            <p><span id="work-bold">Make them sit up and take notice.</span><br>
+              If you are struggling to attract the right customers, are stressed for time, or need a better website I'm here to help. Because first impressions are everything. And I’m here to work with you to create a brand and style that truly reflects your business, sends the right message, and attracts your ideal customers without breaking a sweat.<br>
+              <p><span id="work-bold">Make an impact from the first time they lay eyes on you.</span><br> If your website is old & outdated, has glitches and functionality issues, or just plain sucks, I can fix it so it runs smoothly. From high-level upgrades to DIY finishing on a shoestring budget, I'm here to help you create something unique and fabulous!
             <br><br> <span id="about-solutions">Let’s build something better together!</span></p>
 
             <div class="brandweb-button">
@@ -48,14 +48,14 @@
       <div class="about-desc">
         <div class="about-text1">
           <h3>My Mission</h3>
-          <p>My mission is to provide engaging, empowering, and beautifully functional web solutions to heart and eco-centered small businesses so they can grow their business and make more money. I am an independent freelance service provider that offers a personal experience by working closely on-one-one to help my clients reach their business goals.</p><br>
+          <p>My mission is to provide engaging, empowering, and beautifully functional web solutions to small businesses and entrepreneurs so they can grow their business and make more money. I am an independent freelance service provider that offers a personal experience by working closely on-one-one to help my clients reach their business goals.</p><br>
 
           <h4>Have you struggled with website creation in the past?</h4>
           <h5>Building a website doesn't have to be hard!</h5>
           <p>When you need custom designs, features, and functionalities</p>
             <div id="can-help">
               <div class="container borderXwidth">
-                <p><a href="http://natalierose.net/work/">I've got solutions!</a></p><br>
+                <p><a href="http://natalierose.net/design-and-development/">I've got solutions!</a></p><br>
               </div>
             </div>
         </div><!--about-text1-->
@@ -68,10 +68,10 @@
           <div class="about-text3">
             <h4>About Me</h4>
             <h5>I chose to blaze my own path to freedom!</h5>
-            <p>After many years of working for other companies, I'd had enough. I finally realized that I was not meant to work a regular 9-5 job. I wanted to be my own boss and in charge of my own future! As a business owner, I bet that you can relate! I decided I would break out of the rat race and charge head first onto the path of self-employment. It took a lot of hard work, a lot of continuous learning, and a lot of determination to get where I am today. I'm very proud of the business that I've built, and love to help other aspiring entrepreneurs do the same.</p><br>
+            <p>After many years of working for other companies, I'd had enough. I wanted to be my own boss and in charge of my own future! As a business owner, I bet that you can relate! I decided I would break out of the rat race and charge head first onto the path of self-employment. It took a lot of hard work, a lot of continuous learning, and a lot of determination to get where I am today. I'm very proud of the business that I've built, and love to help other aspiring entrepreneurs do the same.</p><br>
             <p>I have been working hard and taking a variety of design, development, and coding courses since 2016. Lately, I have been learning more advanced JavaScript and have been diving into marketing and advertising techniques. I'm continuously learning and challenging myself to be able to offer you more and better services.</p><br>
             <h5>I am passionate about what I do.</h5>
-             <p>I love to support small businesses and service providers to achieve their own goals by providing them with instrumental tools to success. I understand the financial pressures of self-employment and small business. That's why I keep my prices lower than average. I want to serve my local and wider communities well, while also being able to feed my family.</p><br>
+             <p>I love to support small businesses and service providers to achieve their own goals by providing them with instrumental tools to success. I understand the financial pressures of self-employment and small business. That's why I keep my prices lower than average. I want to serve my local and wider communities well, while also being able to live on my own terms.</p><br>
             <h5>I love this beautiful planet.</h5>
             <p>I strive to be as sustainable and environmentally friendly as possible. When I’m not online or neck deep in code, I spend as much time as possible exploring the wild nooks and spectacular vistas nature has to offer. </p><br>
             <p>On my off time, you can find me wandering the forests, climbing mountains, swimming in the ocean, and tubing down rivers.</p>

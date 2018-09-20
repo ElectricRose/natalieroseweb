@@ -17,8 +17,6 @@ class FrmFieldCaptcha extends FrmFieldType {
 	 */
 	protected $has_for_label = false;
 
-	protected $is_tall = true;
-
 	/**
 	 * @return string
 	 */
@@ -142,7 +140,7 @@ class FrmFieldCaptcha extends FrmFieldType {
 			return $errors;
 		}
 
-		if ( ! isset( $_POST['g-recaptcha-response']) ) {
+		if ( ! isset( $_POST['g-recaptcha-response'] ) ) {
 			// If captcha is missing, check if it was already verified
 			if ( ! isset( $_POST['recaptcha_checked'] ) || ! wp_verify_nonce( $_POST['recaptcha_checked'], 'frm_ajax' ) ) {
 				// There was no captcha submitted
@@ -170,7 +168,7 @@ class FrmFieldCaptcha extends FrmFieldType {
 	}
 
 	protected function should_validate() {
-		$is_hidden_field = apply_filters( 'frm_is_field_hidden', false, $this->field, stripslashes_deep( $_POST ) );
+		$is_hidden_field = apply_filters( 'frm_is_field_hidden', false, $this->field, stripslashes_deep( $_POST ) ); // WPCS: CSRF ok.
 		if ( FrmAppHelper::is_admin() || $is_hidden_field ) {
 			return false;
 		}
@@ -188,7 +186,7 @@ class FrmFieldCaptcha extends FrmFieldType {
 		$arg_array = array(
 			'body'      => array(
 				'secret'   => $frm_settings->privkey,
-				'response' => $_POST['g-recaptcha-response'],
+				'response' => $_POST['g-recaptcha-response'], // WPCS: CSRF ok.
 				'remoteip' => FrmAppHelper::get_ip_address(),
 			),
 		);
